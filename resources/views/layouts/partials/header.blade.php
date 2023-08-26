@@ -6,7 +6,8 @@
             <div class="inner-container clearfix">
                 <!--Logo-->
                 <div class="logo-box">
-                    <div class="logo"><a href="index.html" title="LoveUs - Charity and Fundraising HTML Template"><img src="images/logo.png" alt="LoveUs - Charity and Fundraising HTML Template" title="LoveUs - Charity and Fundraising HTML Template"></a></div>
+                    <div class="logo"><a href="/" title="LoveUs - Charity and Fundraising HTML Template">
+                        <img src="{{asset('assets/images/logo.png')}}" alt="LoveUs - Charity and Fundraising HTML Template" title="LoveUs - Charity and Fundraising HTML Template"></a></div>
                 </div>
 
                 <!--Nav Box-->
@@ -18,61 +19,9 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li class="current dropdown"><a href="index.html">Home</a>
-                                    <ul>
-                                        <li><a href="index.html">Home page 01</a></li>
-                                        <li><a href="index-2.html">Home page 02</a></li>
-                                        <li><a href="index-3.html">Home page 03</a></li>
-                                        <li><a href="index-4.html">Home page 04</a></li>
-                                        <li><a href="index-5.html">Home page 05</a></li>
-                                        <li><a href="index-6.html">Home page 06</a></li>
-                                        <li><a href="index-7.html">Home page 07</a></li>
-                                        <li><a href="index-8.html">Home page 08</a></li>
-                                        <li class="dropdown"><a href="index.html">Header Styles</a>
-                                            <ul>
-                                                <li><a href="index.html">Header Style One</a></li>
-                                                <li><a href="index-2.html">Header Style Two</a></li>
-                                                <li><a href="index-3.html">Header Style Three</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="about.html">About</a>
-                                    <ul>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="services.html">Our Services</a></li>
-                                        <li><a href="volunteers.html">Our Volunteers</a></li>
-                                        <li><a href="faq.html">Faq's</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="causes.html">Causes</a>
-                                    <ul>
-                                        <li><a href="causes.html">Causes</a></li>
-                                        <li><a href="cause-single.html">Cause Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="donate.html">Pages</a>
-                                    <ul>
-                                        <li><a href="events.html">Events</a></li>
-                                        <li><a href="event-single.html">Event Details</a></li>
-                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                        <li class="dropdown"><a href="shop.html">Shop</a>
-                                            <ul>
-                                                <li><a href="shop.html">Products</a></li>
-                                                <li><a href="product-details.html">Product Details</a></li>
-                                                <li><a href="shopping-cart.html">Shopping Cart</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="donate.html">Make Donation</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="blog.html">Blog</a>
-                                    <ul>
-                                        <li><a href="blog.html">Our Blog</a></li>
-                                        <li><a href="blog-single.html">Blog Single</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="contact.html">Acceuil</a></li>
+                                <li><a href="contact.html">Service</a></li>
+                                <li><a href="contact.html">Apropos</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
