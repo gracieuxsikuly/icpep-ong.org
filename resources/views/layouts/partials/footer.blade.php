@@ -9,7 +9,7 @@
                     <div class="footer-widget logo-widget">
                         <div class="widget-content">
                             <div class="footer-logo">
-                                <a href="index.html"><img class="lazy-image" src="images/resource/image-spacer-for-validation.png" data-src="images/footer-logo.png" alt="" /></a>
+                                <a href="index.html"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="images/footer-logo.png" alt="" /></a>
                             </div>
                             <div class="text">Lorem ipsum dolor amet consetetur adi pisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercita.</div>
                             <ul class="social-links clearfix">
@@ -100,7 +100,9 @@
 
             <!--Scroll to top-->
             <div class="clearfix">
-                <div class="copyright">LoveUs  &copy;  2019 All Right Reserved</div>
+                <div class="copyright">ICPEP  &copy;  @php
+                    echo date('y');
+                @endphp All Right Reserved</div>
                 <ul class="bottom-links">
                     <li><a href="#">Terms of Service</a></li>
                     <li><a href="#">Privacy Policy</a></li>

@@ -78,17 +78,17 @@
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-up-arrow"></span></div>
 
-<script src="js/jquery.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/owl.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/lazyload.js"></script>
-<script src="js/scrollbar.js"></script>
-<script src="js/script.js"></script>
+<script src="{{asset('assets/js/jquery.js')}}"></script>
+<script src="{{asset('assets/js/popper.min.js')}}"></script>
+<script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('assets/js/jquery-ui.js')}}"></script>
+<script src="{{asset('assets/js/jquery.fancybox.js')}}"></script>
+<script src="{{asset('assets/js/owl.js')}}"></script>
+<script src="{{asset('assets/js/appear.js')}}"></script>
+<script src="{{asset('assets/js/wow.js')}}"></script>
+<script src="{{asset('assets/js/lazyload.js')}}"></script>
+<script src="{{asset('assets/js/scrollbar.js')}}"></script>
+<script src="{{asset('assets/js/script.js')}}"></script>
 
 </body>
 
