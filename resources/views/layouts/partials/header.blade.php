@@ -1,4 +1,29 @@
-<header class="main-header header-style-two">
+
+<header class="main-header">
+    <!-- Header Top -->
+    <div class="header-top">
+        <div class="auto-container">
+            <div class="inner clearfix">
+                <div class="top-left">
+                    <ul class="social-links clearfix">
+                        <li class="social-title">Follow Us:</li>
+                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                        <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+                    </ul>
+                </div>
+
+                <div class="top-right">
+                    <ul class="info clearfix">
+                        {{-- <li class="search-btn"><button type="button" class="theme-btn search-toggler"><span class="fa fa-search"></span></button></li> --}}
+                        <li><a href="tel:12345615523"><span class="icon fa fa-phone-alt"></span> Call: &nbsp;123 4561 5523</a></li>
+                        <li><a href="mailto:info@templatepath.com"><span class="icon fa fa-envelope"></span> Email: &nbsp;info@loveuscharity.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Header Upper -->
     <div class="header-upper">
@@ -6,8 +31,7 @@
             <div class="inner-container clearfix">
                 <!--Logo-->
                 <div class="logo-box">
-                    <div class="logo"><a href="/" title="LoveUs - Charity and Fundraising HTML Template">
-                        <img src="{{asset('assets/images/logo.png')}}" alt="LoveUs - Charity and Fundraising HTML Template" title="LoveUs - Charity and Fundraising HTML Template"></a></div>
+                    <div class="logo"><a href="index.html" title="LoveUs - Charity and Fundraising HTML Template"><img src="{{asset('assets/images/logo.png')}}" alt="LoveUs - Charity and Fundraising HTML Template" title="LoveUs - Charity and Fundraising HTML Template"></a></div>
                 </div>
 
                 <!--Nav Box-->
@@ -63,7 +87,7 @@
         <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="/"><img src="{{asset('assets/images/logo.png')}}" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="index.html"><img src="{{asset('assets/images/logo.png')}}" alt="" title=""></a></div>
             <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             <!--Social Links-->
             <div class="social-links">

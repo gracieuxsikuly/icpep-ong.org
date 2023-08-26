@@ -195,7 +195,40 @@
         </div>
     </section> --}}
 
+    <!--Video Section-->
+    <section class="video-section">
+    	<div class="circle-one"></div>
+        <div class="circle-two"></div>
+        <div class="top-rotten-curve"></div>
+        <div class="bottom-rotten-curve"></div>
 
+    	<!--Image Layer-->
+        <div class="image-layer wow slideInLeft" data-wow-delay="500ms"><div class="bg-image lazy-image" data-bg="url('{{asset('assets/images/background/fluid-image-1.jpg')}}')"></div></div>
+        <div class="auto-container">
+        	<div class="row clearfix">
+            	<!--Text Column-->
+                <div class="text-column col-lg-6 col-md-12 col-sm-12">
+                	<div class="inner">
+                    	<div class="sec-title">
+                        	<div class="sub-title">Watch Video</div>
+                            <h2>Watch Our Latest Activities</h2>
+                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore dolore magna aliqua. enim minim veniam, quis nostrud exercitation ullamco laboris.</div>
+							<div class="link-box clearfix"><a href="causes.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <!--Image Column-->
+                <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                	<div class="inner wow fadeInLeft" data-wow-delay="0ms">
+                    	<figure class="image-box">
+                        	<img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/resource/video-image-1.jpg')}}" alt="">
+                            <a href="https://www.youtube.com/watch?v=C9rVAbcQH_U" class="lightbox-image over-link"><span class="icon flaticon-play-button"></span></a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--What We Do Section-->
     <section class="what-we-do">
