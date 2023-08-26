@@ -66,7 +66,7 @@
     @yield('content')
 
     <!-- Call To Action Section -->
-  @include('layouts.partials.volonter-banner')
+  @include('layouts.partials.galery-banner')
     <!--End Gallery Section -->
 
 

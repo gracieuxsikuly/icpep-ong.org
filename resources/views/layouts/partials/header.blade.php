@@ -21,6 +21,8 @@
                             <ul class="navigation clearfix">
                                 <li><a href="contact.html">Acceuil</a></li>
                                 <li><a href="contact.html">Service</a></li>
+                                <li><a href="contact.html">Publications</a></li>
+                                {{-- blog--->publication --}}
                                 <li><a href="contact.html">Apropos</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
