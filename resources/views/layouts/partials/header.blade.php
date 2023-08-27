@@ -31,7 +31,7 @@
             <div class="inner-container clearfix">
                 <!--Logo-->
                 <div class="logo-box">
-                    <div class="logo"><a href="index.html" title="LoveUs - Charity and Fundraising HTML Template"><img src="{{asset('assets/images/logo.png')}}" alt="LoveUs - Charity and Fundraising HTML Template" title="LoveUs - Charity and Fundraising HTML Template"></a></div>
+                    <div class="logo"><a href="{{ setactiveonfrontend('acceuil') }}" title="ICPEP"><img src="{{asset('assets/images/logo.png')}}" alt="ICPEP" title="ICPEP"></a></div>
                 </div>
 
                 <!--Nav Box-->

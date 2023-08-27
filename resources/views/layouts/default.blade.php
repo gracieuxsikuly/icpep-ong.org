@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>LoveUs - Charity and Fundraising HTML Template | Home Page 02</title>
+<title>{{ page_title($title ?? '') }}</title>
 <!-- Stylesheets -->
 <link href="{{asset('assets/css/bootstrap.css')}}" rel="stylesheet">
 <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">

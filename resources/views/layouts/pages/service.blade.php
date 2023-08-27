@@ -2,7 +2,7 @@
 @section('content')
 <!-- Page Banner Section -->
 <section class="page-banner">
-    <div class="image-layer lazy-image" data-bg="url('{{asset('frontend/images/background/bg-banner-1.jpg')}}')"></div>
+    <div class="image-layer lazy-image" data-bg="url('{{asset('assets/images/background/bg-banner-1.jpg')}}')"></div>
     <div class="bottom-rotten-curve"></div>
 
     <div class="auto-container">

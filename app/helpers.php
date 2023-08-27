@@ -9,7 +9,7 @@ if (!function_exists('page_title')) {
 }
 
 if (!function_exists('setactiveonfrontend')) {
-    function set_active_route($route)
+    function setactiveonfrontend($route)
     {
         return Route::is($route) ? 'current' : '';
     }
