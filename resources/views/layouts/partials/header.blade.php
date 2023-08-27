@@ -43,12 +43,11 @@
                     <nav class="main-menu navbar-expand-md navbar-light">
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
-                                <li><a href="contact.html">Acceuil</a></li>
-                                <li><a href="contact.html">Service</a></li>
-                                <li><a href="contact.html">Apropos</a></li>
-                                <li><a href="contact.html">Publications</a></li>
-                                {{-- blog--->publication --}}
-                                <li><a href="contact.html">Contact</a></li>
+                                <li class="{{ setactiveonfrontend('acceuil') }}"><a href="{{ route('acceuil') }}">Acceuil</a></li>
+                                <li class="{{ setactiveonfrontend('service') }}"><a href="{{ route('service') }}">Service</a></li>
+                                <li class="{{ setactiveonfrontend('about') }}"><a href="{{ route('about') }}">Apropos</a></li>
+                                <li class="{{ setactiveonfrontend('publication') }}"><a href="{{ route('publication') }}">Publication</a></li>
+                                <li class="{{ setactiveonfrontend('contact') }}"><a href="{{ route('contact') }}">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
