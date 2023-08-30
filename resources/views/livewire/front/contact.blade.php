@@ -109,8 +109,11 @@
         	</div>
 
             <div class="map-column clearfix">
-                <iframe width="100%" height="100%" frameborder="0" style="border:0" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBqHQ0YTvnCWsIR9C10w6NJhnBhNLtSbC8
-                &zoom=18&q=Oliversoft
+                @php
+                    $apiKey = config('maps.api_key');
+                @endphp
+                <iframe width="100%" height="100%" frameborder="0" style="border:0" referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed/v1/place?key={{ $apiKey }}&zoom=18&q=Oliversoft
                 Rond point signers, Avenue kanyamuhanga N° 24, Goma" allowfullscreen>
             </iframe>
             	{{-- <div class="map-canvas"
