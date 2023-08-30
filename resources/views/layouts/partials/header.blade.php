@@ -31,7 +31,7 @@
             <div class="inner-container clearfix">
                 <!--Logo-->
                 <div class="logo-box">
-                    <div class="logo"><a href="{{ setactiveonfrontend('acceuil') }}" title="ICPEP"><img src="{{asset('assets/images/logo.png')}}" alt="ICPEP" title="ICPEP"></a></div>
+                    <div class="logo"><a href="{{ setactiveonfrontend('acceuil') }}" title="ICPEP"><img src="{{asset('assets/images/logoooo.png')}}" alt="ICPEP" title="ICPEP"></a></div>
                 </div>
 
                 <!--Nav Box-->
@@ -68,7 +68,7 @@
         <div class="auto-container clearfix">
             <!--Logo-->
             <div class="logo pull-left">
-                <a href="index.html" title=""><img src="{{asset('assets/images/sticky-logo.png')}}" alt="" title=""></a>
+                <a href="index.html" title=""><img src="{{asset('assets/images/logoooo.png')}}" alt="" title=""></a>
             </div>
             <!--Right Col-->
             <div class="pull-right">
