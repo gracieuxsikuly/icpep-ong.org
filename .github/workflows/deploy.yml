@@ -18,3 +18,8 @@ jobs:
           MAPS_API_KEY: ${{ secrets.MAPS_API_KEY }}
         run: |
           echo "MAPS_API_KEY=${MAPS_API_KEY}" >> $GITHUB_ENV
+
+      - name: Set up .env with API key
+        run: |
+          echo "MAPS_API_KEY=${MAPS_API_KEY}" >> .env
+
