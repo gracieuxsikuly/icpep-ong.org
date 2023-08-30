@@ -15,6 +15,6 @@ jobs:
 
       - name: Deploy the app
         env:
-          MAPS_API_KEY: ${{ secrets.GITHUB_TOKEN }}
+          MAPS_API_KEY: ${{ secrets.MAPS_API_KEY }}
         run: |
           php artisan deploy --api-key $MAPS_API_KEY
