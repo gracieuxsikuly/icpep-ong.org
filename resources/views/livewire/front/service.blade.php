@@ -86,16 +86,7 @@
 
 
 
-        <!-- Call To Action Section -->
-        <section class="call-to-action-two">
-            <div class="auto-container">
-                <div class="inner clearfix">
-                    <div class="title-box"><h2>Become A Volunteer</h2></div>
-                    <div class="link-box"><a href="contact.html" class="theme-btn btn-style-five"><span class="btn-title">Get Involved</span></a></div>
-                </div>
-            </div>
-        </section>
-        <!--End Gallery Section -->
+        @include('layouts.partials.volonterbanner')
 
 
 </div>
