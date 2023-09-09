@@ -76,8 +76,14 @@
                     <!--Text Block-->
                     <div class="default-text-block col-lg-4 col-md-6 col-sm-12">
                         <div class="inner">
-                            <h3>Our Values</h3>
-                            <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolor magna aliqua enim ad minimveniam quis nostrud exercita</div>
+                            <h3>Nos missions </h3>
+                            <div class="text" style="text-align: justify;">
+                               Mettre en place  des projets communautaires d’auto-prise en charge (l’agriculture, l’élevage, usine, semi-industriel, alphabétisation, coupe et couture, art culinaire, tressage, coiffure, tissage, tricotage, cordonnerie, menuiserie, …) ;
+                                Rendre opérationnel la commercialisation des produits agricoles et appuyer les membres des Groupes solidaires Paysans ;
+                                Intensifier les plaidoyers pour la paix et la sécurité en vue de préparer le terrain aux actions de développement durable ;
+                                Monitoring de protection pour lutter contre les violations des droits humains et les SVGB ;
+                                Monitoring des lieux de détention ;
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -86,70 +92,7 @@
 
     </section>
 
-    <section class="facts-section"
-        <div class="bottom-rotten-curve"></div>
 
-        <div class="auto-container">
-            <div class="inner-container">
-
-                <!-- Fact Counter -->
-                <div class="fact-counter">
-                    <div class="row clearfix">
-
-                        <!--Column-->
-                        <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                            <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="content">
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="3000" data-stop="90">0</span>
-                                    </div>
-                                    <div class="counter-title">Project Complate</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Column-->
-                        <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                            <div class="inner wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                <div class="content">
-                                    <div class="count-outer count-box alternate">
-                                        <span class="count-text" data-speed="3000" data-stop="216">0</span>
-                                    </div>
-                                    <div class="counter-title">Satisfied Clients</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Column-->
-                        <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                            <div class="inner wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                <div class="content">
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="2000" data-stop="35">0</span>
-                                    </div>
-                                    <div class="counter-title">Experienced Staff</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--Column-->
-                        <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                            <div class="inner wow fadeInLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
-                                <div class="content">
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="2000" data-stop="15">0</span>
-                                    </div>
-                                    <div class="counter-title">Awards Win</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
 
     <section class="what-we-do style-two">
 		<div class="image-layer lazy-image" data-bg="url('{{asset ('assets/images/background/what-we-do.jpg') }}')"></div>
