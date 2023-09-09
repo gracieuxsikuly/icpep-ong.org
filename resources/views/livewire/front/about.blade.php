@@ -92,7 +92,7 @@
 
     </section>
 
-
+    @livewire('front.banner-counter')
 
     <section class="what-we-do style-two">
 		<div class="image-layer lazy-image" data-bg="url('{{asset ('assets/images/background/what-we-do.jpg') }}')"></div>
