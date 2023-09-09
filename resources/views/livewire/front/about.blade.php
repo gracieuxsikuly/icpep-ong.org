@@ -22,13 +22,16 @@
                 <div class="left-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner">
                         <div class="sec-title">
-                            <div class="sub-title">About Us</div>
-                            <h2>Please Rise your Helping Hand</h2>
-                            <div class="text">Bienvenue chez [Nom de l'Organisation] – là où les idées prennent vie.
-                                Nous sommes une communauté passionnée dédiée à [mission ou objectif de l'organisation].
-                                Explorez notre site pour découvrir comment nous travaillons à [impact ou résultat souhaité],
-                                et rejoignez-nous alors que nous façonnons ensemble un avenir [adjectif décrivant l'avenir de l'organisation]."
-                                N'hésitez pas à ajuster le texte en fonction de votre organisation et de ce que vous souhaitez communiquer de manière succincte.</div>
+                            <div class="sub-title">QUI SOMMES NOUS</div>
+                            <h2>PRESENTATION ICPEP</h2>
+                            <div class="text"> International Center for Peace and Environment Protection By Peasant Communities
+                                (ICPEP) à pour objectif principal de Contribuer à l’instauration,
+                                à la promotion et à la sauvegarde de la justice et de la paix entre
+                                les peuples par la mise en œuvre des principes fondamentaux des droits et
+                                libertés des peuples, des mécanismes nationaux, régionaux et internationaux de
+                                protection des droits de l’homme, et assurer ainsi le bien-être socio-économique
+                                des Communautés partenaires par une gestion et une exploitation rationnelles de
+                                 l’environnement et de ses ressources. </div>
                             <div class="link-box clearfix"><a href="causes.html" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a></div>
                         </div>
                     </div>
