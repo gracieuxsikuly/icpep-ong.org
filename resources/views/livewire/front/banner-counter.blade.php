@@ -15,7 +15,7 @@
 									<div class="count-outer count-box">
 										<span class="count-text" data-speed="3000" data-stop="90">0</span>
 									</div>
-									<div class="counter-title">Project Complate</div>
+									<div class="counter-title">Projects Compléts</div>
 								</div>
 							</div>
 						</div>
@@ -27,7 +27,7 @@
 									<div class="count-outer count-box alternate">
 										<span class="count-text" data-speed="3000" data-stop="216">0</span>
 									</div>
-									<div class="counter-title">Satisfied Clients</div>
+									<div class="counter-title">Aide a la communauté</div>
 								</div>
 							</div>
 						</div>
