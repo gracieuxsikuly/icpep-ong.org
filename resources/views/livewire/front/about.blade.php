@@ -120,40 +120,43 @@
                     <div class="row clearfix">
 
                         <!--Service Block-->
-                        <div class="service-block col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        {{-- <div class="service-block col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="inner-box">
                                 <div class="icon-box"><span class="flaticon-water-bottle"></span></div>
                                 <h3>Pure Water</h3>
                                 <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore.</div>
                             </div>
-                        </div>
+                        </div> --}}
 
                         <!--Service Block-->
-                        <div class="service-block col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="service-block col-xl-12 col-lg-12 col-md-12 col-sm-12">
                             <div class="inner-box">
                                 <div class="icon-box"><span class="flaticon-fruit"></span></div>
-                                <h3>Healthy Food</h3>
-                                <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore.</div>
+                                <h3>ACTION OU PROJET</h3>
+                                <div class="text" style="text-align: justify;">L’ICPEP a cultivé un hectare en phase d’essai de la semence du blé et a
+                                    obtenu plus de 450 variétés du blé à moins de 6 mois et dispose d’une dizaine des nouvelles
+                                     variétés de la pomme de terre en phase d’adaptation à l’INERA, adaptations multi locales et
+                                     petite multiplication dans diverses zones agroécologies de haute terre.</div>
                             </div>
                         </div>
 
-                        <!--Service Block-->
+                        {{-- <!--Service Block-->
                         <div class="service-block col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="inner-box">
                                 <div class="icon-box"><span class="flaticon-medicine"></span></div>
                                 <h3>Medical Facilities</h3>
                                 <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore.</div>
                             </div>
-                        </div>
+                        </div> --}}
 
-                        <!--Service Block-->
+                        {{-- <!--Service Block-->
                         <div class="service-block col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="inner-box">
                                 <div class="icon-box"><span class="flaticon-reading"></span></div>
                                 <h3>Education</h3>
                                 <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore.</div>
                             </div>
-                        </div>
+                        </div> --}}
 
                     </div>
                 </div>
