@@ -104,9 +104,14 @@
                 <div class="title-column col-xl-6 col-lg-12 col-sm-12">
                     <div class="inner">
                         <div class="sec-title">
-                            <div class="sub-title">What We Do?</div>
-                            <h2>We are Worldwide Non-Profit & NGO Ogranization</h2>
-                            <div class="text">Cupidatat non proident sunt</div>
+                            <div class="sub-title">Nos expériences</div>
+                            <h2>Nous sommes une organisation à but non lucratif et ONG</h2>
+                            <div class="text" style="text-align: justify;">ICPEP a une expérience dans la multiplication et productions des
+                                semences améliorées, adaptées et certifiées. Milite pour l’inscription des nouvelles variétés
+                                au catalogue variétal national conformément à la réglementation semencière en vigueur en
+                                 RD Congo et de promouvoir la protection de l’environnement, l’accompagnement juridique
+                                  des agriculteurs en milieu rural et soutenir la promotion, le Monitoring et le suivi
+                                  des cas de violation des droits humains et les SVGB.</div>
                         </div>
                     </div>
                 </div>
