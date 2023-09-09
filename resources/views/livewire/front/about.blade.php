@@ -59,16 +59,18 @@
                                  semi-industrielle ou industrielle de production locale ;<br>
                                  <b>•</b> 	Participer dans les programmes de la conservation communautaire des forêts des communautés locales ;<br>
                                <b>•</b> 	Participer dans des campagnes de promotion des droits humains, de l’environnement et de la paix ;<br>
-                               <b>•</b> 	Promouvoir la paix entre cultivateurs et éleveurs<br>
+                               <b>•</b> 	Promouvoir la paix entre cultivateurs et éleveurs.<br>
                                 </div>
                         </div>
                     </div>
                     <!--Text Block-->
                     <div class="default-text-block col-lg-4 col-md-6 col-sm-12">
                         <div class="inner">
-                            <h3>Our Vision</h3>
-                            <div class="text">Œuvrer pour une harmonie durable avec la nature, guidés par la préservation,
-                                la découverte et la coexistence.</div>
+                            <h3>Raison sociale</h3>
+                            <div class="text" style="text-align: justify;"><b>-</b> 	Lutter contre la violation des Droits Humains et des libertés fondamentales des citoyens, par la dénonciation et le plaidoyer ;<br>
+                                <b>-</b> 	Faciliter aux nécessiteux l’accès à la justice par l’accompagnement, la consultance, des conseils juridiques et l’assistance judiciaire ; <br>
+                                <b>-</b> 	Organiser régulièrement des campagnes de sensibilisation sur l’importance de la protection et de la gestion rationnelle de l’environnement ;<br>
+                                </div>
                         </div>
                     </div>
                     <!--Text Block-->
