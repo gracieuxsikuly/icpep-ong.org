@@ -32,7 +32,7 @@
                                 protection des droits de l’homme, et assurer ainsi le bien-être socio-économique
                                 des Communautés partenaires par une gestion et une exploitation rationnelles de
                                  l’environnement et de ses ressources. </div>
-                            <div class="link-box clearfix"><a href="causes.html" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a></div>
+                            <div class="link-box clearfix"><a href="/" class="theme-btn btn-style-one"><span class="btn-title">Details</span></a></div>
                         </div>
                     </div>
                 </div>
@@ -54,11 +54,13 @@
                     <!--Text Block-->
                     <div class="default-text-block col-lg-4 col-md-6 col-sm-12">
                         <div class="inner">
-                            <h3>Our Mission</h3>
-                            <div class="text">Nous nous engageons à protéger et préserver la biodiversité de notre planète.
-                                 Notre mission est de sensibiliser, éduquer et agir en faveur de l'environnement,
-                                 en travaillant main dans la main avec les communautés locales et les partenaires mondiaux.
-                                Nous visons à assurer un avenir durable où la nature et l'humanité prospèrent en harmonie.</div>
+                            <h3>Nos objectifs</h3>
+                            <div class="text" style="text-align: justify;"><b>•</b> à la transformation et conservation artisanale,
+                                 semi-industrielle ou industrielle de production locale ;<br>
+                                 <b>•</b> 	Participer dans les programmes de la conservation communautaire des forêts des communautés locales ;<br>
+                               <b>•</b> 	Participer dans des campagnes de promotion des droits humains, de l’environnement et de la paix ;<br>
+                               <b>•</b> 	Promouvoir la paix entre cultivateurs et éleveurs<br>
+                                </div>
                         </div>
                     </div>
                     <!--Text Block-->
