@@ -44,45 +44,53 @@
                         <div class="inner-box">
                             <div class="icon-box"><span class="flaticon-reading"></span></div>
                             <h3>Education</h3>
-                            <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolor magna aliqua enim ad minimveniam quis nostrud exercitation laboris.</div>
+                            <div class="text">ICPEP a organisé plusieurs formations à l’intention de la population civile et
+                                autres bénéficiaires sur les droits humains et leurs mécanismes de protection,
+                                les mécanismes extra-judiciaires ou modes alternatifs de résolution des conflits,
+                                 l’art culinaire (avec remise des brevets contresignés par le Ministre Provincial compétent).
+                                  De façon particulière, une formation sur les VSBG et la protection de l’enfant à l’intention des
+                                   membres de ICPEP,</div>
                         </div>
                     </div>
 
                     <!--Service Block-->
-                    <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="service-block col-xl-12 col-lg-12 col-md-12 col-sm-12">
                         <div class="inner-box">
                             <div class="icon-box"><span class="flaticon-adoption"></span></div>
-                            <h3>Adoption</h3>
-                            <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolor magna aliqua enim ad minimveniam quis nostrud exercitation laboris.</div>
+                            {{-- <h3>Adoption</h3> --}}
+                            <div class="text">Grace aux orientations et plaidoyers de ICPEP, plusieurs conflits
+                                 fonciers et de pouvoir coutumiers ont été clôturés par les instances administratives,
+                                  coutumières ou judiciaires compétentes, notamment en territoire de Lubero, Nyiragongo,
+                                  Beni, Walikale et Masisi, ville de Goma et de Butembo ;</div>
                         </div>
                     </div>
 
-                    <!--Service Block-->
+                    {{-- <!--Service Block-->
                     <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="icon-box"><span class="flaticon-hand"></span></div>
                             <h3>Receive Donation</h3>
                             <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolor magna aliqua enim ad minimveniam quis nostrud exercitation laboris.</div>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <!--Service Block-->
+                    {{-- <!--Service Block-->
                     <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="icon-box"><span class="flaticon-shirt"></span></div>
                             <h3>Cloths Donation</h3>
                             <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolor magna aliqua enim ad minimveniam quis nostrud exercitation laboris.</div>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <!--Service Block-->
+                    {{-- <!--Service Block-->
                     <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="icon-box"><span class="flaticon-group"></span></div>
                             <h3>Social Activities</h3>
                             <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolor magna aliqua enim ad minimveniam quis nostrud exercitation laboris.</div>
                         </div>
-                    </div>
+                    </div> --}}
 
                 </div>
 
