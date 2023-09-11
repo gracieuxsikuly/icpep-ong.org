@@ -78,14 +78,20 @@
                     <!--Text Block-->
                     <div class="default-text-block col-lg-4 col-md-6 col-sm-12">
                         <div class="inner">
-                            <h3>Nos missions </h3>
-                            <div class="text" style="text-align: justify;">
-                               Mettre en place  des projets communautaires d’auto-prise en charge (l’agriculture, l’élevage, usine, semi-industriel, alphabétisation, coupe et couture, art culinaire, tressage, coiffure, tissage, tricotage, cordonnerie, menuiserie, …) ;
-                                Rendre opérationnel la commercialisation des produits agricoles et appuyer les membres des Groupes solidaires Paysans ;
-                                Intensifier les plaidoyers pour la paix et la sécurité en vue de préparer le terrain aux actions de développement durable ;
-                                Monitoring de protection pour lutter contre les violations des droits humains et les SVGB ;
-                                Monitoring des lieux de détention ;
+                            <div class="text-content"  >
+                                <h3>Nos missions </h3>
+
+                                <ul  style="text-align: justify;">
+                                    <li>Mettre en place  des projets communautaires d’auto-prise en charge (l’agriculture, l’élevage, usine, semi-industriel, alphabétisation, coupe et couture, art culinaire, tressage, coiffure, tissage, tricotage, cordonnerie, menuiserie, …) ;</li>
+                                    <li>Rendre opérationnel la commercialisation des produits agricoles et appuyer les membres des Groupes solidaires Paysans ;</li>
+                                    <li>Intensifier les plaidoyers pour la paix et la sécurité en vue de préparer le terrain aux actions de développement durable ;</li>
+                                    <li>Monitoring de protection pour lutter contre les violations des droits humains et les SVGB ;</li>
+                                    <li>Monitoring des lieux de détention ;</li>
+                                </ul>
+                                <br>
+
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -108,12 +114,13 @@
                         <div class="sec-title">
                             <div class="sub-title">Nos expériences</div>
                             <h2>Nous sommes une organisation à but non lucratif et ONG</h2>
-                            <div class="text" style="text-align: justify;">ICPEP a une expérience dans la multiplication et productions des
-                                semences améliorées, adaptées et certifiées. Milite pour l’inscription des nouvelles variétés
-                                au catalogue variétal national conformément à la réglementation semencière en vigueur en
-                                 RD Congo et de promouvoir la protection de l’environnement, l’accompagnement juridique
-                                  des agriculteurs en milieu rural et soutenir la promotion, le Monitoring et le suivi
-                                  des cas de violation des droits humains et les SVGB.</div>
+                            <div class="text" style="text-align: justify;">ICPEP a une expérience dans la multiplication et
+                                productions des semences améliorées, adaptées et certifiées. De ce fait, il milite pour
+                                 l’inscription des nouvelles variétés au catalogue variétal national conformément à la
+                                 réglementation semencière en vigueur en RD Congo. ICPEP promeut la protection de l’environnement,
+                                 l’accompagnement juridique des agriculteurs en milieu rural et soutenir la promotion, le Monitoring
+                                 et le suivi des cas de violation des droits humains et les SVGB. Il offre également une expertise
+                                 avérée en matière de résolution pacifique des conflits fonciers et coutumiers.</div>
                         </div>
                     </div>
                 </div>
