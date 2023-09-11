@@ -60,6 +60,8 @@
                                  <b>•</b> 	Participer dans les programmes de la conservation communautaire des forêts des communautés locales ;<br>
                                <b>•</b> 	Participer dans des campagnes de promotion des droits humains, de l’environnement et de la paix ;<br>
                                <b>•</b> 	Promouvoir la paix entre cultivateurs et éleveurs.<br>
+                               <b>•</b> 	Promouvoir et protéger les droits humains<br>
+
                                 </div>
                         </div>
                     </div>
