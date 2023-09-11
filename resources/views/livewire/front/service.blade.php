@@ -34,8 +34,8 @@
                     <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
                         <div class="inner-box">
                             <div class="icon-box"><span class="flaticon-medicine"></span></div>
-                            <h3>Medical Facilities</h3>
-                            <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolor magna aliqua enim ad minimveniam quis nostrud exercitation laboris.</div>
+                            {{-- <h3>Medical Facilities</h3> --}}
+                            <div class="text">ICPEP a rendu public plusieurs rapports de monitoring des lieux de détention, adressés aux autorités judiciaires et exécutives compétentes pour l’amélioration de l’administration de la justice et l’assainissement du milieu carcéral (où loge une population oubliée) ;</div>
                         </div>
                     </div>
 
