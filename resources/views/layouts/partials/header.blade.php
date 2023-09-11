@@ -47,8 +47,6 @@
                                 <li class="{{ setactiveonfrontend('about') }}"><a href="{{ route('about') }}">Qui sommes-nous ?</a></li>
                                 <li class="{{ setactiveonfrontend('service') }}"><a href="{{ route('service') }}">Action/projet</a></li>
                                 <li class="{{ setactiveonfrontend('publication') }}"><a href="{{ route('publication') }}">Evènements</a></li>
-                                <li class="{{ setactiveonfrontend('publication') }}"><a href="{{ route('publication') }}">Forum</a></li>
-                                <li class="{{ setactiveonfrontend('publication') }}"><a href="{{ route('publication') }}">Nos partenaires</a></li>
                                 <li class="{{ setactiveonfrontend('contact') }}"><a href="{{ route('contact') }}">Contact</a></li>
                             </ul>
                         </div>
