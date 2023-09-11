@@ -139,31 +139,6 @@
                                      petite multiplication dans diverses zones agroécologies de haute terre.</div>
                             </div>
                         </div>
-                         <!--Service Block-->
-
-
-                        {{-- <!--Service Block-->
-                        <div class="service-block col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <div class="inner-box">
-                                <div class="icon-box"><span class="flaticon-medicine"></span></div>
-                                <h3>Medical Facilities</h3>
-                                <div class="text">ICPEP a accompagné plus de 50 dossiers en justice et obtenu des décisions judiciaires, parmi lesquels des VSBG ;
-                                    ICPEP a élaboré plusieurs rapports sur la protection des civils, dénonciations des violations des droits humains-spoliation des biens publics de l’Etat-détournements des deniers publics-dysfonctionnement de l’appareil judiciaire et de l’administration publique… ICPEP a de la même manière mener plusieurs plaidoyers pour relever ces défis et plusieurs résultats se sont avérés satisfaisants ;
-                                    </div>
-                            </div>
-                        </div> --}}
-
-                        <!--Service Block-->
-                        {{-- <div class="service-block col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                            <div class="inner-box">
-                                <div class="icon-box"><span class="flaticon-reading"></span></div>
-                                <h3>Education</h3>
-                                <div class="text">ICPEP a accompagné plus de 50 dossiers en justice et obtenu des décisions judiciaires, parmi lesquels des VSBG ;
-                                    ICPEP a élaboré plusieurs rapports sur la protection des civils, dénonciations des violations des droits humains-spoliation des biens publics de l’Etat-détournements des deniers publics-dysfonctionnement de l’appareil judiciaire et de l’administration publique… ICPEP a de la même manière mener plusieurs plaidoyers pour relever ces défis et plusieurs résultats se sont avérés satisfaisants ;
-                                    </div>
-                            </div>
-                        </div> --}}
-
                     </div>
                 </div>
             </div>
