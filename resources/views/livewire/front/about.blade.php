@@ -70,7 +70,7 @@
                         <div class="inner">
                             <h3>Raison sociale</h3>
                             <div class="text" style="text-align: justify;"><b>-</b> 	Lutter contre la violation des Droits Humains et des libertés fondamentales des citoyens, par la dénonciation et le plaidoyer ;<br>
-                                <b>-</b> 	Faciliter aux nécessiteux l’accès à la justice par l’accompagnement, la consultance, des conseils juridiques et l’assistance judiciaire ; <br>
+                                <b>-</b> 	Faciliter aux nécessiteux l’accès à la justice par l’accompagnement, la consultance, des conseils juridiques et l’assistance judiciaire et la représentation judiciaires ;<br>
                                 <b>-</b> 	Organiser régulièrement des campagnes de sensibilisation sur l’importance de la protection et de la gestion rationnelle de l’environnement ;<br>
                                 </div>
                         </div>
