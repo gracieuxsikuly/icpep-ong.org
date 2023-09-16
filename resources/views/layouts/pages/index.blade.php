@@ -72,8 +72,8 @@
             <div class="right-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner">
                     <div class="images clearfix">
-                        <figure class="image wow fadeInUp" data-wow-delay="0ms"><img class="lazy-image" src="images/resource/image-spacer-for-validation.png" data-src="images/resource/featured-image-21.jpg" alt=""></figure>
-                        <figure class="image wow fadeInDown" data-wow-delay="0ms"><img class="lazy-image" src="images/resource/image-spacer-for-validation.png" data-src="images/resource/featured-image-22.jpg" alt=""></figure>
+                        <figure class="image wow fadeInUp" data-wow-delay="0ms"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="images/resource/featured-image-21.jpg" alt=""></figure>
+                        <figure class="image wow fadeInDown" data-wow-delay="0ms"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="images/resource/featured-image-22.jpg" alt=""></figure>
                     </div>
                 </div>
             </div>
@@ -82,89 +82,7 @@
 
 </section>
 
-    {{-- <!--Causes Section-->
-    <section class="causes-section">
-        <div class="auto-container">
 
-        	<div class="sec-title centered">
-                <div class="sub-title">Our Causes</div>
-                <h2>Popular Causes</h2>
-                <div class="text">Cupidatat non proident sunt</div>
-            </div>
-
-        	<div class="row clearfix">
-
-            	<!--Cause Block-->
-                <div class="cause-block col-lg-4 col-md-6 col-sm-12">
-                	<div class="inner-box wow fadeInUp" data-wow-delay="0ms">
-                    	<div class="image-box">
-                        	<figure class="image"><a href="cause-single.html"><img class="lazy-image" src="images/resource/image-spacer-for-validation.png" data-src="images/resource/cause-image-1.jpg" alt=""></a></figure>
-                        </div>
-                        <div class="donate-info">
-                            <div class="progress-box">
-                                <div class="bar">
-                                    <div class="bar-inner count-bar" data-percent="70%"><div class="count-text">70%</div></div>
-                                </div>
-                            </div>
-                            <div class="donation-count clearfix"><span class="raised"><strong>Raised:</strong> $6,000</span> <span class="goal"><strong>Goal:</strong> $8,000</span></div>
-                        </div>
-                        <div class="lower-content">
-                            <h3><a href="cause-single.html">Raise Fund <br>for Healthy Food</a></h3>
-                            <div class="text">Excepteur sint occaecat cupidatat non proident sunt.</div>
-                            <div class="link-box"><a href="cause-single.html" class="theme-btn btn-style-two"><span class="btn-title">Read More</span></a></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Cause Block-->
-                <div class="cause-block col-lg-4 col-md-6 col-sm-12">
-                	<div class="inner-box wow fadeInUp" data-wow-delay="300ms">
-                    	<div class="image-box">
-                        	<figure class="image"><a href="cause-single.html"><img class="lazy-image" src="images/resource/image-spacer-for-validation.png" data-src="images/resource/cause-image-2.jpg" alt=""></a></figure>
-                        </div>
-                        <div class="donate-info">
-                            <div class="progress-box">
-                                <div class="bar">
-                                    <div class="bar-inner count-bar" data-percent="70%"><div class="count-text">70%</div></div>
-                                </div>
-                            </div>
-                            <div class="donation-count clearfix"><span class="raised"><strong>Raised:</strong> $6,000</span> <span class="goal"><strong>Goal:</strong> $8,000</span></div>
-                        </div>
-                        <div class="lower-content">
-                            <h3><a href="cause-single.html">Education <br>for Poor Children</a></h3>
-                            <div class="text">Excepteur sint occaecat cupidatat non proident sunt.</div>
-                            <div class="link-box"><a href="cause-single.html" class="theme-btn btn-style-two"><span class="btn-title">Read More</span></a></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Cause Block-->
-                <div class="cause-block col-lg-4 col-md-6 col-sm-12">
-                	<div class="inner-box wow fadeInUp" data-wow-delay="600ms">
-                    	<div class="image-box">
-                        	<figure class="image"><a href="cause-single.html"><img class="lazy-image" src="images/resource/image-spacer-for-validation.png" data-src="images/resource/cause-image-3.jpg" alt=""></a></figure>
-                        </div>
-                        <div class="donate-info">
-                            <div class="progress-box">
-                                <div class="bar">
-                                    <div class="bar-inner count-bar" data-percent="70%"><div class="count-text">70%</div></div>
-                                </div>
-                            </div>
-                            <div class="donation-count clearfix"><span class="raised"><strong>Raised:</strong> $6,000</span> <span class="goal"><strong>Goal:</strong> $8,000</span></div>
-                        </div>
-                        <div class="lower-content">
-                            <h3><a href="cause-single.html">Promoting The <br>Rights of Children</a></h3>
-                            <div class="text">Excepteur sint occaecat cupidatat non proident sunt.</div>
-                            <div class="link-box"><a href="cause-single.html" class="theme-btn btn-style-two"><span class="btn-title">Read More</span></a></div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
-        </div>
-    </section> --}}
 
       <!--Call To Action Section-->
       <section class="call-to-action">
@@ -175,9 +93,9 @@
         <div class="auto-container">
             <div class="inner">
                 <div class="sec-title centered">
-                    <h2>How Can You Help?</h2>
-                    <div class="text">Your donation will help us save and improve lives with research, education and emergency care.</div>
-                    <div class="link-box clearfix"><a href="causes.html" class="theme-btn btn-style-three"><span class="btn-title">Donate Now</span></a><a href="causes.html" class="theme-btn btn-style-one"><span class="btn-title">Join Us Now</span></a></div>
+                    <h2>Comment puis-je vous aider?</h2>
+                    <div class="text">Votre don nous aidera à sauver et à améliorer des vies grâce à la recherche, à l’éducation et aux soins d’urgence</div>
+                    <div class="link-box clearfix"><a href="causes.html" class="theme-btn btn-style-three"><span class="btn-title">faire un don maintenant</span></a><a href="causes.html" class="theme-btn btn-style-one"><span class="btn-title">Contactez-nous</span></a></div>
                 </div>
             </div>
         </div>
@@ -188,9 +106,9 @@
         <div class="auto-container">
 
         	<div class="sec-title centered">
-                <div class="sub-title">What We Do?</div>
-                <h2>We’re on a Mission to Solve <br>The Problems</h2>
-                <div class="text">Cupidatat non proident sunt</div>
+                <div class="sub-title">Que faisons-nous ?</div>
+                <h2>Nous avons pour mission de résoudre <br>Les problèmes</h2>
+                {{-- <div class="text">Cupidatat non proident sunt</div> --}}
             </div>
 
         	<div class="row clearfix">
