@@ -1,5 +1,5 @@
-  <!-- Main Header -->
-  <header class="main-header header-style-two">
+ <!-- Main Header -->
+ <header class="main-header header-style-two">
 
     <!-- Header Upper -->
     <div class="header-upper">
@@ -9,6 +9,7 @@
                 <div class="logo-box">
                     <div class="logo"><a href="{{ setactiveonfrontend('acceuil') }}" title="ICPEP"><img src="{{asset('assets/images/logoooo.png')}}" alt="ICPEP" title="ICPEP"></a></div>
                 </div>
+
                 <!--Nav Box-->
                 <div class="nav-outer clearfix">
                     <!--Mobile Navigation Toggler-->
@@ -23,13 +24,14 @@
                                 <li class="{{ setactiveonfrontend('service') }}"><a href="{{ route('service') }}">Action/projet</a></li>
                                 <li class="{{ setactiveonfrontend('publication') }}"><a href="{{ route('publication') }}">Evènements</a></li>
                                 <li class="{{ setactiveonfrontend('contact') }}"><a href="{{ route('contact') }}">Contact</a></li>
+
                             </ul>
                         </div>
                     </nav>
                     <!-- Main Menu End-->
 
                     <div class="link-box clearfix">
-                        <div class="donate-link"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Faire un Don</span></a></div>
+                        <div class="donate-link"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donation</span></a></div>
                         <div class="cart-link"><a href="shopping-cart.html" class="theme-btn"><span class="icon flaticon-paper-bag"></span></a></div>
                     </div>
                 </div>
@@ -43,7 +45,7 @@
         <div class="auto-container clearfix">
             <!--Logo-->
             <div class="logo pull-left">
-                <a href="/" title=""><img src="{{asset('assets/images/logoooo.png')}}" alt="" title=""></a>
+                <a href="index.html" title=""><img src="{{asset('assets/images/sticky-logo.png')}}" alt="" title=""></a>
             </div>
             <!--Right Col-->
             <div class="pull-right">
@@ -61,7 +63,7 @@
         <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
 
         <nav class="menu-box">
-            <div class="nav-logo"><a href="/"><img src="{{asset('assets/images/logo.png')}}" alt="" title=""></a></div>
+            <div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
             <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             <!--Social Links-->
             <div class="social-links">
