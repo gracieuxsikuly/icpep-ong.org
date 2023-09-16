@@ -28,14 +28,13 @@
                 <div class="column col-lg-3 col-md-6 col-sm-12">
                     <div class="footer-widget links-widget">
                         <div class="widget-content">
-                            <h3>Services</h3>
+                            <h3>Pages</h3>
                             <ul>
-                                <li><a href="#">Donate</a></li>
-                                <li><a href="#">Sponsor</a></li>
-                                <li><a href="#">Fundraise</a></li>
-                                <li><a href="#">Volunteer</a></li>
-                                <li><a href="#">Partner</a></li>
-                                <li><a href="#">Jobs</a></li>
+                                <li><a href="{{ route('acceuil') }}">Accueil</a></li>
+                                <li ><a href="{{ route('about') }}">Qui sommes-nous ?</a></li>
+                                <li ><a href="{{ route('service') }}">Action/projet</a></li>
+                                <li ><a href="{{ route('publication') }}">Evènements</a></li>
+                                <li ><a href="{{ route('contact') }}">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -48,8 +47,8 @@
                             <h3>Contacts</h3>
                             <ul class="contact-info">
                                 <li>Flat 20, Reynolds Neck, North Helenaville, FV77 8WS</li>
-                                <li><a href="tel:+2(305)587-3407">+2(305) 587-3407</a></li>
-                                <li><a href="mailto:info@chireno.com">info@loveuscharity.com</a></li>
+                                <li><a href="tel:(+243) 970 194 912">(+243) 970 194 912</a></li>
+                                <li><a href="mailto:info@icpep-ong.org">info@icpep-ong.org</a></li>
                             </ul>
                         </div>
                     </div>
@@ -78,20 +77,7 @@
 
             </div>
 
-            <div class="nav-box clearfix">
-                <div class="inner clearfix">
-                    <ul class="footer-nav clearfix">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Causes</a></li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
 
-                    <div class="donate-link"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
-                </div>
-            </div>
 
         </div>
     </div>
@@ -103,11 +89,11 @@
             <!--Scroll to top-->
             <div class="clearfix">
                 <div class="copyright">ICPEP  &copy;  @php
-                    echo date('y');
-                @endphp All Right Reserved</div>
+                    echo date('Y');
+                @endphp Tous droits réservés@gs</div>
                 <ul class="bottom-links">
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Conditions d'utilisation</a></li>
+                    <li><a href="#">Politique de confidentialité</a></li>
                 </ul>
             </div>
         </div>
