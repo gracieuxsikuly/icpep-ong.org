@@ -10,8 +10,8 @@
 
 				<div class="auto-container">
 					<div class="content-box">
-						<h2>You Can Help  <br>The Poor</h2>
-						<div class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+						<h2>Vous pouvez aider   <br>les pauvres</h2>
+						<div class="text">Aspirer à la transformation et conservation artisanale, semi-industrielle ou industrielle de production locale ; </div>
 						<div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
 					</div>
 				</div>
@@ -23,8 +23,8 @@
 
 				<div class="auto-container">
 					<div class="content-box">
-						<h2>You Can Help  <br>The Poor</h2>
-						<div class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+						<h2>Vous pouvez aider   <br>les pauvres</h2>
+						<div class="text">Participer dans des campagnes de promotion des droits humains, de l’environnement et de la paix ; </div>
 						<div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
 					</div>
 				</div>
@@ -36,8 +36,8 @@
 
 				<div class="auto-container">
 					<div class="content-box">
-						<h2>You Can Help  <br>The Poor</h2>
-						<div class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </div>
+						<h2>Vous pouvez aider   <br>les pauvres</h2>
+						<div class="text">Participer dans les programmes de la conservation communautaire des forêts des communautés locales ;</div>
 						<div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
 					</div>
 				</div>
@@ -202,7 +202,7 @@
                                     Intensifier les plaidoyers pour la paix et la sécurité en vue de préparer le terrain aux actions de développement durable ;
                                     Monitoring de protection pour lutter contre les violations des droits humains et les SVGB ;
                                     Monitoring des lieux de détention ;</div>
-                                <div class="link-box"><a href="cause-single.html" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a></div>
+                                <div class="link-box"><a href="{{ route('about')}}" class="theme-btn btn-style-one"><span class="btn-title">A savoir plus</span></a></div>
                             </div>
                         </div>
                     </div>
@@ -235,11 +235,11 @@
 
             <div class="title-box clearfix">
                 <div class="sec-title">
-                    <div class="sub-title">Get In Touch</div>
-                    <h2>Latest Article</h2>
+                    {{-- <div class="sub-title">Get In Touch</div> --}}
+                    <h2>Dernier Evènements</h2>
                 </div>
 
-                <div class="link"><a href="blog.html" class="theme-btn btn-style-one"><span class="btn-title">All Articles</span></a></div>
+                <div class="link"><a href="{{ route('publication') }}" class="theme-btn btn-style-one"><span class="btn-title">Touts les evènements</span></a></div>
             </div>
 
             <div class="row clearfix">
