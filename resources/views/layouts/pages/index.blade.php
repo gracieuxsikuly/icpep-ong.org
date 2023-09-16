@@ -47,71 +47,40 @@
     </section>
     <!--End Banner Section -->
 
-	<!--About Section-->
-    <section class="about-section">
-    	<div class="top-rotten-curve"></div>
-        <div class="bottom-rotten-curve"></div>
-        <div class="circle-one"></div>
-        <div class="circle-two"></div>
-
-        <div class="auto-container">
-        	<div class="row clearfix">
-            	<!--Left Column-->
-                <div class="left-column col-lg-6 col-md-12 col-sm-12">
-                	<div class="inner">
-                    	<div class="sec-title">
-                        	<div class="sub-title">QUI SOMMES NOUS</div>
-                            <h2>Vous pouvez aider les pauvres</h2>
-                            <div class="text" style="text-align: justify;">International Center for Peace and Environment Protection By Peasant
-                                 Communities (ICPEP) a pour objectif principal de contribuer à l’instauration, à
-                                 la promotion et à la sauvegarde de la justice et de la paix ...</div>
-							<div class="link-box clearfix"><a href="causes.html" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a></div>
-                        </div>
+<!--About Section-->
+<section class="about-section style-five">
+    <div class="top-rotten-curve"></div>
+    <div class="circle-one"></div>
+    <div class="circle-two"></div>
+    <div class="auto-container">
+        <div class="row clearfix">
+            <!--Left Column-->
+            <div class="left-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner maw-100">
+                    <div class="sec-title">
+                        <div class="sub-title">QUI SOMMES NOUS</div>
+                        <h2>Our mission is save environment</h2>
+                        <div class="text" style="text-align: justify;">International Center for Peace and Environment Protection By Peasant Communities (ICPEP) a
+                             pour objectif principal de contribuer à l’instauration, à la promotion et à la sauvegarde de la justice
+                              et de la paix entre les peuples par la mise en œuvre des principes fondamentaux des droits et libertés
+                               des peuples, des mécanismes nationaux,... </div>
+                        <div class="link-box clearfix"><a href="{{ route('about') }}" class="theme-btn btn-style-one"><span class="btn-title">En savoir plus</span></a></div>
                     </div>
                 </div>
-                <!--Right Column-->
-                <div class="right-column col-lg-6 col-md-12 col-sm-12">
-                	<div class="inner">
-                    	<div class="row clearfix">
-                        	<!--About Feature-->
-                            <div class="about-feature col-md-6 col-sm-12">
-                            	<div class="inner-box wow fadeInUp">
-                                	<div class="icon-box"><span class="flaticon-user"></span></div>
-                                    <h4>Become Volunteer</h4>
-                                    <a href="#" class="over-link"></a>
-                                </div>
-                            </div>
-                            <!--About Feature-->
-                            <div class="about-feature col-md-6 col-sm-12">
-                            	<div class="inner-box wow fadeInUp" data-wow-delay="300ms">
-                                	<div class="icon-box"><span class="flaticon-heart-2"></span></div>
-                                    <h4>Quick Fundraise</h4>
-                                    <a href="#" class="over-link"></a>
-                                </div>
-                            </div>
-                            <!--About Feature-->
-                            <div class="about-feature col-md-6 col-sm-12">
-                            	<div class="inner-box wow fadeInUp">
-                                	<div class="icon-box"><span class="flaticon-coin-2"></span></div>
-                                    <h4>Give Donation</h4>
-                                    <a href="#" class="over-link"></a>
-                                </div>
-                            </div>
-                            <!--About Feature-->
-                            <div class="about-feature col-md-6 col-sm-12">
-                            	<div class="inner-box wow fadeInUp" data-wow-delay="300ms">
-                                	<div class="icon-box"><span class="flaticon-care"></span></div>
-                                    <h4>Become Volunteer</h4>
-                                    <a href="#" class="over-link"></a>
-                                </div>
-                            </div>
-                        </div>
+            </div>
+            <!--Right Column-->
+            <div class="right-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner">
+                    <div class="images clearfix">
+                        <figure class="image wow fadeInUp" data-wow-delay="0ms"><img class="lazy-image" src="images/resource/image-spacer-for-validation.png" data-src="images/resource/featured-image-21.jpg" alt=""></figure>
+                        <figure class="image wow fadeInDown" data-wow-delay="0ms"><img class="lazy-image" src="images/resource/image-spacer-for-validation.png" data-src="images/resource/featured-image-22.jpg" alt=""></figure>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-    </section>
+</section>
 
     {{-- <!--Causes Section-->
     <section class="causes-section">
@@ -197,36 +166,18 @@
         </div>
     </section> --}}
 
-    <!--Video Section-->
-    <section class="video-section">
-    	<div class="circle-one"></div>
-        <div class="circle-two"></div>
-        <div class="top-rotten-curve"></div>
-        <div class="bottom-rotten-curve"></div>
+      <!--Call To Action Section-->
+      <section class="call-to-action">
 
     	<!--Image Layer-->
-        <div class="image-layer wow slideInLeft" data-wow-delay="500ms"><div class="bg-image lazy-image" data-bg="url('{{asset('assets/images/background/fluid-image-1.jpg')}}')"></div></div>
+		<div class="image-layer lazy-image" data-bg="url('{{asset('assets/images/background/call-to-action-1.jpg')}}')"></div>
+
         <div class="auto-container">
-        	<div class="row clearfix">
-            	<!--Text Column-->
-                <div class="text-column col-lg-6 col-md-12 col-sm-12">
-                	<div class="inner">
-                    	<div class="sec-title">
-                        	<div class="sub-title">Watch Video</div>
-                            <h2>Watch Our Latest Activities</h2>
-                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore dolore magna aliqua. enim minim veniam, quis nostrud exercitation ullamco laboris.</div>
-							<div class="link-box clearfix"><a href="causes.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
-                        </div>
-                    </div>
-                </div>
-                <!--Image Column-->
-                <div class="image-column col-lg-6 col-md-12 col-sm-12">
-                	<div class="inner wow fadeInLeft" data-wow-delay="0ms">
-                    	<figure class="image-box">
-                        	<img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/resource/video-image-1.jpg')}}" alt="">
-                            <a href="https://www.youtube.com/watch?v=C9rVAbcQH_U" class="lightbox-image over-link"><span class="icon flaticon-play-button"></span></a>
-                        </figure>
-                    </div>
+            <div class="inner">
+                <div class="sec-title centered">
+                    <h2>How Can You Help?</h2>
+                    <div class="text">Your donation will help us save and improve lives with research, education and emergency care.</div>
+                    <div class="link-box clearfix"><a href="causes.html" class="theme-btn btn-style-three"><span class="btn-title">Donate Now</span></a><a href="causes.html" class="theme-btn btn-style-one"><span class="btn-title">Join Us Now</span></a></div>
                 </div>
             </div>
         </div>
@@ -342,101 +293,8 @@
 
 
     <!--Call To Action Section-->
-    <section class="call-to-action">
-
-    	<!--Image Layer-->
-        <div class="image-layer lazy-image" data-bg="url('{{asset('assets/images/background/call-to-action-1.jpg')}}')"></div>
-
-        <div class="auto-container">
-            <div class="inner">
-                <div class="sec-title centered">
-                    <h2>How Can You Help?</h2>
-                    <div class="text">Your donation will help us save and improve lives with research, education and emergency care.</div>
-                    <div class="link-box clearfix"><a href="causes.html" class="theme-btn btn-style-three"><span class="btn-title">Donate Now</span></a><a href="causes.html" class="theme-btn btn-style-one"><span class="btn-title">Join Us Now</span></a></div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
-    <!--Team Section-->
-    <section class="team-section">
-    	<div class="bottom-rotten-curve"></div>
-
-        <div class="auto-container">
-
-        	<div class="sec-title centered">
-                <div class="sub-title">Meet Our Team</div>
-                <h2>Our Volunteer</h2>
-                <div class="text">Cupidatat non proident sunt</div>
-            </div>
-
-        	<div class="row clearfix">
-
-            	<!--Team Block-->
-                <div class="team-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                	<div class="inner-box wow fadeInUp" data-wow-delay="0ms">
-                    	<figure class="image-box"><a href="#"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/resource/team-image-1.jpg')}}" alt=""></a></figure>
-                        <div class="lower-box">
-                        	<div class="content">
-                                <h3><a href="#">Catherine Jones</a></h3>
-                                <div class="designation">Engineer</div>
-                                <div class="social-links">
-                                    <ul class="clearfix">
-                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Team Block-->
-                <div class="team-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                	<div class="inner-box wow fadeInUp" data-wow-delay="300ms">
-                    	<figure class="image-box"><a href="#"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/resource/team-image-2.jpg')}}" alt=""></a></figure>
-                        <div class="lower-box">
-                        	<div class="content">
-                                <h3><a href="#">Lauren Davis</a></h3>
-                                <div class="designation">Photographer</div>
-                                <div class="social-links">
-                                    <ul class="clearfix">
-                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Team Block-->
-                <div class="team-block col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                	<div class="inner-box wow fadeInUp" data-wow-delay="600ms">
-                    	<figure class="image-box"><a href="#"><img class="lazy-image" src="{{asset('assets//resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/resource/team-image-3.jpg')}}" alt=""></a></figure>
-                        <div class="lower-box">
-                        	<div class="content">
-                                <h3><a href="#">Susan hardson</a></h3>
-                                <div class="designation">Reporter</div>
-                                <div class="social-links">
-                                    <ul class="clearfix">
-                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
 
 
 
