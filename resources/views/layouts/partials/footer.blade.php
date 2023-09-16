@@ -11,11 +11,13 @@
                             <div class="footer-logo">
                                 <a href="index.html"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="images/footer-logo.png" alt="" /></a>
                             </div>
-                            <div class="text">Lorem ipsum dolor amet consetetur adi pisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercita.</div>
+                            <div class="text" style="text-align: justify;">International Center for Peace and Environment Protection
+                                By Peasant Communities (ICPEP) a pour objectif principal de contribuer à l’instauration,
+                                à la promotion et à la sauvegarde de la justice et de la paix entre les peuples par la mise en œuvre
+                                 des principes </div>
                             <ul class="social-links clearfix">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-vimeo-v"></span></a></li>
                                 <li><a href="#"><span class="fab fa-instagram"></span></a></li>
                             </ul>
                         </div>
