@@ -1,51 +1,52 @@
 @extends('layouts.default', ['title'=>'ACCEUIL'])
 @section('content')
+  <!-- Banner Section -->
+  <section class="banner-section style-two">
+    <div class="banner-carousel love-carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoHeight":false, "singleItem" : true, "autoplay": true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 1000, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1024":{ "items" : "1" }}}'>
 
-    <!-- Banner Section -->
-    <section class="banner-section">
-		<div class="banner-carousel love-carousel owl-theme owl-carousel" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
-			<!-- Slide Item -->
-			<div class="slide-item">
-				<div class="image-layer lazy-image" data-bg="url('{{asset('assets/images/main-slider/1.jpg')}}')"></div>
+        <!-- Slide Item -->
+        <div class="slide-item">
+            <div class="image-layer lazy-image" data-bg="url('{{asset('assets/images/main-slider/13.jpg')}}')"></div>
 
-				<div class="auto-container">
-					<div class="content-box">
-						<h2>Vous pouvez aider   <br>les pauvres</h2>
-						<div class="text">Aspirer à la transformation et conservation artisanale, semi-industrielle ou industrielle de production locale ; </div>
-						<div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
-					</div>
-				</div>
-			</div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <h2>Nous pouvons changer <br>le monde</h2>
+                    <div class="text">Aspirer à la transformation et conservation artisanale, semi-industrielle ou industrielle de production locale</div>
+                    <div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
+                </div>
+            </div>
+        </div>
 
-			<!-- Slide Item -->
-			<div class="slide-item">
-				<div class="image-layer lazy-image" data-bg="url('{{asset('assets/images/main-slider/14.jpg')}}')"></div>
+        <!-- Slide Item -->
+        <div class="slide-item">
+            <div class="image-layer lazy-image" data-bg="url('{{asset('assets/images/main-slider/14.jpg')}}')"></div>
 
-				<div class="auto-container">
-					<div class="content-box">
-						<h2>Vous pouvez aider   <br>les pauvres</h2>
-						<div class="text">Participer dans des campagnes de promotion des droits humains, de l’environnement et de la paix ; </div>
-						<div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
-					</div>
-				</div>
-			</div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <h2>Vous pouvez aider   <br>les pauvres</h2>
+                        <div class="text">Participer dans les programmes de la conservation communautaire des forêts des communautés locales</div>
+                    <div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
+                </div>
+            </div>
+        </div>
 
-			<!-- Slide Item -->
-			<div class="slide-item">
-				<div class="image-layer lazy-image" data-bg="url('{{asset('assets/images/main-slider/3.jpg')}}')"></div>
+        <!-- Slide Item -->
+        <div class="slide-item">
+            <div class="image-layer lazy-image" data-bg="url('{{asset('assets/images/main-slider/6.jpg')}}')"></div>
 
-				<div class="auto-container">
-					<div class="content-box">
-						<h2>Vous pouvez aider   <br>les pauvres</h2>
-						<div class="text">Participer dans les programmes de la conservation communautaire des forêts des communautés locales ;</div>
-						<div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
-					</div>
-				</div>
-			</div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <h2>Vous pouvez aider   <br>les pauvres</h2>
+                    <div class="text">Participer dans des campagnes de promotion des droits humains, de l’environnement et de la paix</div>
+                    <div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
+                </div>
+            </div>
+        </div>
 
-		</div>
-    </section>
-    <!--End Banner Section -->
+    </div>
+</section>
+<!--End Banner Section -->
+
 
 <!--About Section-->
 <section class="about-section style-five">
@@ -216,19 +217,9 @@
 
         </div>
     </section>
-
-
-    <!--Call To Action Section-->
-
-
-
-
-
-
-  @livewire('front.banner-counter')
-
-    <!--News Section-->
-    <section class="news-section">
+    @livewire('front.banner-counter')
+     <!--News Section-->
+     <section class="news-section">
     	<div class="top-rotten-curve"></div>
 
         <div class="auto-container">
