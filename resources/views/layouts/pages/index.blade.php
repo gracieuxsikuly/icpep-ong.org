@@ -19,7 +19,7 @@
 
 			<!-- Slide Item -->
 			<div class="slide-item">
-				<div class="image-layer lazy-image" data-bg="url('{{asset('assets/images/main-slider/2.jpg')}}')"></div>
+				<div class="image-layer lazy-image" data-bg="url('{{asset('assets/images/main-slider/14.jpg')}}')"></div>
 
 				<div class="auto-container">
 					<div class="content-box">
