@@ -12,7 +12,7 @@
                 <div class="content-box">
                     <h2>Nous pouvons changer <br>le monde</h2>
                     <div class="text">Aspirer à la transformation et conservation artisanale, semi-industrielle ou industrielle de production locale</div>
-                    <div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
+                    <div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Faire un don</span></a></div>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@
                 <div class="content-box">
                     <h2>Vous pouvez aider   <br>les pauvres</h2>
                         <div class="text">Participer dans les programmes de la conservation communautaire des forêts des communautés locales</div>
-                    <div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
+                    <div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Faire un don</span></a></div>
                 </div>
             </div>
         </div>
@@ -38,7 +38,7 @@
                 <div class="content-box">
                     <h2>Vous pouvez aider   <br>les pauvres</h2>
                     <div class="text">Participer dans des campagnes de promotion des droits humains, de l’environnement et de la paix</div>
-                    <div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donate Now</span></a></div>
+                    <div class="btn-box"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Faire un don</span></a></div>
                 </div>
             </div>
         </div>
