@@ -62,14 +62,9 @@
                     	<div class="sec-title">
                         	<div class="sub-title">QUI SOMMES NOUS</div>
                             <h2>Vous pouvez aider les pauvres</h2>
-                            <div class="text">International Center for Peace and Environment Protection By Peasant
+                            <div class="text" style="text-align: justify;">International Center for Peace and Environment Protection By Peasant
                                  Communities (ICPEP) a pour objectif principal de contribuer à l’instauration, à
-                                 la promotion et à la sauvegarde de la justice et de la paix entre les peuples par
-                                 la mise en œuvre des principes fondamentaux des droits et libertés des peuples,
-                                  des mécanismes nationaux, régionaux et internationaux de protection des droits
-                                  de l’homme, et assurer ainsi le bien-être socio-économique des Communautés
-                                   partenaires par une gestion et une exploitation rationnelles de l’environnement
-                                    et de ses ressources. </div>
+                                 la promotion et à la sauvegarde de la justice et de la paix ...</div>
 							<div class="link-box clearfix"><a href="causes.html" class="theme-btn btn-style-one"><span class="btn-title">Read More</span></a></div>
                         </div>
                     </div>
