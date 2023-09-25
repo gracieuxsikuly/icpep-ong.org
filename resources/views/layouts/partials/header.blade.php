@@ -20,8 +20,9 @@
                         <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                             <ul class="navigation clearfix">
                                 <li class="{{ setactiveonfrontend('acceuil') }}"><a href="{{ route('acceuil') }}">Accueil</a></li>
-                                <li class="{{ setactiveonfrontend('about') }}"><a href="{{ route('about') }}">Qui sommes-nous ?</a></li>
+                                <li class="{{ setactiveonfrontend('about') }}"><a href="{{ route('about') }}">Apropos</a></li>
                                 <li class="{{ setactiveonfrontend('service') }}"><a href="{{ route('service') }}">Action/projet</a></li>
+                                <li class="{{ setactiveonfrontend('galery') }}"><a href="{{ route('galery') }}">Gallerie</a></li>
                                 <li class="{{ setactiveonfrontend('publication') }}"><a href="{{ route('publication') }}">Evènements</a></li>
                                 <li class="{{ setactiveonfrontend('contact') }}"><a href="{{ route('contact') }}">Contact</a></li>
 
