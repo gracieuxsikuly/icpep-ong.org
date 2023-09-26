@@ -65,32 +65,7 @@
                         </div>
                     </div>
 
-                    {{-- <!--Service Block-->
-                    <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="icon-box"><span class="flaticon-hand"></span></div>
-                            <h3>Receive Donation</h3>
-                            <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolor magna aliqua enim ad minimveniam quis nostrud exercitation laboris.</div>
-                        </div>
-                    </div> --}}
 
-                    {{-- <!--Service Block-->
-                    <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="icon-box"><span class="flaticon-shirt"></span></div>
-                            <h3>Cloths Donation</h3>
-                            <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolor magna aliqua enim ad minimveniam quis nostrud exercitation laboris.</div>
-                        </div>
-                    </div> --}}
-
-                    {{-- <!--Service Block-->
-                    <div class="service-block col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box">
-                            <div class="icon-box"><span class="flaticon-group"></span></div>
-                            <h3>Social Activities</h3>
-                            <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolor magna aliqua enim ad minimveniam quis nostrud exercitation laboris.</div>
-                        </div>
-                    </div> --}}
 
                 </div>
 

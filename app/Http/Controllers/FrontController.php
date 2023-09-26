@@ -21,4 +21,7 @@ class FrontController extends Controller
     public function contact(){
         return view('layouts.pages.conctact');
     }
+    public function galery(){
+        return view('layouts.partials.galery-banner');
+    }
 }

@@ -22,3 +22,4 @@ Route::get('/services', [FrontController::class, 'services'])->name('service');
 Route::get('/apropos', [FrontController::class, 'about'])->name('about');
 Route::get('/publications', [FrontController::class, 'publications'])->name('publication');
 Route::get('/contact', [FrontController::class, 'contact'])->name('contact');
+Route::get('galery',[FrontController::class,'galery'])->name('galery');
