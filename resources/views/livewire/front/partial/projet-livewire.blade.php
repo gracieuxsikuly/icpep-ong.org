@@ -17,7 +17,7 @@
             <div class="row">
                 <article class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-item">
-                        <div class="img-box"><img alt="" src="{{asset('assets/images/resource/about1.jpg')}}">
+                        <div class="img-box"><img alt="" src="{{asset('assets/images/resource/about4.jpg')}}">
                         </div>
 
 
@@ -37,21 +37,15 @@
                         </div>
                     </div>
                 </article>
-
-
                 <article class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-item">
-                        <div class="img-box"><img alt="" src="{{asset('assets/images/resource/about2.jpg')}}">
+                        <div class="img-box"><img alt="" src="{{asset('assets/images/resource/about5.jpg')}}">
                         </div>
-
-
                         <div class="content">
                             <div class="clearfix">
                                 <div class="icon_box">
                                     <span class="icon-animals"></span>
                                 </div>
-
-
                                 <div class="text">
                                     <h4>la commercialisation </h4>
                                     <p>agricole</p>
