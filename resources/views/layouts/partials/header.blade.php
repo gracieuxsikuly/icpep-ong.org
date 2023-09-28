@@ -1,82 +1,321 @@
- <!-- Main Header -->
- <header class="main-header header-style-two">
-
-    <!-- Header Upper -->
-    <div class="header-upper">
-        <div class="auto-container">
-            <div class="inner-container clearfix">
-                <!--Logo-->
-                <div class="logo-box">
-                    <div class="logo"><a href="{{ setactiveonfrontend('acceuil') }}" title="ICPEP"><img src="{{asset('assets/images/logoooo.png')}}" alt="ICPEP" title="ICPEP"></a></div>
+<section class="theme_menu stricky">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="main-logo">
+                    <a href="index.html"><img alt="" src="{{asset('assets/images/logo/logo.png')}}"></a>
                 </div>
+            </div>
 
-                <!--Nav Box-->
-                <div class="nav-outer clearfix">
-                    <!--Mobile Navigation Toggler-->
-                    <div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
 
-                    <!-- Main Menu -->
-                    <nav class="main-menu navbar-expand-md navbar-light">
-                        <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                            <ul class="navigation clearfix">
-                                <li class="{{ setactiveonfrontend('acceuil') }}"><a href="{{ route('acceuil') }}">Accueil</a></li>
-                                <li class="{{ setactiveonfrontend('about') }}"><a href="{{ route('about') }}">Apropos</a></li>
-                                <li class="{{ setactiveonfrontend('service') }}"><a href="{{ route('service') }}">Action/projet</a></li>
-                                <li class="{{ setactiveonfrontend('galery') }}"><a href="{{ route('galery') }}">Gallerie</a></li>
-                                <li class="{{ setactiveonfrontend('publication') }}"><a href="{{ route('publication') }}">Evènements</a></li>
-                                <li class="{{ setactiveonfrontend('contact') }}"><a href="{{ route('contact') }}">Contact</a></li>
+            <div class="col-md-9 menu-column">
+                <nav class="defaultmainmenu" id="main_menu">
+                    <ul class="defaultmainmenu-menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
 
+
+                        <li class="active">
+                            <a href="#">Pages</a>
+
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="about.html">About humanity</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="team.html">Meet Our Team</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="volunteer.html">Join as Volunteer</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="faq.html">FAQ's</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="testimonial.html">Testimonials</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="contact.html">Contact Us</a>
+                                </li>
                             </ul>
-                        </div>
-                    </nav>
-                    <!-- Main Menu End-->
+                        </li>
 
-                    <div class="link-box clearfix">
-                        <div class="donate-link"><a href="donate.html" class="theme-btn btn-style-one"><span class="btn-title">Donation</span></a></div>
-                        <div class="cart-link"><a href="shopping-cart.html" class="theme-btn"><span class="icon flaticon-paper-bag"></span></a></div>
+
+                        <li>
+                            <a href="cause-1.html">Causes</a>
+
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="cause-1.html">Causes Grid View</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="cause-2.html">Causes List View</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="cause-3.html">Causes With Sidebar</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="single-cause.html">Single Causes</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a href="#">Events</a>
+
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="event-1.html">Events</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="single-event.html">Event Single</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a href="gallery-1.html">Gallery</a>
+
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="gallery-1.html">gallery Grid View</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="gallery-2.html">gallery Fullwidth</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="gallery-3.html">gallery With Text</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="single-gallery.html">Single gallery</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a href="#">Shop</a>
+
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="shop.html">Shop Products</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="shop-single.html">Single Shop</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="shop-cart.html">Shopping Cart</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="checkout.html">Checkout</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="account.html">My Account</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a href="blog-1.html">blog</a>
+
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="blog-1.html">Blog Grid View</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="blog-large.html">Blog With Sidebar</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="blog-details.html">Single Post</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a href="#">mega menu</a>
+
+                            <ul class="dropdown">
+                            </ul>
+
+
+                            <div class="megamenu clearfix megamenu-width-100">
+                                <div class="menu-item">
+                                    <h4 class="title">Quick Links</h4>
+
+
+                                    <ul class="megamenu-dropdown">
+                                        <li>
+                                            <a href="#">Donate Us</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="shop.html">Shop Products</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="404.html">404 Page</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="about.html">About Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                                <div class="event-section2">
+                                    <h4 class="title">Upcoming Events</h4>
+
+
+                                    <div class="item">
+                                        <div class="img-column">
+                                            <figure class="img-holder">
+                                                <a href="single-event.html"><img alt="" src="{{asset('assets/images/resource/12.jpg')}}"></a>
+                                            </figure>
+                                        </div>
+
+
+                                        <div class="text-column">
+                                            <div class="lower-content">
+                                                <a href="single-event.html">
+                                                <h4>Conducting Marathon 2017: Run for cancer people</h4></a>
+
+                                                <div class="post-meta">
+                                                    <i class="fa fa-calendar"></i>Started On: 11.00am<br>
+                                                    <i class="fa fa-map-marker"></i> New Grand Street, California
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="recent-post">
+                                    <h4 class="title">Latest News</h4>
+
+
+                                    <div class="post-list">
+                                        <div class="post">
+                                            <div class="post-thumb">
+                                                <a href="blog-details.html"><img alt="" src="{{asset('asset/images/resource/thumb2.jpg')}}"></a>
+                                            </div>
+                                            <a href="blog-details.html">
+                                            <h5>New Award To Support<br>
+                                            Children Affected by Crises</h5></a>
+
+                                            <div class="post-info">
+                                                October 21, 2016
+                                            </div>
+                                        </div>
+
+
+                                        <div class="post">
+                                            <div class="post-thumb">
+                                                <a href="blog-details.html"><img alt="" src="{{asset('assets/images/resource/thumb3.jpg')}}"></a>
+                                            </div>
+                                            <a href="blog-details.html">
+                                            <h5>Help promote girl's Education<br>
+                                            in the world</h5></a>
+
+                                            <div class="post-info">
+                                                January 14, 2016
+                                            </div>
+                                        </div>
+
+
+                                        <div class="post">
+                                            <div class="post-thumb">
+                                                <a href="blog-details.html"><img alt="" src="{{asset('assets/images/resource/thumb4.jpg')}}"></a>
+                                            </div>
+                                            <a href="blog-details.html">
+                                            <h5>Clean poor urban areas to<br>
+                                            protect from pollution.</h5></a>
+
+                                            <div class="post-info">
+                                                December 17, 2015
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div class="right-column">
+                <div class="nav_side_content">
+                    <ul class="social-icon">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+
+
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+
+
+                        <li>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                    </ul>
+
+
+                    <div class="search_option">
+                        <button aria-expanded="false" aria-haspopup="true" class="search tran3s dropdown-toggle color1_bg" data-toggle="dropdown" id="searchDropdown"><i aria-hidden="true" class="fa fa-search"></i></button>
+
+                        <form action="#" aria-labelledby="searchDropdown" class="dropdown-menu">
+                            <input placeholder="Search..." type="text"> <button><i aria-hidden="true" class="fa fa-search"></i></button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--End Header Upper-->
-
-    <!-- Sticky Header  -->
-    <div class="sticky-header">
-        <div class="auto-container clearfix">
-            <!--Logo-->
-            <div class="logo pull-left">
-                <a href="index.html" title=""><img src="{{asset('assets/images/sticky-logo.png')}}" alt="" title=""></a>
-            </div>
-            <!--Right Col-->
-            <div class="pull-right">
-                <!-- Main Menu -->
-                <nav class="main-menu clearfix">
-                    <!--Keep This Empty / Menu will come through Javascript-->
-                </nav><!-- Main Menu End-->
-            </div>
-        </div>
-    </div><!-- End Sticky Menu -->
-
-    <!-- Mobile Menu  -->
-    <div class="mobile-menu">
-        <div class="menu-backdrop"></div>
-        <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
-
-        <nav class="menu-box">
-            <div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
-            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-            <!--Social Links-->
-            <div class="social-links">
-                <ul class="clearfix">
-                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                    <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-                    <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                    <li><a href="#"><span class="fab fa-youtube"></span></a></li>
-                </ul>
-            </div>
-        </nav>
-    </div><!-- End Mobile Menu -->
-</header>
-<!-- End Main Header -->
+</section>

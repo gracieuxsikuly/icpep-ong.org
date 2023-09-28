@@ -1,102 +1,170 @@
 <footer class="main-footer">
-    <div class="auto-container">
-        <!--Widgets Section-->
-        <div class="widgets-section">
-            <div class="row clearfix">
+    <!--Widgets Section-->
 
-                <!--Column-->
-                <div class="column col-lg-3 col-md-6 col-sm-12">
-                    <div class="footer-widget logo-widget">
-                        <div class="widget-content">
-                            <div class="footer-logo">
-                                <a href="index.html"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="images/footer-logo.png" alt="" /></a>
-                            </div>
-                            <div class="text" style="text-align: justify;">International Center for Peace and Environment Protection
-                                By Peasant Communities (ICPEP) a pour objectif principal de contribuer à l’instauration,
-                                à la promotion et à la sauvegarde de la justice et de la paix entre les peuples par la mise en œuvre
-                                 des principes </div>
-                            <ul class="social-links clearfix">
-                                <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
 
-                <!--Column-->
-                <div class="column col-lg-3 col-md-6 col-sm-12">
-                    <div class="footer-widget links-widget">
-                        <div class="widget-content">
-                            <h3>Pages</h3>
-                            <ul>
-                                <li><a href="{{ route('acceuil') }}">Accueil</a></li>
-                                <li ><a href="{{ route('about') }}">Qui sommes-nous ?</a></li>
-                                <li ><a href="{{ route('service') }}">Action/projet</a></li>
-                                <li ><a href="{{ route('publication') }}">Evènements</a></li>
-                                <li ><a href="{{ route('contact') }}">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+    <div class="widgets-section">
+        <div class="container">
+            <div class="row">
+                <!--Big Column-->
 
-                <!--Column-->
-                <div class="column col-lg-3 col-md-6 col-sm-12">
-                    <div class="footer-widget info-widget">
-                        <div class="widget-content">
-                            <h3>Contacts</h3>
-                            <ul class="contact-info">
-                                <li>Flat 20, Reynolds Neck, North Helenaville, FV77 8WS</li>
-                                <li><a href="tel:(+243) 970 194 912">(+243) 970 194 912</a></li>
-                                <li><a href="mailto:info@icpep-ong.org">info@icpep-ong.org</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
 
-                <!--Column-->
-                <div class="column col-lg-3 col-md-6 col-sm-12">
-                    <div class="footer-widget news-widget">
-                        <div class="widget-content">
-                            <h3>Top News</h3>
-                            <!--News Post-->
-                            <div class="news-post">
-                                <div class="post-thumb"><a href="#"><img class="lazy-image" src="images/resource/image-spacer-for-validation.png" data-src="images/resource/post-thumb-1.jpg" alt=""></a></div>
-                                <h5><a href="#">School for African Childrens</a></h5>
-                                <div class="date">July 25, 2019</div>
-                            </div>
-                            <!--News Post-->
-                            <div class="news-post">
-                                <div class="post-thumb"><a href="#"><img class="lazy-image" src="images/resource/image-spacer-for-validation.png" data-src="images/resource/post-thumb-2.jpg" alt=""></a></div>
-                                <h5><a href="#">School for African Childrens</a></h5>
-                                <div class="date">July 25, 2019</div>
+                <article class="big-column col-md-6 col-sm-12 col-xs-12">
+                    <div class="row clearfix">
+                        <!--Footer Column-->
+
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-widget about-column">
+                                <div class="section-title">
+                                    <h4>About Us</h4>
+                                </div>
+
+
+                                <div class="text">
+                                    <p>We partner with over 320 amazing projects worldwide, and have given over $150 million in cash and product grants to other groups since 2011. We also operate our own dynamic suite of Signature Programs, million in cash and product grants to others</p>
+                                </div>
+
+
+                                <div class="link">
+                                    <a class="default_link" href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                        <!--Footer Column-->
 
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-widget link-column">
+                                <div class="section-title">
+                                    <h4>Usefull Links</h4>
+                                </div>
+
+
+                                <div class="widget-content">
+                                    <ul class="list">
+                                        <li>
+                                            <a href="about.html">About Our Humanity</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="cause-1.html">Recent Causes</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="volunteer.html">Our Volunteers</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="#">Our Donators</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="#">Sponsers</a>
+                                        </li>
+
+
+                                        <li>
+                                            <a href="event-1.html">Upcoming Events</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!--Big Column-->
+
+                <article class="big-column col-md-6 col-sm-12 col-xs-12">
+                    <div class="row clearfix">
+                        <!--Footer Column-->
+
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-widget post-column">
+                                <div class="section-title">
+                                    <h4>Recent Post</h4>
+                                </div>
+
+
+                                <div class="post-list">
+                                    <div class="post">
+                                        <a href="#">
+                                        <h5>Car show event photos 2015</h5></a>
+
+                                        <div class="post-info">
+                                            March 14, 2017
+                                        </div>
+                                    </div>
+
+
+                                    <div class="post">
+                                        <a href="#">
+                                        <h5>Hope Kids Holiday Party</h5></a>
+
+                                        <div class="post-info">
+                                            February 21, 2017
+                                        </div>
+                                    </div>
+
+
+                                    <div class="post">
+                                        <a href="#">
+                                        <h5>humanity Bikini Car wash photos</h5></a>
+
+                                        <div class="post-info">
+                                            January 15, 2017
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Footer Column-->
+
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-widget contact-column">
+                                <div class="section-title">
+                                    <h4>Get In Touch</h4>
+                                </div>
+
+
+                                <ul class="contact-info">
+                                    <li><i class="icon-arrows"></i><span>Address:</span> Park Drive, Varick Str<br>
+                                    New York, NY 10012, USA</li>
+
+
+                                    <li><i class="icon-phone"></i> <span>Phone:</span> (123) 0200 12345 &<br>
+                                    1800-45-678-9012</li>
+
+
+                                    <li><i class="icon-back"></i><span>Email:</span> ailus@Humanity.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>
             </div>
-
-
-
         </div>
     </div>
-
-    <!-- Footer Bottom -->
-    <div class="footer-bottom">
-        <div class="auto-container">
-
-            <!--Scroll to top-->
-            <div class="clearfix">
-                <div class="copyright">ICPEP  &copy;  @php
-                    echo date('Y');
-                @endphp Tous droits réservés@gs</div>
-                <ul class="bottom-links">
-                    <li><a href="#">Conditions d'utilisation</a></li>
-                    <li><a href="#">Politique de confidentialité</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
 </footer>
+<!--Footer Bottom-->
+
+<section class="footer-bottom">
+    <div class="container">
+        <div class="pull-left copy-text">
+            <p><a href="#">Copyrights © 2017</a> All Rights Reserved. Powered by <a href="#">Humanity</a></p>
+        </div>
+        <!-- /.pull-right -->
+
+
+        <div class="pull-right get-text">
+            <a href="#">Join Us Now!</a>
+        </div>
+        <!-- /.pull-left -->
+    </div>
+    <!-- /.container -->
+</section>
