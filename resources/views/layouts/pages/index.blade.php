@@ -28,7 +28,7 @@
                     data-x="left" data-y="top">
                     <div class="slide-content-box">
                         <div class="button">
-                            <a class="thm-btn style-3" href="{{ route('projet') }}">Nos projets</a>
+                            <a class="thm-btn style-3" href="{{ route('projets') }}">Nos projets</a>
                         </div>
                     </div>
                 </div>
@@ -46,11 +46,9 @@
                     data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-voffset="370"
                     data-x="center" data-y="top">
                     <div class="slide-content-box center">
-                        <h1>To Feed Children For a Week</h1>
-
-
-                        <p>Every good act is humanity. A man's true wealth hereafter is the good that<br>
-                            he does in this world to his fellows.</p>
+                        <h1>Vous pouvez aider  les pauvres</h1>
+                        <p>Participer dans les programmes de la conservation communautaire <br>
+                            des forêts des communautés locales.</p>
                     </div>
                 </div>
 
@@ -62,7 +60,7 @@
                     data-x="center" data-y="top">
                     <div class="slide-content-box">
                         <div class="button">
-                            <a class="thm-btn" href="#">donate us</a>
+                            <a class="thm-btn" href="#">Faire un don</a>
                         </div>
                     </div>
                 </div>
@@ -75,7 +73,7 @@
                     data-x="center" data-y="top">
                     <div class="slide-content-box">
                         <div class="button">
-                            <a class="thm-btn style-3" href="cause.html">our causes</a>
+                            <a class="thm-btn style-3" href="{{ route('projets') }}">Nos projets</a>
                         </div>
                     </div>
                 </div>
@@ -93,29 +91,12 @@
                     data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-voffset="340"
                     data-x="center" data-y="top">
                     <div class="slide-content-box">
-                        <h1>A Little Amount Of<br>
-                            Water Save Life</h1>
-
-
-                        <p>Every good act is humanity. A man's true wealth hereafter is the good that<br>
-                            he does in this world to his fellows.</p>
+                        <h1>Une petite quantité de<br>
+                            L'eau sauve la vie</h1>
+                        <p>Organiser régulièrement des campagnes de sensibilisation sur l’importance de la protection
+                            et <br> de la gestion rationnelle de l’environnement.</p>
                     </div>
                 </div>
-
-
-                <div class="tp-caption tp-resizeme" data-hoffset="0" data-responsive_offset="on" data-splitin="none"
-                    data-splitout="none" data-start="2300" data-transform_idle="o:1;"
-                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-voffset="570"
-                    data-x="center" data-y="top">
-                    <div class="slide-content-box">
-                        <div class="button">
-                            <a class="thm-btn" href="#">Join With Us</a>
-                        </div>
-                    </div>
-                </div>
-
-
                 <div class="tp-caption tp-resizeme" data-hoffset="190" data-responsive_offset="on" data-splitin="none"
                     data-splitout="none" data-start="2600" data-transform_idle="o:1;"
                     data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
@@ -123,7 +104,7 @@
                     data-x="center" data-y="top">
                     <div class="slide-content-box">
                         <div class="button">
-                            <a class="thm-btn style-3" href="cause.html">Donate us</a>
+                            <a class="thm-btn" href="#">Faire un don</a>
                         </div>
                     </div>
                 </div>
