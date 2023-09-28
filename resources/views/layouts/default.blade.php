@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from html.commonsupport.xyz/2019/loveus/index-5.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 26 Aug 2023 12:12:15 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
 <meta charset="utf-8">
-<title>LoveUs - Charity and Fundraising HTML Template | Home Page 02</title>
+<title>@yield('title')</title>
+<meta name="description" content=" International Center for Peace and Environment Protection By Peasant Communities (ICPEP) a pour objectif principal de contribuer à l’instauration, à la promotion et à la sauvegarde de la justice et de la paix entre les peuples ">
+<meta name="robots" content="index,follow">
+<meta name="language" content="fr">
+<meta name="author" content="Gracieux sikuly, Joe Sheti">
+
 <!-- Stylesheets -->
 <link href="{{asset('assets/css/bootstrap.css')}}" rel="stylesheet">
 <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
