@@ -9,15 +9,11 @@
             </div>
 
 
-            <div class="item tool_tip" title="media partner"><img alt="Awesome Image" src="{{('assets/images/clients/3.jpg')}}">
+            <div class="item tool_tip" title="media partner"><img alt="Awesome Image" src="{{('assets/images/clients/3.webp')}}">
             </div>
 
 
             <div class="item tool_tip" title="media partner"><img alt="Awesome Image" src="{{asset('assets/images/clients/4.jpg')}}">
-            </div>
-
-
-            <div class="item tool_tip" title="media partner"><img alt="Awesome Image" src="{{asset('assets/images/clients/5.jpg')}}">
             </div>
         </div>
     </div>
