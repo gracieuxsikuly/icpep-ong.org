@@ -4,17 +4,13 @@
             <div class="row clearfix">
                 <article class="col-md-6 col-sm-12">
                     <div class="content">
-                        <p class="thm-color">Want to join with us</p>
-
-
-                        <h2>Become a proud volunteer</h2>
-
-
-                        <p>When you bring together those who have, with those who have not - miracles happen.Become a time hero by volunteering with us. Meet new friends, gain new skills, get happiness and have fun!</p>
+                        <p class="thm-color">Vous voulez nous rejoindre</p>
+                        <h2>Faire un don</h2>
+                        <p>Lorsque vous rassemblez ceux qui ont et ceux qui n'ont pas, des miracles se produisent. Devenez un héros du temps en faisant du bénévolat avec nous. Rencontrez de nouveaux amis, acquérez de nouvelles compétences, obtenez du bonheur et amusez-vous !</p>
 
 
                         <div class="link">
-                            <a class="thm-btn" href="#">Join with us</a>
+                            <a class="thm-btn" href="#">Contactez-nous</a>
                         </div>
                     </div>
                 </article>

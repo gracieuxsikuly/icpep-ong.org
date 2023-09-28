@@ -2,10 +2,8 @@
     <section class="gallery sec-padd">
         <div class="container">
             <div class="section-title center">
-                <h2>Latest <span class="thm-color">Projects</span></h2>
+                <h2>DERNIER <span class="thm-color">PROJETS</span></h2>
             </div>
-
-
             <div class="gallery-carousel">
                 <article class="item">
                     <div class="inner-box">

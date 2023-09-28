@@ -10,7 +10,7 @@
                 <article class="col-md-6 col-sm-12 left-column">
                     <div class="row padd-bottom-30">
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="img-box"><img alt="" src="{{asset('assets/images/resource/about4.jpg')}}">
+                            <div class="img-box"><img alt="" src="{{asset('assets/images/resource/about1.jpg')}}">
                             </div>
                         </div>
 
@@ -29,7 +29,7 @@
 
                     <div class="row padd-bottom-30">
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="img-box"><img alt="" src="{{asset('assets/images/resource/about5.jpg')}}">
+                            <div class="img-box"><img alt="" src="{{asset('assets/images/resource/about2.jpg')}}">
                             </div>
                         </div>
 
