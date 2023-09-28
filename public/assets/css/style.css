@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
 h1,h2,h3,h4,h5 {
   font-family: 'Roboto Slab', serif;
   color: #303030;
-} 
+}
 
 ul {list-style-type: none;}
 
@@ -146,7 +146,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -ms-transition: .7s ease;
   -o-transition: .7s ease;
   transition: .7s ease;
-  
+
 }
 .inner-box {
   position: relative;
@@ -168,7 +168,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .thm-color {
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 
@@ -191,12 +191,12 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .thm-btn {
   position: relative;
-  background: #ff5722;
+  background: #3cc88f;
   font-size: 14px;
   line-height: 46px;
   border-radius: 4px;
   color: #ffffff;
-  border: 2px solid #ff5722;
+  border: 2px solid #3cc88f;
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
@@ -205,19 +205,19 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .thm-btn:hover {
   background: transparent;
-  color: #ff5722;
+  color: #3cc88f;
   transition: all .5s cubic-bezier(0.4, 0, 1, 1);
 }
 
 .thm-btn.style-2 {
   background: transparent;
-  color: #ff5722;
-  border-color: #ff5722;
+  color: #3cc88f;
+  border-color: #3cc88f;
 }
 .thm-btn.style-2:hover {
-  background: #ff5722;
+  background: #3cc88f;
   color: #fff;
-  border-color: #ff5722;
+  border-color: #3cc88f;
 }
 
 .thm-btn.style-3 {
@@ -227,7 +227,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .thm-btn.style-3:hover {
   background: #FFF;
-  color: #ff5722;
+  color: #3cc88f;
   border-color: #fff;
 }
 
@@ -287,7 +287,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     height: 2px;
     width: 60px;
     left: 0;
-    background: #ff5722;
+    background: #3cc88f;
     bottom: 0px;
 }
 
@@ -301,7 +301,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     display: none;
     color: #fff;
     text-align: center;
-    background: #ff5722;
+    background: #3cc88f;
 }
 .scroll-top span:before {
   font-size: 27px;
@@ -356,7 +356,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   transition: .5s ease;
 }
 .social-icon li a:hover {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
 }
 
@@ -381,7 +381,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     height: 100%;
     color: #9c9c9c;
     font-size: 20px;
-    text-align: center; 
+    text-align: center;
 }
 .accordion .acc-btn.active .left-icon {
     color: #fff;
@@ -389,7 +389,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .accordion .left-icon span {
     position: relative;
-    top: 18px;  
+    top: 18px;
 }
 
 .accordion .acc-btn {
@@ -403,7 +403,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .accordion .acc-btn.active {
-  border-color: #ff5722;
+  border-color: #3cc88f;
   border-bottom: 0px;
 }
 
@@ -474,7 +474,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     position: absolute;
     top: 0;
     left: 0;
-    color: #ff5722;
+    color: #3cc88f;
     width: 100%;
 }
 .accordion-box .accordion .acc-btn .toggle-icon .minus{
@@ -489,7 +489,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .accordion-box .accordion .acc-content {
     color: #9c9c9c;
     background: #f7f7f7;
-    border: 1px solid #ff5722;
+    border: 1px solid #3cc88f;
     display: none;
     padding: 20px 20px;
     border-top: 0px;
@@ -522,12 +522,12 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .comment-form .form-box{
-  padding:25px 25px 0px 25px; 
+  padding:25px 25px 0px 25px;
 }
 
 .default-form .form-group{
   position:relative;
-  margin-bottom:30px; 
+  margin-bottom:30px;
 }
 
 .default-form .comment-form .form-box .form-group{
@@ -536,11 +536,11 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .default-form.form-box .row{
   margin-left:-10px;
-  margin-right:-10px; 
+  margin-right:-10px;
 }
 
 .default-form.form-box .row .form-group{
-  padding:0px 0px;  
+  padding:0px 0px;
 }
 
 .default-form .form-group .field-label{
@@ -605,11 +605,11 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   outline: none !important;
 }
 .default-form  .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-  background-color: #ff5722;
+  background-color: #3cc88f;
   color: #fff;
 }
 .default-form .form-control:focus {
-  border-color: #ff5722;
+  border-color: #3cc88f;
   box-shadow: none;
 }
 
@@ -620,14 +620,14 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   content: "\f107";
   font-family: FontAwesome;
   font-size: 16px;
-  color: #ff5722;
+  color: #3cc88f;
   width: 20px;
   right: 15px;
   top: 50%;
   margin-top: -11px;
 }
 
- 
+
 
 .default-form .bootstrap-select {
   background: none;
@@ -675,7 +675,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     color: #303030;
 }
 .default-form .dropdown-menu>li>a:hover {
-    background-color: #ff5722 !important;
+    background-color: #3cc88f !important;
     color: #fff !important;
 }
 
@@ -704,7 +704,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 .default-form .alert-success {
-    color: #ff5722;
+    color: #3cc88f;
     background: none;
     border: none;
     font-size: 18px;
@@ -712,7 +712,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 =============================================
     page_pagination style
 =============================================
@@ -739,7 +739,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .page_pagination li a.active,
 .page_pagination li a:hover {
   color:#fff;
-  background: #ff5722;
+  background: #3cc88f;
 }
 
 /*=======pagination style-2============*/
@@ -761,7 +761,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   transition: all 500ms ease;
 }
 .page_pagination2 .button a:hover{
-    color: #ff5722;
+    color: #3cc88f;
 }
 .page_pagination2 .button a i {
   display: inline-block;
@@ -783,11 +783,11 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   transition: all 500ms ease 0s;
 }
 .page_pagination2 .icon-holder a:hover i{
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 
-/*** 
+/***
 
 ====================================================================
   donate Popup
@@ -830,7 +830,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .donate-popup .close-donate:hover{
-  opacity:0.70; 
+  opacity:0.70;
 }
 
 
@@ -842,7 +842,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   margin-bottom: 100px;
   background: #f2f2f2;
   padding:57px;
-  border: 3px solid #ff5722;
+  border: 3px solid #3cc88f;
 }
 
 .donate-form-area .section-title:before {
@@ -907,7 +907,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .chicklet-list :checked+label {
-    background: #ff5722;
+    background: #3cc88f;
     color: #f7f7f7;
     text-shadow: none;
 }
@@ -957,16 +957,16 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 .video-image-box{
-  position:relative;  
+  position:relative;
 }
 
 .video-image-box .gallery_video {
-  position:relative;  
+  position:relative;
 }
 
 .video-image-box img{
   display:inline-block;
-  width:100%; 
+  width:100%;
 }
 
 .video-image-box .overlay-link{
@@ -985,7 +985,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -moz-transition:all 500ms ease;
   -webkit-transition:all 500ms ease;
   -ms-transition:all 500ms ease;
-  -o-transition:all 500ms ease; 
+  -o-transition:all 500ms ease;
 }
 
 
@@ -1038,7 +1038,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .top-bar .contact-info li span {
-  color: #ff5722;
+  color: #3cc88f;
   margin-right: 10px;
   font-size: 16px;
 }
@@ -1074,8 +1074,8 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 
-#polyglotLanguageSwitcher a.current:link, 
-#polyglotLanguageSwitcher a.current:visited, 
+#polyglotLanguageSwitcher a.current:link,
+#polyglotLanguageSwitcher a.current:visited,
 #polyglotLanguageSwitcher a.current:active {
     position: relative;
     background-color: transparent;
@@ -1101,7 +1101,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 /* Flags */
 
-#en,#fr,#de,#it,#es { 
+#en,#fr,#de,#it,#es {
   background-image: none;
 }
 
@@ -1175,7 +1175,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .defaultmainmenu-menu > li:hover > a {
-    color: #ff5722;
+    color: #3cc88f;
 }
 .defaultmainmenu-menu > li:first-child a {
     padding-left: 0px;
@@ -1203,7 +1203,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .defaultmainmenu-menu ul.dropdown li:hover > a {
     padding-left: 0px;
     padding-right: 0px;
-    color: #ff5722;
+    color: #3cc88f;
     transition: .5s ease-in-out;
 }
 
@@ -1221,17 +1221,17 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     -ms-transition: .5s ease;
     -o-transition: .5s ease;
     transition: .5s ease;
-    
+
 }
 
 .defaultmainmenu-menu ul.dropdown li:hover a:before {
-  color: #ff5722;
+  color: #3cc88f;
   -webkit-transition: .5s ease;
   -moz-transition: .5s ease;
   -ms-transition: .5s ease;
   -o-transition: .5s ease;
   transition: .5s ease;
-  
+
 }
 
 
@@ -1273,7 +1273,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .defaultmainmenu-menu ul.megamenu-dropdown li a:hover {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
 }
 
@@ -1329,12 +1329,12 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .event-section2 .item .lower-content h4 a:hover{
-  color:#ff5722;
+  color:#3cc88f;
   transition: all 300ms ease;
 }
 
 .event-section2 .item .lower-content .post-meta{
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 15px;
   margin-bottom: 7px;
   font-family: 'Roboto-light';
@@ -1354,7 +1354,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .event-section2 .item .lower-content .default_link:hover {
   transition: .5s ease;
-  color: #ff5722;
+  color: #3cc88f;
 }
 .event-section2 .item .lower-content .default_link i {
   font-size: 11px;
@@ -1385,7 +1385,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   position: absolute;
   left: 0;
   top: 0;
-  width: 70px; 
+  width: 70px;
   height: 70px;
 }
 
@@ -1399,13 +1399,13 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .megamenu h5:hover {
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 .megamenu .post-info {
   color: #999;
   font-size: 16px;
-  font-family: 'Roboto-light';  
+  font-family: 'Roboto-light';
 }
 .megamenu .post-info i {
   font-family: FontAwesome;
@@ -1451,7 +1451,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     margin: 0;
     left: auto;
     right: 10px;
-    border-color: #ff5722;
+    border-color: #3cc88f;
     top: 60px;
 }
 .nav_side_content .search_option form input {
@@ -1474,7 +1474,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   position: absolute;
   top: 4px;
   right:5px;
-  color: #ff5722;
+  color: #3cc88f;
 }
 .nav_side_content .cart_select {
   border-left: 1px solid #ececec;
@@ -1490,7 +1490,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 
-/*** 
+/***
 =============================================
     Rev Slider Wrapper style
 =============================================
@@ -1501,7 +1501,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .rev_slider_wrapper .slide-content-box h3 {
-  color: #ff5722;
+  color: #3cc88f;
   font-weight: 700;
 }
 
@@ -1527,10 +1527,10 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 .rev_slider_wrapper .slide-content-box.last-slide p{
-  margin: 0;    
+  margin: 0;
 }
 .rev_slider_wrapper .slide-content-box.last-slide a{
-  margin: 0 8px;    
+  margin: 0 8px;
 }
 
 .rev_slider_wrapper .slotholder {
@@ -1551,7 +1551,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .tp-bannertimer {
   display: none;
-  
+
 }
 
 .rev_slider_wrapper .tparrows {
@@ -1578,7 +1578,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 
-/*** 
+/***
 
 ====================================================================
     urgent-cause style
@@ -1661,7 +1661,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   font-size: 16px;
 }
 .urgent-cause2 .content .donate span {
-  color: #ff5722;
+  color: #3cc88f;
 }
 .urgent-cause2 .content p {
   margin-bottom: 30px;
@@ -1758,7 +1758,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -ms-transition:all 1500ms ease;
   -o-transition:all 1500ms ease;
   -moz-transition:all 1500ms ease;
-  transition:all 1500ms ease; 
+  transition:all 1500ms ease;
 }
 
 .urgent-cause2 .progress-box .count-text{
@@ -1772,7 +1772,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   border-radius: 5px;
   height: 46px;
   background-image: url(../images/icons/progress-count.png);
-  color: #ff5722;
+  color: #3cc88f;
   background-repeat: no-repeat;
   line-height: 42px;
   font-size: 16px;
@@ -1841,7 +1841,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 
 ====================================================================
     urgent-cause style one
@@ -2010,7 +2010,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -ms-transition:all 1500ms ease;
   -o-transition:all 1500ms ease;
   -moz-transition:all 1500ms ease;
-  transition:all 1500ms ease; 
+  transition:all 1500ms ease;
 }
 
 .urgent-cause .progress-box .count-text{
@@ -2032,11 +2032,11 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -ms-transition:all 1000ms ease;
   -o-transition:all 1000ms ease;
   -moz-transition:all 1000ms ease;
-  transition:all 1000ms ease; 
+  transition:all 1000ms ease;
 }
 
 .urgent-cause .progress-box .bar-inner.counted .count-text{
-  opacity:1;  
+  opacity:1;
 }
 
 .urgent-cause .progress-box .count-text:after{
@@ -2046,7 +2046,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   margin-left:-4px;
   top:100%;
   border:4px solid transparent;
-  border-top:5px solid #8dc63f; 
+  border-top:5px solid #8dc63f;
 }
 
 .cause-list-bg {
@@ -2115,7 +2115,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .single-cause .list li i {
   padding-right: 10px;
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 .single-cause .donator .img-box {
@@ -2201,8 +2201,8 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .single-cause .share .social a:hover {
   color: #ffffff;
-  background: #ff5722;
-  border-color: #ff5722;
+  background: #3cc88f;
+  border-color: #3cc88f;
 }
 
 
@@ -2221,7 +2221,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 
 ====================================================================
   Fact Counter two Section
@@ -2272,7 +2272,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   position:relative;
   margin-bottom:40px;
   text-align:center;
-  z-index:5;  
+  z-index:5;
 }
 .fact-counter-1 .item {
   position: relative;
@@ -2285,7 +2285,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   position: relative;
   right: 5px;
   margin-bottom: 5px;
-  color: #ff5722;
+  color: #3cc88f;
   transition:all 500ms ease;
   -moz-transition:all 500ms ease;
   -webkit-transition:all 500ms ease;
@@ -2370,7 +2370,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   float: left;
   text-align: center;
   margin-bottom: 5px;
-  color: #ff5722;
+  color: #3cc88f;
   transition:all 500ms ease;
   -moz-transition:all 500ms ease;
   -webkit-transition:all 500ms ease;
@@ -2426,7 +2426,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 
 ====================================================================
     about style
@@ -2462,7 +2462,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .about .content ul {
-  padding-top: 5px; 
+  padding-top: 5px;
 }
 .about .content ul li {
   margin: 10px 0;
@@ -2471,13 +2471,13 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .about .content ul li i {
-  color: #ff5722;
+  color: #3cc88f;
   margin-right: 10px;
   font-size: 14px;
 }
 
 
-/*** 
+/***
 
 ====================================================================
     about-2 style
@@ -2501,7 +2501,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   position: relative;
   font-size: 50px;
   line-height: 50px;
-  color: #ff5722;
+  color: #3cc88f;
   margin-right: 20px;
   padding-right: 15px;
   border-right: 1px solid #f4f4f4;
@@ -2522,7 +2522,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .about-2 .text p {
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 
@@ -2530,7 +2530,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 
 ====================================================================
     why-chooseus style
@@ -2546,7 +2546,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   transition: .5s ease;
 }
 .why-chooseus .item:hover {
-  border-color: #ff5722;
+  border-color: #3cc88f;
   transition: .5s ease;
 }
 .why-chooseus .inner-box {
@@ -2554,7 +2554,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .why-chooseus .inner-box .icon_box {
   position: relative;
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 50px;
 }
 
@@ -2566,7 +2566,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   transition: .5s ease;
 }
 .why-chooseus .item:hover h4 {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
 }
 
@@ -2579,7 +2579,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 
 ====================================================================
     gallery style
@@ -2681,7 +2681,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .gallery .bottom-content p {
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 
@@ -2702,7 +2702,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   margin-right: 30px;
 }
 .post-filter li.active {
-  border-bottom: 2px solid #ff5722;
+  border-bottom: 2px solid #3cc88f;
 }
 
 .post-filter li span {
@@ -2718,7 +2718,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .post-filter li:hover span,
 .post-filter li.active span {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
 }
 
@@ -2770,7 +2770,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .single-gallery .share-project .social-share ul li a:hover {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
 }
 
@@ -2796,7 +2796,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .single-gallery .project-info-list li .icon-holder i {
   font-size: 14px;
-  color: #ff5722;
+  color: #3cc88f;
 }
 .single-gallery .project-info-list li .text-holder {}
 .single-gallery .project-info-list li .text-holder h5 {
@@ -2807,14 +2807,14 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   margin: 0 0 3px;
 }
 .single-gallery .project-info-list li .text-holder p {
-  margin: 0;  
+  margin: 0;
 }
 
 
 
 
 
-/*** 
+/***
 
 ====================================================================
     call-out style
@@ -2824,7 +2824,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 .call-out {
-  background: #ff5722;
+  background: #3cc88f;
   padding: 5px 0 25px;
 }
 .call-out .logo {
@@ -2842,7 +2842,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 
 ====================================================================
     Event style
@@ -2884,7 +2884,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   position: absolute;
   left: 0;
   top: 20px;
-  background: #ff5722;
+  background: #3cc88f;
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
@@ -2925,7 +2925,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .event-section .item .lower-content h4 a:hover{
-  color:#ff5722;
+  color:#3cc88f;
   transition: all 300ms ease;
 }
 
@@ -2937,7 +2937,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .event-section .item .lower-content .post-meta i {
   margin-right: 5px;
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 .event-section .item .lower-content .default_link {
@@ -2948,7 +2948,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .event-section .item .lower-content .default_link:hover {
   transition: .5s ease;
-  color: #ff5722;
+  color: #3cc88f;
 }
 .event-section .item .lower-content .default_link i {
   font-size: 11px;
@@ -3005,7 +3005,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     vertical-align: middle;
 }
 .event-section .item .img-holder .overlay .box .content a i {
-    background: #ff5722;
+    background: #3cc88f;
     border-radius: 50%;
     color: #ffffff;
     display: inline-block;
@@ -3017,7 +3017,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .event-section .item .img-holder .overlay .box .content a:hover i {
-    background: #ff5722;
+    background: #3cc88f;
 }
 
 
@@ -3048,7 +3048,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .event-section .owl-theme .owl-nav [class*=owl-]:hover {
-    color: #ff5722;
+    color: #3cc88f;
     transition: .5s ease;
 }
 
@@ -3071,13 +3071,13 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   width: 70px;
   font-size: 18px;
   border-radius: 50%;
-  border: 2px solid #ff5722;
+  border: 2px solid #3cc88f;
   background: #ffffff;
   font-weight: 700;
   font-family: 'Roboto Slab', serif;
   line-height: 14px;
   padding-top: 13px;
-  color: #ff5722;
+  color: #3cc88f;
   text-align: center;
 }
 
@@ -3199,7 +3199,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 
 ====================================================================
     Testimonials Section style
@@ -3275,7 +3275,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 .testimonials-section .author h4 span {
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
@@ -3309,13 +3309,13 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .testimonials-section .owl-dots .owl-dot.active span,
 .testimonials-section .owl-dots .owl-dot:hover span {
-    background-color: #ff5722;
-    border-color: #ff5722;
+    background-color: #3cc88f;
+    border-color: #3cc88f;
     -webkit-transition: .5s ease;
     transition: .5s ease;
 }
 
-/*** 
+/***
 
 ====================================================================
   testimonial-two
@@ -3375,7 +3375,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .testimonial-two .single-testimonial p a {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
 }
 
@@ -3396,7 +3396,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 
 ====================================================================
   default-blog
@@ -3430,7 +3430,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .default-blog-news .lower-content .category {
   color: #fff;
-  background: #ff5722;
+  background: #3cc88f;
   font-size: 14px;
   font-weight: 700;
   display: inline-block;
@@ -3460,7 +3460,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .default-blog-news .lower-content h4 a:hover{
-  color:#ff5722;
+  color:#3cc88f;
   transition: all 300ms ease;
 }
 
@@ -3507,7 +3507,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     bottom: 0%;
     opacity: 1;
     filter: alpha(opacity=100);
-}   
+}
 .default-blog-news .lower-content {
   position:relative;
   margin-top: -56px;
@@ -3528,7 +3528,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -ms-transition: .7s ease;
   -o-transition: .7s ease;
   transition: .7s ease;
-  
+
 }
 
 .default-blog-news .overlay .bottom-box {
@@ -3546,7 +3546,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .default-blog-news .overlay .category {
   color: #fff;
-  background: #ff5722;
+  background: #3cc88f;
   font-size: 14px;
   font-weight: 700;
   display: inline-block;
@@ -3572,7 +3572,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .default-blog-news .overlay h4 a:hover{
-  color:#ff5722;
+  color:#3cc88f;
   transition: all 300ms ease;
 }
 
@@ -3604,7 +3604,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .classic-blog-news .lower-content .category {
   color: #fff;
-  background: #ff5722;
+  background: #3cc88f;
   font-size: 14px;
   font-weight: 700;
   display: inline-block;
@@ -3634,7 +3634,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .classic-blog-news .lower-content h4 a:hover{
-  color:#ff5722;
+  color:#3cc88f;
   transition: all 300ms ease;
 }
 
@@ -3681,7 +3681,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -ms-transition: .5s eass;
   -o-transition: .5s eass;
   transition: .5s eass;
-  
+
 }
 
 .classic-blog-news:hover .img-holder a:before {
@@ -3691,7 +3691,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -ms-transition: .5s ease;
   -o-transition: .5s ease;
   transition: .5s ease;
-  
+
 }
 
 
@@ -3721,7 +3721,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   bottom: 0%;
   opacity: 1;
   filter: alpha(opacity=100);
-}   
+}
 .classic-blog-news .lower-content {
   position:relative;
   margin-top: -52px;
@@ -3731,7 +3731,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -moz-transition: .7s ease;
   -ms-transition: .7s ease;
   -o-transition: .7s ease;
-  transition: .7s ease; 
+  transition: .7s ease;
 }
 
 .blog-section .post-area {
@@ -3784,7 +3784,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   height:100%;
   position: absolute;
   top:0;
-  background: #ff5722;
+  background: #3cc88f;
   right:0;
   color:#fff;
 }
@@ -3829,7 +3829,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     top: 1px;
 }
 .blog-sidebar .category-style-one ul li a:hover {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
 }
 
@@ -3863,7 +3863,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .blog-sidebar .popular-post .item .post-thumb img{
     width:100%;
-    display:block;  
+    display:block;
 }
 
 
@@ -3902,7 +3902,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .blog-sidebar .popular-post .item h4:hover{
-  color: #ff5722;
+  color: #3cc88f;
   -webkit-transition: .5s ease;
   transition: .5s ease;
 }
@@ -3920,7 +3920,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .blog-sidebar .popular-post .item .post-info i {
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 14px;
   margin-right: 6px;
   top: -1px;
@@ -3962,7 +3962,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .blog-sidebar .event-section2 .owl-theme .owl-nav [class*=owl-]:hover {
-    color: #ff5722;
+    color: #3cc88f;
     transition: .5s ease;
 }
 
@@ -4101,7 +4101,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   font-size: 18px;
 }
 .blog-single-post .author-comment p.a-title {
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 16px;
 }
 
@@ -4121,7 +4121,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   color: #3F3E3E;
 }
 .share-box .tag-box a {
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 15px;
   transition: .3s ease;
   line-height: 30px;
@@ -4129,7 +4129,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   font-family: 'Roboto', sans-serif;
 }
 .share-box .tag-box a:hover {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .3s ease;
 }
 .share-box .social-box span {
@@ -4162,8 +4162,8 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .share-box .social a:hover {
   color: #ffffff;
-  background: #ff5722;
-  border-color: #ff5722;
+  background: #3cc88f;
+  border-color: #3cc88f;
 }
 .share-box .tag-box li {
   margin: 0;
@@ -4199,7 +4199,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .post-author .inner-box .author-thumb img{
   display:block;
-  width:100%; 
+  width:100%;
 }
 
 .post-author h4{
@@ -4221,7 +4221,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   transition: .5s ease;
 }
 .post-author ul li a:hover {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
 }
 
@@ -4258,7 +4258,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   margin-right: 3px;
 }
 .single-comment .rating i {
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 14px;
 }
 
@@ -4307,7 +4307,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .feedback .rating.active li i,
 .feedback .rating:hover i {
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 
@@ -4315,7 +4315,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 
 ====================================================================
   clients-section
@@ -4332,7 +4332,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   padding-top: 40px;
 }
 
-/*** 
+/***
 
 ====================================================================
   Main Footer
@@ -4348,13 +4348,13 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .main-footer .about-column .default_link {
   text-transform: uppercase;
-  color: #ff5722;
+  color: #3cc88f;
   font-weight: 700;
   transition: .5s ease;
 }
 .main-footer .about-column .default_link:hover {
   transition: .5s ease;
-  color: #ff5722;
+  color: #3cc88f;
 }
 .main-footer .about-column .default_link i {
   font-size: 11px;
@@ -4402,7 +4402,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .about-column li span {
   font-size: 18px;
-  color: #ff5722;
+  color: #3cc88f;
   position: absolute;
   left: 0;
   top: 6px;
@@ -4427,7 +4427,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 .main-footer .link-column li a:hover{
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 .main-footer .link-column li a:before {
@@ -4440,10 +4440,10 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     transform: rotate(-90deg);
     -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
-} 
+}
 
 .main-footer .link-column li a:hover:before{
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease-in-out;
 }
 
@@ -4459,7 +4459,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     transition: .5s ease-in-out;
 }
 .main-footer .link-column li a:hover:after {
-  background-color: #ff5722;
+  background-color: #3cc88f;
   transition: .5s ease;
 }
 
@@ -4480,7 +4480,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   position: absolute;
   left: 0;
   top: 0;
-  width: 70px; 
+  width: 70px;
   height: 70px;
 }
 
@@ -4525,7 +4525,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .main-footer .contact-column .contact-info li i {
   font-size: 18px;
-  color: #ff5722;
+  color: #3cc88f;
   position: absolute;
   left: 0;
   top: 6px;
@@ -4552,12 +4552,12 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   font-size: 14px;
 }
 .footer-bottom .copy-text a {
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 14px;
 }
 
 .footer-bottom a {
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 16px;
   transition: .3s ease;
 }
@@ -4567,8 +4567,8 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/************************** 
-* Inner Banner styles 
+/**************************
+* Inner Banner styles
 ***************************/
 .inner-banner {
   margin-top: -102px;
@@ -4608,7 +4608,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ff5722;
+  color: #3cc88f;
 }
 .breadcumb-wrapper ul.link-list li a {
   color: #303030;
@@ -4634,12 +4634,12 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .breadcumb-wrapper a.get-qoute {
   text-transform: uppercase;
   font-weight: 700;
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 14px;
 }
 .breadcumb-wrapper a.get-qoute i {
   margin-left: 7px;
-  color: #ff5722;
+  color: #3cc88f;
   margin-right: 7px;
   font-size: 14px;
 }
@@ -4650,7 +4650,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 /***
 ==============================
    Team Member styles
-============================== 
+==============================
 ***/
 
 
@@ -4708,7 +4708,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   transition: .7s ease;
 }
 
-    
+
 .team-style-1 .single-team-member .img-box .overlay {
   position: absolute;
   left: 0;
@@ -4765,7 +4765,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .team-style-1 .single-team-member .img-box .overlay ul li a:hover {
   transition: .5s ease;
   color: #fff;
-  background-color: #ff5722;
+  background-color: #3cc88f;
 }
 
 
@@ -4788,7 +4788,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .team-style-1 .single-team-member p {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
   margin-bottom: 8px;
 }
@@ -4804,7 +4804,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .team-style-1 .single-team-member .author-info ul li i {
   font-size: 14px;
   margin-right: 10px;
-  color: #ff5722;
+  color: #3cc88f;
   border-radius: 1px;
   height: 15px;
   width: 15px;
@@ -4816,7 +4816,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 /***
 ==============================
    Team-style-2
-============================== 
+==============================
 ***/
 
 .team-style-2 {
@@ -4836,7 +4836,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -ms-transition: .7s ease;
   -o-transition: .7s ease;
   transition: .7s ease;
-  
+
 }
 
 
@@ -4852,7 +4852,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .team-style-2 .author p {
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 .team-style-2 .social-icon li a {
@@ -4867,8 +4867,8 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .team-style-2 .social-icon li a:hover {
   color: #fff;
-  background: #ff5722;
-  border-color: #ff5722;
+  background: #3cc88f;
+  border-color: #3cc88f;
 }
 
 /*===== team style-3 ===========*/
@@ -4916,7 +4916,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   display: inline-block;
 }
 
-    
+
 .team-style-3 .single-team-member .img-box .overlay {
   position: absolute;
   left: 15px;
@@ -4972,7 +4972,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   transition: .5s ease;
 }
 .team-style-3 .single-team-member .img-box .overlay ul li a:hover {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
 }
 
@@ -4996,7 +4996,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .team-style-3 .single-team-member p {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
   margin-bottom: 8px;
 }
@@ -5012,7 +5012,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .team-style-3 .single-team-member .author-info ul li i {
   font-size: 14px;
   margin-right: 10px;
-  color: #ff5722;
+  color: #3cc88f;
   border-radius: 1px;
   height: 15px;
   width: 15px;
@@ -5028,7 +5028,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 /***
 ==============================
    faq-section styles
-============================== 
+==============================
 ***/
 
 .faq-section {
@@ -5041,7 +5041,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     margin-bottom: 50px;
 }
 
-.faq-section .accordion-box .accordion .acc-content { 
+.faq-section .accordion-box .accordion .acc-content {
   padding: 17px 20px;
 }
 
@@ -5083,7 +5083,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .faq-section .category-style-one ul li a:hover {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
 }
 
@@ -5096,7 +5096,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 /***
 ==============================
    faq-section2 styles
-============================== 
+==============================
 ***/
 
 .faq-section2 .accordion-box {
@@ -5107,7 +5107,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   line-height: 40px;
 }
 
-.faq-section2 .accordion-box .accordion .acc-content { 
+.faq-section2 .accordion-box .accordion .acc-content {
   padding: 12px 20px;
 }
 
@@ -5155,7 +5155,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 /***
 ==============================
    volunteer styles
-============================== 
+==============================
 ***/
 
 .volunteer {
@@ -5195,7 +5195,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   top: 10px;
   height: 5px;
   width: 5px;
-  background: #ff5722;
+  background: #3cc88f;
   transform: rotate(-45deg)
 }
 
@@ -5209,7 +5209,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 /***
 ==============================
    Contact styles
-============================== 
+==============================
 ***/
 
 
@@ -5236,11 +5236,11 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   padding-bottom: 15px;
 }
 .contact .contact-info li span {
-  color: #ff5722;
+  color: #3cc88f;
 }
 .contact .contact-info li i {
   font-size: 18px;
-  color: #ff5722;
+  color: #3cc88f;
   position: absolute;
   left: 0;
   top: 6px;
@@ -5261,7 +5261,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 
-/*** 
+/***
 
 ====================================================================
   google map Section
@@ -5294,8 +5294,8 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   padding: 5px;
 }
 #ui-datepicker-div.ui-datepicker .ui-datepicker-header {
-  background: #ff5722 none repeat scroll 0 0;
-  border: 2px solid #ff5722;
+  background: #3cc88f none repeat scroll 0 0;
+  border: 2px solid #3cc88f;
   border-radius: 0;
   color: #fff;
   font-weight: 700;
@@ -5305,7 +5305,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .ui-datepicker .ui-datepicker-prev {
   left: 5px;
 }
-.ui-datepicker .ui-datepicker-prev, 
+.ui-datepicker .ui-datepicker-prev,
 .ui-datepicker .ui-datepicker-next {
   border-radius: 30%;
   height: 20px;
@@ -5318,7 +5318,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .ui-datepicker .ui-datepicker-next {
   right: 5px;
 }
-.ui-datepicker .ui-datepicker-prev:hover, 
+.ui-datepicker .ui-datepicker-prev:hover,
 .ui-datepicker .ui-datepicker-next:hover {
   top: 7px;
   background: #fff;
@@ -5355,9 +5355,9 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .ui-datepicker-calendar .ui-state-default:hover,
 .ui-datepicker-calendar .ui-state-default:active{
-  background: #ff5722;
+  background: #3cc88f;
   color: #fff;
-  border-color: #ff5722;
+  border-color: #3cc88f;
 }
 
 .default-form.style-5 .form-group i {
@@ -5413,10 +5413,10 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 .event-filter .tab-buttons li.active-btn:after {
-  background: #ff5722;
+  background: #3cc88f;
 }
 .event-filter .tab-buttons li.active-btn:before {
-  border-color: #ff5722;
+  border-color: #3cc88f;
 }
 
 
@@ -5483,7 +5483,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   border: 1px solid #f4f4f4;
   padding: 30px 30px 10px;
   margin-bottom: 60px;
-} 
+}
 
 .single-event .event-timeline li {
   padding-bottom: 14px;
@@ -5497,7 +5497,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   margin-bottom: 0px;
 }
 .single-event .event-timeline li i {
-  color: #ff5722;
+  color: #3cc88f;
   margin-right: 10px;
 }
 .single-event .event-timeline li b {
@@ -5514,7 +5514,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .single-event .list2 li i {
   padding-right: 10px;
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 .single-event .donator .caption {
@@ -5526,7 +5526,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   font-size: 16px;
 }
 .single-event .donator .caption p {
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 
@@ -5546,7 +5546,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   color: #3F3E3E;
 }
 .single-event .share .tag-box a {
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 15px;
   transition: .3s ease;
   line-height: 30px;
@@ -5554,7 +5554,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   font-family: 'Roboto', sans-serif;
 }
 .single-event .share .tag-box a:hover {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .3s ease;
 }
 
@@ -5588,8 +5588,8 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .single-event .share .social a:hover {
   color: #ffffff;
-  background: #ff5722;
-  border-color: #ff5722;
+  background: #3cc88f;
+  border-color: #3cc88f;
 }
 
 
@@ -5623,7 +5623,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   right: 0;
   top: 0;
   padding: 35px;
-  background: #ff5722;
+  background: #3cc88f;
 }
 .countdown-timer .link:before {
   position: absolute;
@@ -5631,7 +5631,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   width: 100px;
   height: 171px;
   bottom: -37px;
-  background: #ff5722;
+  background: #3cc88f;
   left: -70px;
   transform: rotate(27deg);
 }
@@ -5715,10 +5715,10 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 .event-tab .tab-buttons li.active-btn:after {
-  background: #ff5722;
+  background: #3cc88f;
 }
 .event-tab .tab-buttons li.active-btn:before {
-  border-color: #ff5722;
+  border-color: #3cc88f;
 }
 
 
@@ -5726,8 +5726,8 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/************************** 
-* Cart Page styles 
+/**************************
+* Cart Page styles
 ***************************/
 .cart-section {
   position: relative;
@@ -5837,7 +5837,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .cart-table tbody tr .sub-total {
   font-weight: 400;
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 .cart-table tbody tr .remove-btn {
@@ -5858,7 +5858,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .cart-table tbody tr .remove-btn:hover {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
 }
 .cart-table tbody tr .remove-btn span:before {
@@ -5901,7 +5901,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   text-align: center;
   font-size: 18px;
   color: #fff;
-  background: #ff5722;
+  background: #3cc88f;
   border-radius: 50%;
 }
 
@@ -5920,7 +5920,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   font-size: 10px;
 }
 .cart-section .cart-table .bootstrap-touchspin .input-group-btn-vertical i:hover {
-  color: #ff5722;
+  color: #3cc88f;
 }
 .cart-table tbody tr .qty .quantity-spinner {
   background: #fff;
@@ -6028,16 +6028,16 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .cart-section .estimate-form .select-box .dropdown-menu > li > a {
   padding: 8px 15px;
-  color: #ff5722;
+  color: #3cc88f;
   transition: all .3s ease;
 }
 .cart-section .estimate-form .select-box .bootstrap-select.btn-group .dropdown-menu li a:hover span.text {
-  color: #ff5722;
+  color: #3cc88f;
   transition: all .3s ease;
 }
 .cart-section .estimate-form .select-box .bootstrap-select.btn-group .dropdown-menu li a span.text {
   font-size: 13px;
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 
@@ -6118,7 +6118,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .cart-section .thm-btn.update-cart:hover {
-  background: #ff5722;
+  background: #3cc88f;
   color: #fff;
 }
 
@@ -6138,7 +6138,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 =============================================
     Checkout Area style
 =============================================
@@ -6165,7 +6165,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   left: 0;
   width: 2px;
   height: 100%;
-  background: #ff5722;
+  background: #3cc88f;
   content: "";
 }
 .checkout-area .exisitng-customer h5{
@@ -6174,7 +6174,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   font-weight: 300;
 }
 .checkout-area .exisitng-customer h5 a{
-  color: #ff5722;
+  color: #3cc88f;
   display: inline-block;
   padding-left: 15px;
 }
@@ -6183,7 +6183,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   border: 1px solid #f7f7f7;
   display: block;
   padding: 20px 28px 21px;
-  position: relative; 
+  position: relative;
   margin-bottom: 60px;
 }
 .checkout-area .coupon:before {
@@ -6192,16 +6192,16 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   left: 0;
   width: 2px;
   height: 100%;
-  background: #ff5722;
+  background: #3cc88f;
   content: "";
 }
 .checkout-area .coupon h5 {
   color: #252525;
   font-size: 16px;
-  font-weight: 300;  
+  font-weight: 300;
 }
 .checkout-area .coupon h5 a {
-  color: #ff5722;
+  color: #3cc88f;
   display: inline-block;
   padding-left: 15px;
 }
@@ -6231,13 +6231,13 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -o-transition: all 500ms ease;
 }
 .checkout-area .form form .field-input input[type="text"]:focus{
-  border: 2px solid #ff5722;
+  border: 2px solid #3cc88f;
 }
 .checkout-area .create-acc .checkbox {
   margin: 7px 0 0;
 }
 .checkout-area .create-acc .checkbox label {
-  color: #ff5722;
+  color: #3cc88f;
   font-weight: 300;
   font-size: 16px;
 }
@@ -6270,7 +6270,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -o-transition: all 500ms ease;
 }
 .checkout-area .form form .field-input textarea:focus{
-  border-color: #ff5722;
+  border-color: #3cc88f;
 }
 
 .checkout-area .bottom {
@@ -6331,7 +6331,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   display: block;
   max-width: 100%;
 }
-.checkout-area .table .cart-table tbody tr .product-column .column-box .prod-thumb, 
+.checkout-area .table .cart-table tbody tr .product-column .column-box .prod-thumb,
 .checkout-area .table .cart-table tbody tr .product-column .column-box .product-title{
   display: table-cell;
   vertical-align: middle;
@@ -6372,8 +6372,8 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   border-radius: 0
 }
 .checkout-area .table .cart-table tbody tr .qty .btn-default {
-  background-color: #ff5722;
-  border-color: #ff5722;
+  background-color: #3cc88f;
+  border-color: #3cc88f;
   color: #fff;
   display: none;
 }
@@ -6382,7 +6382,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   margin-top: -2px;
 }
 .checkout-area .table .cart-table tbody tr td.price {
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 16px;
   font-weight: 300;
 }
@@ -6426,7 +6426,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   width: 50%;
 }
 .cart-total-table li span.col b {
-  color: #ff5722;
+  color: #3cc88f;
   font-weight: 300;
   text-decoration: underline;
 }
@@ -6461,7 +6461,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   font-size: 16px;
 }
 .cart-total .payment-options .option-block .checkbox label span b {
-  color: #ff5722;
+  color: #3cc88f;
   display: inline-block;
   font-size: 16px;
   font-weight: 300;
@@ -6485,7 +6485,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 =============================================
      shop style
 =============================================
@@ -6508,7 +6508,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -ms-transition: .5s ease;
   -o-transition: .5s ease;
   transition: .5s ease;
-  
+
 }
 .shop .column:hover {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -6517,7 +6517,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   -ms-transition: .5s ease;
   -o-transition: .5s ease;
   transition: .5s ease;
-  
+
 }
 
 
@@ -6621,7 +6621,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   transition: .7s ease;
 }
 .single-shop-item .content-box a.cart-btn:hover {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .7s ease;
 }
 .single-shop-item .content-box a.cart-btn:before {
@@ -6636,7 +6636,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     transition: .5s ease-in-out;
 }
 .single-shop-item .content-box a.cart-btn:hover:before {
-  background-color: #ff5722;
+  background-color: #3cc88f;
 }
 .single-shop-item .content-box a.cart-btn i {
   margin-right: 6px;
@@ -6674,7 +6674,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .single-shop-item .content-box .rating{
   font-size: 13px;
-  color: #ff5722;
+  color: #3cc88f;
   right: 0;
   top: 18px;
   position: absolute;
@@ -6683,7 +6683,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .single-shop-item .content-box .item-price{
   font-size: 16px;
   font-weight: 400;
-  color: #ff5722;
+  color: #3cc88f;
   line-height:24px;
 }
 .single-shop-item .content-box .item-price del{
@@ -6723,7 +6723,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   height:100%;
   position: absolute;
   top:0;
-  background: #ff5722;
+  background: #3cc88f;
   right:0;
   color:#fff;
 }
@@ -6762,7 +6762,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     content: "\f00c";
 }
 .sidebar_categories ul li a:hover {
-  color: #ff5722;
+  color: #3cc88f;
 }
 .recent_news_sidebar .theme_title {
   margin-bottom: 40px;
@@ -6772,7 +6772,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .recent_news_sidebar .single_news_sidebar {
   margin-bottom: 29px;
-} 
+}
 .recent_news_sidebar .img_holder img {
   width:75px;
   height:75px;
@@ -6866,7 +6866,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   padding-right: 20px;
 }
 .sidebar_tags ul li a:hover {
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 
@@ -6883,7 +6883,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   border: 2px solid #303030;
   margin-left: -4px;
   outline: none;
-  background: #ff5722;
+  background: #3cc88f;
 }
 .single-sidebar.price-ranger .ui-slider .ui-slider-range {
   background: #252525;
@@ -6912,9 +6912,9 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   margin-right: 37px;
   color: #ffffff;
   font-weight: 700;
-  background: #ff5722;
+  background: #3cc88f;
   text-transform: uppercase;
-  border: 2px solid #ff5722;
+  border: 2px solid #3cc88f;
 }
 .single-sidebar.price-ranger .ranger-min-max-block input[type='text'] {
   border: none;
@@ -6953,12 +6953,12 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   margin-right:3px;
   font-size: 12px;
   margin-top: 10px;
-  color: #ff5722;
+  color: #3cc88f;
 }
 .best_sellers .best_selling_item .text span {
   display: block;
   margin-top: 10px;
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 16px;
   font-weight: 400;
   font-family: 'Roboto';
@@ -6979,7 +6979,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 =============================================
    Shop Single area  style
 =============================================
@@ -7060,7 +7060,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   margin-left: 10px;
 }
 .product-content-box .content-box .review-box {
-  margin: 0 0 10px;  
+  margin: 0 0 10px;
 }
 .product-content-box .content-box .review-box ul li {
   display: inline-block;
@@ -7071,12 +7071,12 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   padding-right: 1px;
 }
 .product-content-box .content-box .review-box ul li i {
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 14px;
 }
 
 .product-content-box .content-box span.price {
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 22px;
 }
 .product-content-box .content-box .text {
@@ -7102,7 +7102,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   transition: all 500ms ease;
 }
 .product-content-box .content-box .location-box form input:focus{
-  border-color: #ff5722;
+  border-color: #3cc88f;
 }
 .product-content-box .content-box .location-box form button {
   background: #f7f7f7 none repeat scroll 0 0;
@@ -7122,16 +7122,16 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   transition: all 500ms ease;
 }
 .product-content-box .content-box .location-box form button:hover{
-  background: #ff5722;
+  background: #3cc88f;
   color: #fff;
 }
 .product-content-box .content-box .location-box form span {
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 
 .product-content-box .content-box .addto-cart-box {
-  
+
 }
 .product-content-box .content-box .addto-cart-box .input-group.bootstrap-touchspin {
     float: left;
@@ -7219,13 +7219,13 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   transition: all 500ms ease;
 }
 .product-tab-box .tab-menu li.active a, .product-tab-box .tab-menu li:hover a{
-  background: #ff5722;
+  background: #3cc88f;
   color: #fff;
-  border-color: #ff5722;
+  border-color: #3cc88f;
 }
 
 .product-tab-box .tab-content {
-  
+
 }
 .single-review-box {
   margin-bottom: 10px;
@@ -7258,7 +7258,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   margin-right: 3px;
 }
 .single-review-box .text-holder .top .review-box ul li i {
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 14px;
 }
 .single-review-box .text-holder .top .review-date {
@@ -7340,7 +7340,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .review-form .add-rating-box ul li.active a i,
 .review-form .add-rating-box ul li a:hover i{
-  color: #ff5722;
+  color: #3cc88f;
 }
 
 .review-form form input[type="text"], .product-tab-box .tab-content .review-form form textarea {
@@ -7363,10 +7363,10 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   opacity: 1;
 }
 .review-form form input[type="text"]:focus{
-  border-color: #ff5722;
+  border-color: #3cc88f;
 }
 .review-form form textarea:focus{
-  border-color: #ff5722;
+  border-color: #3cc88f;
 }
 
 .related-product {
@@ -7394,7 +7394,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 
 
-/*** 
+/***
 
 ====================================================================
   Login / Register Section
@@ -7411,21 +7411,21 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .register-section .sec-title{
-  margin-bottom:30px; 
+  margin-bottom:30px;
 }
 
 .register-section .sec-title h2{
   font-size:28px;
   padding-bottom:5px;
-  font-weight:600;  
+  font-weight:600;
 }
 
 .register-section .form-column{
-  margin-bottom:70px; 
+  margin-bottom:70px;
 }
 
 .styled-form{
-  position:relative;  
+  position:relative;
 }
 
 .styled-form .form-group{
@@ -7445,7 +7445,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .checkout-section .styled-form .form-group{
   position:relative;
-  margin-bottom:20px; 
+  margin-bottom:20px;
 }
 
 .styled-form .form-group .check-box{
@@ -7527,7 +7527,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .checkout-section .styled-form input[type="password"],
 .checkout-section .styled-form select{
   line-height:26px;
-  height:44px;  
+  height:44px;
 }
 
 .styled-form select{
@@ -7540,28 +7540,28 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .styled-form select option{
-  text-indent:20px; 
+  text-indent:20px;
 }
 
 .styled-form textarea{
   resize:none;
-  height:110px; 
+  height:110px;
 }
 
 .styled-form input:focus,
 .styled-form select:focus,
 .styled-form textarea:focus{
-  border-color: #ff5722;
+  border-color: #3cc88f;
 }
 
 .styled-form .form-group .theme-btn{
   min-width:150px;
   text-align:center;
-  padding:10px 30px;  
+  padding:10px 30px;
 }
 
 .styled-form .forgot{
-  font-size:14px; 
+  font-size:14px;
 }
 
 .social-links-two a{
@@ -7588,15 +7588,15 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .social-links-two .facebook{
-  background:#3b5998; 
+  background:#3b5998;
 }
 
 .social-links-two .twitter{
-  background:#33ccfe; 
+  background:#33ccfe;
 }
 
 .social-links-two .google-plus{
-  background:#dd4b39; 
+  background:#dd4b39;
 }
 
 .shop-sidebar .section-title {
@@ -7622,7 +7622,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   display: block;
 }
 .shop-sidebar .category-style-one ul li a:hover {
-  color: #ff5722;
+  color: #3cc88f;
   transition: .5s ease;
 }
 
@@ -7672,7 +7672,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
     vertical-align: middle;
 }
 .single-shop-item .img-box .overlay .box .content a i {
-    background: #ff5722;
+    background: #3cc88f;
     border-radius: 50%;
     color: #ffffff;
     display: inline-block;
@@ -7684,7 +7684,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .single-shop-item .img-box .overlay .box .content a:hover i {
-    background: #ff5722;
+    background: #3cc88f;
 }
 
 
@@ -7713,7 +7713,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   transition: .5s ease;
 }
 
-/*** 
+/***
 
 ====================================================================
   Testimonial Section One
@@ -7730,7 +7730,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .testimonial-section-one .slide-item {
-  
+
 }
 
 .testimonial-section-one .slide-item h4 {
@@ -7746,7 +7746,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   padding: 20px 0;
 }
 .testimonial-section-one .slide-item .author p {
-  color: #ff5722;
+  color: #3cc88f;
   margin-top: 10px;
 }
 
@@ -7754,14 +7754,14 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   position:relative;
   text-align:center;
   border-radius:3px;
-  z-index:1;  
+  z-index:1;
 }
 
 .testimonial-section-one .testimonial-slider-content .text{
   font-size:14px;
   line-height:1.8em;
   color:#555555;
-  font-weight:400;  
+  font-weight:400;
 }
 
 .testimonial-section-one .pagers-outer{
@@ -7772,7 +7772,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 
 .testimonial-section-one .pagers-outer .owl-stage-outer{
-  overflow:visible; 
+  overflow:visible;
 }
 
 .testimonial-section-one .testimonial-slider-pager{
@@ -7788,7 +7788,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .testimonial-section-one .pager-item .inner-box{
   position:relative;
-  padding:50px 0px 0px;  
+  padding:50px 0px 0px;
 }
 
 .testimonial-section-one .pager-item .inner-box .author-thumb{
@@ -7799,7 +7799,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   overflow: hidden;
   margin-bottom:10px;
   border-radius:50%;
-  opacity:0.40; 
+  opacity:0.40;
 }
 .testimonial-section-one .owl-carousel .owl-item.active .inner-box .author-thumb {
   width: 100px;
@@ -7808,7 +7808,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .testimonial-section-one .pager-item .inner-box .author-thumb img{
   position:relative;
-  display:block; 
+  display:block;
 }
 
 .testimonial-section-one .pager-item .title{
@@ -7818,7 +7818,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   line-height:24px;
   color:#222222;
   margin-bottom:5px;
-  opacity:0;  
+  opacity:0;
 }
 
 .testimonial-section-one.dark-version .pager-item .title{
@@ -7831,7 +7831,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
   font-weight:400;
   line-height:20px;
   color:#6b6b6b;
-  opacity:0;  
+  opacity:0;
 }
 
 .testimonial-section-one.dark-version .pager-item .location {
@@ -7845,7 +7845,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .testimonial-section-one .owl-item.active .pager-item .author-thumb,
 .testimonial-section-one .owl-item.active .pager-item .title,
 .testimonial-section-one .owl-item.active .pager-item .location {
-  opacity:1;  
+  opacity:1;
 }
 
 .testimonial-section-one .owl-item.active .pager-item .social a {
@@ -7895,7 +7895,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 }
 .testimonial-section-one .owl-theme .owl-prev span:hover {
     color: #fff;
-    background-color: #ff5722;
+    background-color: #3cc88f;
     transition: .5s ease;
 }
 .testimonial-section-one .owl-theme .owl-next {
@@ -7915,12 +7915,12 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 
 .testimonial-section-one .owl-theme .owl-next span:hover {
     color: #fff;
-    background-color: #ff5722;
+    background-color: #3cc88f;
     transition: .5s ease;
 }
 
 
-/*** 
+/***
 
 ====================================================================
   subscribe Section
@@ -7955,7 +7955,7 @@ input,textarea {font-family: 'Roboto', sans-serif;display: block; font-size: 16p
 .subscribe-form span {
   position: absolute;
   left: 15px;top: 15px;
-  color: #ff5722;
+  color: #3cc88f;
   font-size: 20px;
 }
 

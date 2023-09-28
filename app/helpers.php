@@ -11,6 +11,6 @@ if (!function_exists('page_title')) {
 if (!function_exists('setactiveonfrontend')) {
     function setactiveonfrontend($route)
     {
-        return Route::is($route) ? 'current' : '';
+        return Route::is($route) ? 'active' : '';
     }
 }

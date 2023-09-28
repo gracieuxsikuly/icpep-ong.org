@@ -109,6 +109,7 @@
 </section>
 <!--End rev slider wrapper-->
 
+
 <section class="about-2 sec-padd3">
     <div class="container">
         <div class="section-title center">
@@ -858,237 +859,10 @@
 </section>
 
 
-<section class="testimonial-section-one sec-padd" style="background-image: url({{('assets/images/background/8.jpg')}});">
-    <div class="container">
-        <div class="section-title center">
-            <h2>Words From <span class="thm-color">People</span></h2>
-        </div>
 
 
-        <div class="inner-container">
-            <div class="carousel-outer">
-                <!--Slider Content-->
 
 
-                <ul class="testimonial-slider-content">
-                    <!--Slide Item-->
-
-
-                    <li class="slide-item">
-                        <h4 class="title">We dream about a new world for the children with no harm</h4>
-
-
-                        <div class="text">
-                            Our professionals know how to handle a wide range of car services. Whether you drive a passenger car or medium sized truck or SUV
-                        </div>
-
-
-                        <div class="author">
-                            <h4>Eliphalet Noah</h4>
-
-
-                            <p>San Diego</p>
-                        </div>
-                    </li>
-                    <!--Slide Item-->
-
-
-                    <li class="slide-item">
-                        <h4 class="title">We dream about a new world for the children with no harm</h4>
-
-
-                        <div class="text">
-                            Our professionals know how to handle a wide range of car services. Whether you drive a passenger car or medium sized truck or SUV
-                        </div>
-
-
-                        <div class="author">
-                            <h4>Eliphalet Noah</h4>
-
-
-                            <p>San Diego</p>
-                        </div>
-                    </li>
-                    <!--Slide Item-->
-
-
-                    <li class="slide-item">
-                        <h4 class="title">We dream about a new world for the children with no harm</h4>
-
-
-                        <div class="text">
-                            Our professionals know how to handle a wide range of car services. Whether you drive a passenger car or medium sized truck or SUV
-                        </div>
-
-
-                        <div class="author">
-                            <h4>Eliphalet Noah</h4>
-
-
-                            <p>San Diego</p>
-                        </div>
-                    </li>
-                    <!--Slide Item-->
-
-
-                    <li class="slide-item">
-                        <h4 class="title">We dream about a new world for the children with no harm</h4>
-
-
-                        <div class="text">
-                            Our professionals know how to handle a wide range of car services. Whether you drive a passenger car or medium sized truck or SUV
-                        </div>
-
-
-                        <div class="author">
-                            <h4>Eliphalet Noah</h4>
-
-
-                            <p>San Diego</p>
-                        </div>
-                    </li>
-                    <!--Slide Item-->
-
-
-                    <li class="slide-item">
-                        <h4 class="title">We dream about a new world for the children with no harm</h4>
-
-
-                        <div class="text">
-                            Our professionals know how to handle a wide range of car services. Whether you drive a passenger car or medium sized truck or SUV
-                        </div>
-
-
-                        <div class="author">
-                            <h4>Eliphalet Noah</h4>
-
-
-                            <p>San Diego</p>
-                        </div>
-                    </li>
-                    <!--Slide Item-->
-
-
-                    <li class="slide-item">
-                        <h4 class="title">We dream about a new world for the children with no harm</h4>
-
-
-                        <div class="text">
-                            Our professionals know how to handle a wide range of car services. Whether you drive a passenger car or medium sized truck or SUV
-                        </div>
-
-
-                        <div class="author">
-                            <h4>Eliphalet Noah</h4>
-
-
-                            <p>San Diego</p>
-                        </div>
-                    </li>
-                </ul>
-
-
-                <div class="styled-dots">
-                </div>
-
-
-                <div class="pagers-outer">
-                    <!--Slider Pager-->
-
-
-                    <ul class="testimonial-slider-pager">
-                        <!--Pager Item-->
-
-
-                        <li class="pager-item">
-                            <div class="inner-box">
-                                <figure class="author-thumb">
-                                    <img alt="" src="images/team/author1.png">
-                                </figure>
-                            </div>
-                        </li>
-                        <!--Pager Item-->
-
-
-                        <li class="pager-item">
-                            <div class="inner-box">
-                                <figure class="author-thumb">
-                                    <img alt="" src="images/team/author2.png">
-                                </figure>
-                            </div>
-                        </li>
-                        <!--Pager Item-->
-
-
-                        <li class="pager-item">
-                            <div class="inner-box">
-                                <figure class="author-thumb">
-                                    <img alt="" src="images/team/author3.png">
-                                </figure>
-                            </div>
-                        </li>
-                        <!--Pager Item-->
-
-
-                        <li class="pager-item">
-                            <div class="inner-box">
-                                <figure class="author-thumb">
-                                    <img alt="" src="images/team/author1.png">
-                                </figure>
-                            </div>
-                        </li>
-                        <!--Pager Item-->
-
-
-                        <li class="pager-item">
-                            <div class="inner-box">
-                                <figure class="author-thumb">
-                                    <img alt="" src="images/team/author2.png">
-                                </figure>
-                            </div>
-                        </li>
-                        <!--Pager Item-->
-
-
-                        <li class="pager-item">
-                            <div class="inner-box">
-                                <figure class="author-thumb">
-                                    <img alt="" src="images/team/author3.png">
-                                </figure>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="clients-section">
-    <div class="container">
-        <div class="client-carousel owl-carousel owl-theme">
-            <div class="item tool_tip" title="media partner"><img alt="Awesome Image" src="images/clients/1.jpg">
-            </div>
-
-
-            <div class="item tool_tip" title="media partner"><img alt="Awesome Image" src="images/clients/2.jpg">
-            </div>
-
-
-            <div class="item tool_tip" title="media partner"><img alt="Awesome Image" src="images/clients/3.jpg">
-            </div>
-
-
-            <div class="item tool_tip" title="media partner"><img alt="Awesome Image" src="images/clients/4.jpg">
-            </div>
-
-
-            <div class="item tool_tip" title="media partner"><img alt="Awesome Image" src="images/clients/5.jpg">
-            </div>
-        </div>
-    </div>
-</section>
 
 
 <section class="blog-section sec-padd2">
@@ -1102,7 +876,7 @@
             <article class="col-md-4 col-sm-6 col-xs-12">
                 <div class="default-blog-news">
                     <figure class="img-holder">
-                        <a href="blog-details.html"><img alt="News" src="images/blog/1.jpg"></a>
+                        <a href="blog-details.html"><img alt="News" src="{{asset('assets/images/blog/1.jpg')}}"></a>
 
                         <div class="inner-box">
                         </div>
@@ -1156,7 +930,7 @@
             <article class="col-md-4 col-sm-6 col-xs-12">
                 <div class="default-blog-news">
                     <figure class="img-holder">
-                        <a href="blog-details.html"><img alt="News" src="images/blog/2.jpg"></a>
+                        <a href="blog-details.html"><img alt="News" src="{{asset('assets/images/blog/2.jpg')}}"></a>
 
                         <div class="inner-box">
                         </div>
@@ -1210,7 +984,7 @@
             <article class="col-md-4 col-sm-6 col-xs-12">
                 <div class="default-blog-news">
                     <figure class="img-holder">
-                        <a href="blog-details.html"><img alt="News" src="images/blog/3.jpg"></a>
+                        <a href="blog-details.html"><img alt="News" src="{{asset('assets/images/blog/3.jpg')}}"></a>
 
                         <div class="inner-box">
                         </div>
