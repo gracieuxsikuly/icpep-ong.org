@@ -1,5 +1,5 @@
 <div>
-    <section class="fact-counter fact-counter-2 sec-padd" style="background-image: url({{asset('assets/images/background/10.jpg')}});">
+    <section class="fact-counter fact-counter-2 sec-padd" style="background-image: url({{asset('assets/images/background/4.jpg')}});">
         <div class="container">
             <div class="row clearfix">
                 <article class="col-md-6 col-sm-12">
