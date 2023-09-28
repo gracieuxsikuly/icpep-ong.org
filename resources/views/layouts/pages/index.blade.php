@@ -14,12 +14,10 @@
                     data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-voffset="350"
                     data-x="left" data-y="top">
                     <div class="slide-content-box">
-                        <h1>Hand to Make Better<br>
-                            Life for <span class="thm-color">Children</span></h1>
-
-
-                        <p>Every good act is humanity. A man's true wealth hereafter is the good that<br>
-                            he does in this world to his fellows.</p>
+                        <h1>Nous pouvons changer<br>
+                             <span class="thm-color">le monde</span></h1>
+                        <p>Aspirer à la transformation et conservation artisanale, semi-industrielle <br>
+                            ou industrielle de production locale.</p>
                     </div>
                 </div>
 
