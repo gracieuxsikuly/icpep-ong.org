@@ -18,7 +18,7 @@ use App\Http\Controllers\FrontController;
 //     return view('welcome');
 // });
 Route::get('/', [FrontController::class, 'index'])->name('acceuil');
-Route::get('/services', [FrontController::class, 'services'])->name('service');
+Route::get('/projets', [FrontController::class, 'projets'])->name('projets');
 Route::get('/apropos', [FrontController::class, 'about'])->name('about');
 Route::get('/publications', [FrontController::class, 'publications'])->name('publication');
 Route::get('/contact', [FrontController::class, 'contact'])->name('contact');

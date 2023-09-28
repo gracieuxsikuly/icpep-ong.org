@@ -9,7 +9,7 @@ class FrontController extends Controller
     public function index(){
         return view('layouts.pages.index');
     }
-    public function services(){
+    public function projets(){
         return view('layouts.pages.service');
     }
     public function about(){

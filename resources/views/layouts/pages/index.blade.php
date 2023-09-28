@@ -21,20 +21,6 @@
                     </div>
                 </div>
 
-
-                <div class="tp-caption tp-resizeme" data-hoffset="15" data-responsive_offset="on" data-splitin="none"
-                    data-splitout="none" data-start="2300" data-transform_idle="o:1;"
-                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
-                    data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-voffset="580"
-                    data-x="left" data-y="top">
-                    <div class="slide-content-box">
-                        <div class="button">
-                            <a class="thm-btn" href="#">read more</a>
-                        </div>
-                    </div>
-                </div>
-
-
                 <div class="tp-caption tp-resizeme" data-hoffset="190" data-responsive_offset="on" data-splitin="none"
                     data-splitout="none" data-start="2600" data-transform_idle="o:1;"
                     data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
@@ -42,7 +28,7 @@
                     data-x="left" data-y="top">
                     <div class="slide-content-box">
                         <div class="button">
-                            <a class="thm-btn style-3" href="cause.html">our causes</a>
+                            <a class="thm-btn style-3" href="{{ route('projet') }}">Nos projets</a>
                         </div>
                     </div>
                 </div>
