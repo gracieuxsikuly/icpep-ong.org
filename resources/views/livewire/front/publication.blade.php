@@ -23,7 +23,7 @@
                                     <div class="post-meta">
                                         February 05, 2017 | 10 Comments
                                     </div>
-                                    <a href="blog-details.html">
+                                    <a href="{{route('detailevenemt', ['slug'=>1])}}">
                                     <h4>New Award To Support Children<br>
                                     Affected by Crises</h4></a>
 
