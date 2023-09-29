@@ -1,4 +1,4 @@
 @extends('layouts.default', ['title'=>'CONTACT'])
 @section('content')
-@livewire('front.contact')
+@livewire('front.details-evenemt', ['slug'=>$slug])
 @endsection
