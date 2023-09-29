@@ -10,7 +10,7 @@
                 <article class="item col-md-3 col-sm-6 col-xs-12">
                     <div class="inner-box">
                         <div class="img-box">
-                            <img alt="" src="{{ asset('assets/images/team/team1.jpg') }}">
+                            <img alt="" src="{{ asset('assets/images/team/avatar-team.png') }}">
 
                             <div class="overlay3">
                                 <ul class="social-icon">
@@ -28,8 +28,8 @@
                         </div>
                     </div>
                     <div class="author center">
-                        <h4>Daryl Tierney</h4>
-                        <p>Houston</p>
+                        <h4>Avatar Team</h4>
+                        <p>Goma RDC</p>
                     </div>
                 </article>
 
@@ -37,7 +37,7 @@
                 <article class="item col-md-3 col-sm-6 col-xs-12">
                     <div class="inner-box">
                         <div class="img-box">
-                            <img alt="" src="{{ asset('assets/images/team/team2.jpg') }}">
+                            <img alt="" src="{{ asset('assets/images/team/avatar-team.png') }}">
 
                             <div class="overlay3">
                                 <ul class="social-icon">
@@ -61,10 +61,8 @@
 
 
                     <div class="author center">
-                        <h4>Topher Elliot</h4>
-
-
-                        <p>San Diego</p>
+                        <h4>Avatar Team</h4>
+                        <p>Goma RDC</p>
                     </div>
                 </article>
 
@@ -72,7 +70,7 @@
                 <article class="item col-md-3 col-sm-6 col-xs-12">
                     <div class="inner-box">
                         <div class="img-box">
-                            <img alt="" src="{{ asset('assets/images/team/team3.jpg') }}">
+                            <img alt="" src="{{ asset('assets/images/team/avatar-team.png') }}">
 
                             <div class="overlay3">
                                 <ul class="social-icon">
@@ -96,10 +94,8 @@
 
 
                     <div class="author center">
-                        <h4>Eliphalet Noah</h4>
-
-
-                        <p>Portland</p>
+                        <h4>Avatar Team</h4>
+                        <p>Goma RDC</p>
                     </div>
                 </article>
 
@@ -107,7 +103,7 @@
                 <article class="item col-md-3 col-sm-6 col-xs-12">
                     <div class="inner-box">
                         <div class="img-box">
-                            <img alt="" src="{{ asset('assets/images/team/team4.jpg') }}">
+                            <img alt="" src="{{ asset('assets/images/team/avatar-team.png') }}">
 
                             <div class="overlay3">
                                 <ul class="social-icon">
@@ -131,8 +127,8 @@
 
 
                     <div class="author center">
-                        <h4>Ormonde Hirah</h4>
-                        <p>Denver</p>
+                        <h4>Avatar Team</h4>
+                        <p>Goma RDC</p>
                     </div>
                 </article>
             </div>

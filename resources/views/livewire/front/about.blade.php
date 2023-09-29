@@ -120,7 +120,7 @@
                             </div>
 
 
-                            <h4 class="counter-title">Year Of Experience</h4>
+                            <h4 class="counter-title">Expérimenté</h4>
                         </div>
                     </article>
                     <!--Column-->
@@ -134,11 +134,11 @@
 
 
                             <div class="count-outer">
-                                <span class="count-text" data-speed="3000" data-stop="2345">0</span>
+                                <span class="count-text" data-speed="3000" data-stop="200">0</span>
                             </div>
 
 
-                            <h4 class="counter-title">Successfull Projects</h4>
+                            <h4 class="counter-title">Projets réalisés</h4>
                         </div>
                     </article>
                     <!--Column-->
@@ -152,11 +152,11 @@
 
 
                             <div class="count-outer">
-                                <span class="count-text" data-speed="3000" data-stop="347">0</span>
+                                <span class="count-text" data-speed="3000" data-stop="150">0</span>
                             </div>
 
 
-                            <h4 class="counter-title">Team Members</h4>
+                            <h4 class="counter-title">Membres de l'équipe</h4>
                         </div>
                     </article>
                     <!--Column-->
@@ -170,11 +170,11 @@
 
 
                             <div class="count-outer">
-                                <span class="count-text" data-speed="3000" data-stop="85">0</span>%
+                                <span class="count-text" data-speed="3000" data-stop="20">0</span>%
                             </div>
 
 
-                            <h4 class="counter-title">Winning Awards</h4>
+                            <h4 class="counter-title">Récompenses</h4>
                         </div>
                     </article>
                 </div>

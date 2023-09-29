@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="main-logo">
-                    <a href="index.html"><img alt="" src="{{asset('assets/images/logo/logo.png')}}"></a>
+                    <a href="/"><img alt="" src="{{asset('assets/images/logo/logo.png')}}"></a>
                 </div>
             </div>
 
@@ -12,7 +12,7 @@
                 <nav class="defaultmainmenu" id="main_menu">
                     <ul class="defaultmainmenu-menu">
                         {{-- <li class="active">
-                            <a href="index.html">Home</a>
+                            <a href="/">Home</a>
                         </li> --}}
 
                         <li class="{{ setactiveonfrontend('acceuil') }}"><a href="{{ route('acceuil') }}">Accueil</a></li>
