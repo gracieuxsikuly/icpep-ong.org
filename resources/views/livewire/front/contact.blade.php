@@ -1,135 +1,86 @@
 <div>
-     <!-- Page Banner Section -->
-     <section class="page-banner">
-        <div class="image-layer lazy-image" data-bg="url('images/background/bg-banner-1.jpg')"></div>
-        <div class="bottom-rotten-curve"></div>
-
-        <div class="auto-container">
-            <h1>Contactez-nous</h1>
-            <ul class="bread-crumb clearfix">
-                <li><a href="/">Acceuil</a></li>
-                <li class="active">Contactez nous</li>
-            </ul>
-        </div>
-
-    </section>
-    <!--End Banner Section -->
-
-    <!--Contact Info Section-->
-    <section class="contact-info-section">
-        <div class="auto-container">
-
-            <div class="sec-title centered">
-                <div class="sub-title">Contact Us</div>
-                <h2>Get In Touch</h2>
-                {{-- <div class="text">Cupidatat non proident sunt</div> --}}
-            </div>
-
-        	<div class="info-boxes">
-                <div class="row clearfix">
-                    <!--Info Box-->
-                    <div class="info-box col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box wow fadeInUp" data-wow-delay="0ms">
-							<div class="image-layer lazy-image" data-bg="url('images/resource/contact-image-1.jpg')"></div>
-                            <div class="icon-box"><span class="flaticon-home-location-marker"></span></div>
-                            <h4>Notre addresse</h4>
-                            <ul>
-                            	<li>16/14 Babor Road, Shyamoly Dhaka.</li>
-                            </ul>
-                        </div>
+    <section class="contact sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    <div class="section-title">
+                        <h2>Envoyer <span class="thm-color">votre message</span></h2>
                     </div>
-                    <!--Info Box-->
-                    <div class="info-box col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box wow fadeInUp" data-wow-delay="300ms">
-                            <div class="image-layer lazy-image" data-bg="url('images/resource/contact-image-2.jpg')"></div>
-                            <div class="icon-box"><span class="flaticon-phone-call"></span></div>
-                            <h4>Numéro de Télephone</h4>
-                            <ul>
-                            	<li><a href="tel:(+55)654-545-5418">(+55)  654 - 545 - 5418</a></li>
-                                <li><a href="tel:(+55)654-545-1235">(+55)  654 - 545 - 1235</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--Info Box-->
-                    <div class="info-box col-lg-4 col-md-6 col-sm-12">
-                        <div class="inner-box wow fadeInUp" data-wow-delay="600ms">
-                            <div class="image-layer lazy-image" data-bg="url('images/resource/contact-image-3.jpg')"></div>
-                            <div class="icon-box"><span class="flaticon-email"></span></div>
-                            <h4>Adresse Email</h4>
-                            <ul>
-                                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                                <li><a href="mailto:info@loveus.com">info@loveus.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-        	</div>
-
-        </div>
-    </section>
-
-
-    <!--Contact Section-->
-    <section class="contact-section">
-        <div class="outer-container clearfix">
-
-        	<div class="form-column clearfix">
-                <div class="inner clearfix">
-
-                    <div class="sec-title centered">
-                        {{-- <div class="sub-title">Inquiry</div> --}}
-                        <h2>Laisser un message</h2>
-                        {{-- <div class="text">Cupidatat non proident sunt</div> --}}
-                    </div>
-
-                    <!-- Contact Form-->
-                    <div class="contact-form">
-                        <form  >
+                    <div class="default-form-area">
+                        <form id="contact-form" name="contact_form" class="default-form">
                             <div class="row clearfix">
-                                <div class="col-md-6 col-sm-12 form-group">
-                                    <input type="text" name="username" placeholder="Your name" required="">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+
+                                    <div class="form-group">
+                                        <input type="text" name="form_name" class="form-control" value="" placeholder="Votre nom *" required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <input type="email" name="form_email" class="form-control required email" value="" placeholder="Adresse email *" required="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <input type="text" name="form_phone" class="form-control" value="" placeholder="Numero de telephone">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <div class="form-group">
+                                        <input type="text" name="form_subject" class="form-control" value="" placeholder="Objet">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <textarea name="form_message" class="form-control textarea required" placeholder=" Message...."></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
+                                        <button class="thm-btn" type="submit" data-loading-text="Please wait...">Evoye message</button>
+                                    </div>
                                 </div>
 
-                                <div class="col-md-6 col-sm-12 form-group">
-                                    <input type="email" name="email" placeholder="Your Email" required="">
-                                </div>
-
-                                <div class="col-md-12 col-sm-12 form-group">
-                                    <textarea name="message" placeholder="Write your message"></textarea>
-                                </div>
-
-                                <div class="col-md-12 col-sm-12 form-group text-center">
-                                    <button class="theme-btn btn-style-one" type="submit" name="submit-form"><span class="btn-title">Evoyer Message</span></button>
-                                </div>
                             </div>
                         </form>
                     </div>
-
                 </div>
-        	</div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="section-title">
+                        <h2>Quick <span class="thm-color">Contact</span></h2>
+                    </div>
+                    <div class="content">
+                        <div class="text">
+                            <p>If you are passionate about helping people: through education, or preventing then you are in the right place. </p>
+                        </div>
+                        <ul class="contact-info">
+                            <li><i class="icon-arrows"></i><span>Address:</span> 02, Nord kivu <br>Goma RDC</li>
+                            <li><i class="icon-phone"></i><span> Phone:</span>(+243) 970 194 912 & <br>(+243) 990378202</li>
+                            <li><i class="icon-back"></i><span>Email:</span> contact@icpepdrc.org</li>
+                        </ul>
+                        <ul class="social-icon">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-feed"></i></a></li>
+                            <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
 
-            <div class="map-column clearfix">
-                @php
-                    $apiKey = config('maps.api_key');
-                    // dd($apiKey);
-                @endphp
-                <iframe width="100%" height="100%" frameborder="0" style="border:0" referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed/v1/place?key={{ $apiKey }}&zoom=18&q=Oliversoft
-                Rond point signers, Avenue kanyamuhanga N° 24, Goma" allowfullscreen>
-            </iframe>
-            	{{-- <div class="map-canvas"
-                    data-zoom="12"
-                    data-lat="-37.817085"
-                    data-lng="144.955631"
-                    data-type="roadmap"
-                    data-hue="#ffc400"
-                    data-title="Envato"
-                    data-icon-path="images/icons/map-marker.png"
-                    data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
-                </div> --}}
+
             </div>
-
         </div>
     </section>
-    @include('layouts.partials.volonterbanner')
+
+
+    <section class="home-google-map" style="height: 500px;">
+
+        <iframe width="100%" height="100%" frameborder="0" style="border:0" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBqHQ0YTvnCWsIR9C10w6NJhnBhNLtSbC8&zoom=18&q=Icpep
+        Rond point signers, Avenue kanyamuhanga N° 24, Goma" allowfullscreen>
+       </iframe>
+    </section>
 </div>

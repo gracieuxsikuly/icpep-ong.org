@@ -270,8 +270,8 @@
         <script src="{{asset('assets/js/rev-slider/revolution.extension.video.min.js')}}">
         </script>
         <script src="{{asset('assets/js/custom.js')}}">
+
         </script>
-    </div>
 </body>
 
 </html>
