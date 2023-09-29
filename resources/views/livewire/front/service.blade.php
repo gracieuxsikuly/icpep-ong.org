@@ -88,7 +88,7 @@
 
 
                             <div class="icon_box">
-                                <span class="icon-heart3"></span>
+                                <span class="icon-star-half"></span>
                             </div>
                             <a href="#">
                             <h4>Éducation Citoyenne</h4></a>
@@ -115,7 +115,7 @@
 
 
                             <div class="icon_box">
-                                <span class="icon-people-1"></span>
+                                <span class="icon-people-2"></span>
                             </div>
                             <a href="#">
                             <h4>Collaboration Humanitaire</h4></a>
@@ -138,7 +138,7 @@
 
 
                             <div class="icon_box">
-                                <span class="icon-favorite"></span>
+                                <span class="icon-arrows4"></span>
                             </div>
                             <a href="#">
                             <h4>Résolution des Conflits</h4></a>
