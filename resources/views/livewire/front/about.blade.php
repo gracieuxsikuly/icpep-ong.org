@@ -2,7 +2,7 @@
     <div class="inner-banner has-base-color-overlay text-center" style="background: url({{asset('assets/images/background/4.jpg')}});">
         <div class="container">
             <div class="box">
-                <h1>About Us</h1>
+                <h1>Apropos de nous</h1>
             </div>
         </div>
     </div>
@@ -193,7 +193,7 @@
                 <article class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-team-member">
                         <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/1.jpg')}}"></a>
+                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
 
                             <div class="overlay">
                                 <div class="inner-box">
@@ -230,7 +230,7 @@
                 <article class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-team-member">
                         <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/2.jpg')}}"></a>
+                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
 
                             <div class="overlay">
                                 <div class="inner-box">
@@ -267,7 +267,7 @@
                 <article class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-team-member">
                         <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/3.jpg')}}"></a>
+                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
 
                             <div class="overlay">
                                 <div class="inner-box">
@@ -304,7 +304,7 @@
                 <article class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-team-member">
                         <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/4.jpg')}}"></a>
+                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
 
                             <div class="overlay">
                                 <div class="inner-box">
@@ -341,7 +341,7 @@
                 <article class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-team-member">
                         <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/5.jpg')}}"></a>
+                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
 
                             <div class="overlay">
                                 <div class="inner-box">
@@ -378,7 +378,7 @@
                 <article class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-team-member">
                         <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/6.jpg')}}"></a>
+                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
 
                             <div class="overlay">
                                 <div class="inner-box">
@@ -415,7 +415,7 @@
                 <article class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-team-member">
                         <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/7.jpg')}}"></a>
+                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
 
                             <div class="overlay">
                                 <div class="inner-box">
@@ -452,7 +452,7 @@
                 <article class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-team-member">
                         <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/8.jpg')}}"></a>
+                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
 
                             <div class="overlay">
                                 <div class="inner-box">
