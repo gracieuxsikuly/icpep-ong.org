@@ -16,7 +16,6 @@
                                     Agriculture
                                 </div>
 
-
                                 <div class="content">
                                     <div class="post-meta">
                                         February 05, 2017 | 10 Comments | By Topher Elliot
