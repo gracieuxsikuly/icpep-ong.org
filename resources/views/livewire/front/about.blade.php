@@ -185,7 +185,7 @@
     <section class="team-style-3 sec-padd2">
         <div class="container">
             <div class="section-title center">
-                <h2>Meat Our <span class="thm-color">team</span></h2>
+                <h2> Rencontrez  <span class="thm-color">notre équipe</span></h2>
             </div>
 
 

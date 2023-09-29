@@ -1,19 +1,36 @@
 @extends('layouts.default', ['title'=>'SERVICE'])
 @section('content')
-<!-- Page Banner Section -->
-<section class="page-banner">
-    <div class="image-layer lazy-image" data-bg="url('{{asset('assets/images/background/bg-banner-1.jpg')}}')"></div>
-    <div class="bottom-rotten-curve"></div>
-
-    <div class="auto-container">
-        <h1>Nos Services</h1>
-        <ul class="bread-crumb clearfix">
-            <li><a href="index.html">Acceuil</a></li>
-            <li class="active">Nos Services</li>
-        </ul>
+<div class="inner-banner has-base-color-overlay text-center" style="background: url({{asset('assets/images/background/4.jpg')}});">
+    <div class="container">
+        <div class="box">
+            <h1>Nos Actions et Projets</h1>
+        </div>
     </div>
+</div>
+<div class="breadcumb-wrapper">
+    <div class="container">
+        <div class="pull-left">
+            <ul class="list-inline link-list">
+                <li>
+                    <a href="/">Acceuil</a>
+                </li>
+                <li>
+                    <a href="{{ route('projets') }}">Projets/Action</a>
+                </li>
 
-</section>
+                <li>
+                    Nos Projets et actions
+                </li>
+            </ul>
+        </div>
+        {{-- <div class="pull-right">
+            <a href="#" class="get-qoute"><i class="fa fa-arrow-circle-right"></i>Become a Volunteer</a>
+        </div> --}}
+    </div>
+</div>
+
+
+
 <!--End Banner Section -->
 @livewire('front.service')
 @endsection
