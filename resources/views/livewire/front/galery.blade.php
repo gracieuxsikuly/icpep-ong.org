@@ -1,102 +1,175 @@
 <div>
-    <!-- Gallery Page Section -->
-    <section class="gallery-page-section">
-        <div class="auto-container">
-            <!--MixitUp Galery-->
-            <div class="mixitup-gallery">
-                <!--Filter-->
-                <div class="filters clearfix">
-                    <ul class="filter-tabs filter-btns clearfix">
-                        <li class="active filter" data-role="button" data-filter="all">All</li>
-                        <li class="filter" data-role="button" data-filter=".children">Children</li>
-                        <li class="filter" data-role="button" data-filter=".volunteer">Volunteer</li>
-                        <li class="filter" data-role="button" data-filter=".animals">Animals</li>
-                        <li class="filter" data-role="button" data-filter=".donate">Donate</li>
-                    </ul>
-                </div>
+    <section class="gallery sec-padd style-2">
+        <div class="container">
 
-                <div class="filter-list row">
-                    <!-- Gallery Item Two -->
-                    <div class="gallery-item-two mix all volunteer col-lg-4 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/gallery/7.jpg')}}" alt=""></figure>
-                            <div class="overlay-box"><a href="{{asset('assets/images/gallery/7.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-cross-1"></span></a></div>
-                        </div>
-                    </div>
-
-                    {{-- <!-- Gallery Item Two -->
-                    <div class="gallery-item-two mix all animals col-lg-4 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/gallery/8.jpg')}}" alt=""></figure>
-                            <div class="overlay-box"><a href="{{asset('assets/images/gallery/8.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-cross-1"></span></a></div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item Two -->
-                    <div class="gallery-item-two mix all volunteer children col-lg-4 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/gallery/9.jpg')}}" alt=""></figure>
-                            <div class="overlay-box"><a href="{{asset('assets/images/gallery/9.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-cross-1"></span></a></div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item Two -->
-                    <div class="gallery-item-two mix all volunteer animals col-lg-4 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/gallery/10.jpg')}}" alt=""></figure>
-                            <div class="overlay-box"><a href="{{asset('assets/images/gallery/10.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-cross-1"></span></a></div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item Two -->
-                    <div class="gallery-item-two mix all volunteer children col-lg-4 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/gallery/11.jpg')}}" alt=""></figure>
-                            <div class="overlay-box"><a href="{{asset('assets/images/gallery/11.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-cross-1"></span></a></div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item Two -->
-                    <div class="gallery-item-two mix all volunteer animals col-lg-4 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/gallery/12.jpg')}}" alt=""></figure>
-                            <div class="overlay-box"><a href="{{asset('assets/images/gallery/12.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-cross-1"></span></a></div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item Two -->
-                    <div class="gallery-item-two mix all donate volunteer children col-lg-4 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/gallery/13.jpg')}}" alt=""></figure>
-                            <div class="overlay-box"><a href="{{asset('assets/images/gallery/13.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-cross-1"></span></a></div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item Two -->
-                    <div class="gallery-item-two mix all donate volunteer animals col-lg-4 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/gallery/14.jpg')}}" alt=""></figure>
-                            <div class="overlay-box"><a href="{{asset('assets/images/gallery/14.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-cross-1"></span></a></div>
-                        </div>
-                    </div>
-
-                    <!-- Gallery Item Two -->
-                    <div class="gallery-item-two mix all donate volunteer children col-lg-4 col-md-6 col-sm-12">
-                        <div class="image-box">
-                            <figure class="image"><img class="lazy-image" src="{{asset('assets/images/resource/image-spacer-for-validation.png')}}" data-src="{{asset('assets/images/gallery/15.jpg')}}" alt=""></figure>
-                            <div class="overlay-box"><a href="{{asset('assets/images/gallery/15.jpg')}}" class="lightbox-image" data-fancybox="gallery"><span class="icon flaticon-cross-1"></span></a></div>
-                        </div>
-                    </div> --}}
-                </div>
+            <div class="center">
+                <ul class="post-filter list-inline">
+                    <li class="active" data-filter=".filter-item">
+                        <span>View All</span>
+                    </li>
+                    <li data-filter=".humanity">
+                        <span>humanity</span>
+                    </li>
+                    <li data-filter=".Children">
+                        <span>Children</span>
+                    </li>
+                    <li data-filter=".Donate">
+                        <span>Donate</span>
+                    </li>
+                    <li data-filter=".Volunteer">
+                        <span>Volunteer</span>
+                    </li>
+                </ul>
             </div>
+
+            <div class="row filter-layout">
+
+
+                <article class="col-md-4 col-sm-6 col-xs-12 filter-item Children">
+                    <div class="item">
+                        <img src="{{asset('assets/images/project/1.jpg')}}" alt="">
+                        <div class="overlay">
+                            <div class="top">
+                                <div class="box">
+                                    <div class="content">
+                                        <a data-group="1" href="{{asset('assets/images/project/1.jpg')}}" class="img-popup thm-btn">view project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6 col-xs-12 filter-item Donate">
+                    <div class="item">
+                        <img src="{{asset('assets/images/project/2.jpg')}}" alt="">
+                        <div class="overlay">
+                            <div class="top">
+                                <div class="box">
+                                    <div class="content">
+                                        <a data-group="1" href="{{asset('assets/images/project/2.jpg')}}" class="img-popup thm-btn">view project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6 col-xs-12 filter-item humanity">
+                    <div class="item">
+                        <img src="{{asset('assets/images/project/3.jpg')}}" alt="">
+                        <div class="overlay">
+                            <div class="top">
+                                <div class="box">
+                                    <div class="content">
+                                        <a data-group="1" href="{{asset('assets/images/project/3.jpg')}}" class="img-popup thm-btn">view project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6 col-xs-12 filter-item Volunteer">
+                    <div class="item">
+                        <img src="{{asset('assets/images/project/4.jpg')}}" alt="">
+                        <div class="overlay">
+                            <div class="top">
+                                <div class="box">
+                                    <div class="content">
+                                        <a data-group="1" href="{{asset('assets/images/project/4.jpg')}}" class="img-popup thm-btn">view project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6 col-xs-12 filter-item humanity Donate">
+                    <div class="item">
+                        <img src="{{asset('assets/images/project/5.jpg')}}" alt="">
+                        <div class="overlay">
+                            <div class="top">
+                                <div class="box">
+                                    <div class="content">
+                                        <a data-group="1" href="{{asset('assets/images/project/5.jpg')}}" class="img-popup thm-btn">view project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6 col-xs-12 filter-item Children">
+                    <div class="item">
+                        <img src="{{asset('assets/images/project/6.jpg')}}" alt="">
+                        <div class="overlay">
+                            <div class="top">
+                                <div class="box">
+                                    <div class="content">
+                                        <a data-group="1" href="{{asset('assets/images/project/6.jpg')}}" class="img-popup thm-btn">view project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6 col-xs-12 filter-item humanity">
+                    <div class="item">
+                        <img src="{{asset('assets/images/project/7.jpg')}}" alt="">
+                        <div class="overlay">
+                            <div class="top">
+                                <div class="box">
+                                    <div class="content">
+                                        <a data-group="1" href="{{asset('assets/images/project/7.jpg')}}" class="img-popup thm-btn">view project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6 col-xs-12 filter-item Donate">
+                    <div class="item">
+                        <img src="{{asset('assets/images/project/8.jpg')}}" alt="">
+                        <div class="overlay">
+                            <div class="top">
+                                <div class="box">
+                                    <div class="content">
+                                        <a data-group="1" href="{{asset('assets/images/project/8.jpg')}}" class="img-popup thm-btn">view project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6 col-xs-12 filter-item Volunteer">
+                    <div class="item">
+                        <img src="{{asset('assets/images/project/9.jpg')}}" alt="">
+                        <div class="overlay">
+                            <div class="top">
+                                <div class="box">
+                                    <div class="content">
+                                        <a data-group="1" href="{{asset('assets/images/project/9.jpg')}}" class="img-popup thm-btn">view project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                        </div>
+                    </div>
+                </article>
+
+
+
+            </div>
+            <ul class="page_pagination center">
+                <li><a href="#" class="tran3s"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+                <li><a href="#" class="active tran3s">1</a></li>
+                <li><a href="#" class="tran3s">2</a></li>
+                <li><a href="#" class="tran3s"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            </ul>
         </div>
     </section>
-    <!-- End Gallery Page Section -->
-
-
-
-
-    {{-- <!-- Call To Action Section -->
-    @include('layouts.partials.volonterbanner')
-    <!--End Gallery Section --> --}}
 </div>
