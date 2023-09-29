@@ -15,22 +15,21 @@
                         <div class="overlay">
                             <div class="bottom-box">
                                 <div class="category">
-                                    Awarness
+                                    Agriculture
                                 </div>
 
 
                                 <div class="content">
                                     <div class="post-meta">
-                                        February 05, 2017 | 10 Comments
+                                        Janvier 05, 2017 | 10 Commentaires
                                     </div>
                                     <a href="{{route('detailevenemt', ['slug'=>1])}}">
-                                    <h4>New Award To Support Children<br>
-                                    Affected by Crises</h4></a>
+                                    <h4>Aspirer à la transformation et conservation artisanale<br>
+                                        semi-industrielle ou industrielle </h4></a>
 
                                     <div class="text">
-                                        <p>Explain to you how all this mistaken idea<br>
-                                        of denouncing pleasure and praising pain was<br>
-                                        born give you a complete.</p>
+                                        <p>Lutter contre la violation des Droits Humains et
+                                            des libertés fondamentales des citoyens, par la dénonciation et le plaidoyer </p>
                                     </div>
                                 </div>
                             </div>
@@ -39,22 +38,276 @@
 
                         <div class="lower-content">
                             <div class="category">
-                                Awarness
+                                Agriculture
                             </div>
 
 
                             <div class="content">
                                 <div class="post-meta">
-                                    February 05, 2017 | 10 Comments
+                                    Janvier 05, 2017 | 10 Commentaires
                                 </div>
                                 <a href="{{ route('detailevenemt', ['slug'=>1]) }}">
-                                <h4>New Award To Support Children<br>
-                                Affected by Crises</h4></a>
+                                    <h4>Aspirer à la transformation et conservation artisanale<br>
+                                        semi-industrielle ou industrielle </h4></a>
                             </div>
                         </div>
                     </div>
                 </article>
+                <article class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="default-blog-news">
+                        <figure class="img-holder">
+                            <a href="{{ route('detailevenemt', ['slug'=>1]) }}"><img alt="News" src="{{asset('assets/images/blog/1.jpg')}}"></a>
 
+                            <div class="inner-box">
+                            </div>
+                        </figure>
+
+
+                        <div class="overlay">
+                            <div class="bottom-box">
+                                <div class="category">
+                                    Agriculture
+                                </div>
+
+
+                                <div class="content">
+                                    <div class="post-meta">
+                                        Janvier 05, 2017 | 10 Commentaires
+                                    </div>
+                                    <a href="{{route('detailevenemt', ['slug'=>1])}}">
+                                    <h4>Aspirer à la transformation et conservation artisanale<br>
+                                        semi-industrielle ou industrielle </h4></a>
+
+                                    <div class="text">
+                                        <p>Lutter contre la violation des Droits Humains et
+                                            des libertés fondamentales des citoyens, par la dénonciation et le plaidoyer </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="lower-content">
+                            <div class="category">
+                                Agriculture
+                            </div>
+
+
+                            <div class="content">
+                                <div class="post-meta">
+                                    Janvier 05, 2017 | 10 Commentaires
+                                </div>
+                                <a href="{{ route('detailevenemt', ['slug'=>1]) }}">
+                                    <h4>Aspirer à la transformation et conservation artisanale<br>
+                                        semi-industrielle ou industrielle </h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="default-blog-news">
+                        <figure class="img-holder">
+                            <a href="{{ route('detailevenemt', ['slug'=>1]) }}"><img alt="News" src="{{asset('assets/images/blog/1.jpg')}}"></a>
+
+                            <div class="inner-box">
+                            </div>
+                        </figure>
+
+
+                        <div class="overlay">
+                            <div class="bottom-box">
+                                <div class="category">
+                                    Agriculture
+                                </div>
+
+
+                                <div class="content">
+                                    <div class="post-meta">
+                                        Janvier 05, 2017 | 10 Commentaires
+                                    </div>
+                                    <a href="{{route('detailevenemt', ['slug'=>1])}}">
+                                    <h4>Aspirer à la transformation et conservation artisanale<br>
+                                        semi-industrielle ou industrielle </h4></a>
+
+                                    <div class="text">
+                                        <p>Lutter contre la violation des Droits Humains et
+                                            des libertés fondamentales des citoyens, par la dénonciation et le plaidoyer </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="lower-content">
+                            <div class="category">
+                                Agriculture
+                            </div>
+
+
+                            <div class="content">
+                                <div class="post-meta">
+                                    Janvier 05, 2017 | 10 Commentaires
+                                </div>
+                                <a href="{{ route('detailevenemt', ['slug'=>1]) }}">
+                                    <h4>Aspirer à la transformation et conservation artisanale<br>
+                                        semi-industrielle ou industrielle </h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="default-blog-news">
+                        <figure class="img-holder">
+                            <a href="{{ route('detailevenemt', ['slug'=>1]) }}"><img alt="News" src="{{asset('assets/images/blog/1.jpg')}}"></a>
+
+                            <div class="inner-box">
+                            </div>
+                        </figure>
+
+
+                        <div class="overlay">
+                            <div class="bottom-box">
+                                <div class="category">
+                                    Agriculture
+                                </div>
+
+
+                                <div class="content">
+                                    <div class="post-meta">
+                                        Janvier 05, 2017 | 10 Commentaires
+                                    </div>
+                                    <a href="{{route('detailevenemt', ['slug'=>1])}}">
+                                    <h4>Aspirer à la transformation et conservation artisanale<br>
+                                        semi-industrielle ou industrielle </h4></a>
+
+                                    <div class="text">
+                                        <p>Lutter contre la violation des Droits Humains et
+                                            des libertés fondamentales des citoyens, par la dénonciation et le plaidoyer </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="lower-content">
+                            <div class="category">
+                                Agriculture
+                            </div>
+
+
+                            <div class="content">
+                                <div class="post-meta">
+                                    Janvier 05, 2017 | 10 Commentaires
+                                </div>
+                                <a href="{{ route('detailevenemt', ['slug'=>1]) }}">
+                                    <h4>Aspirer à la transformation et conservation artisanale<br>
+                                        semi-industrielle ou industrielle </h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="default-blog-news">
+                        <figure class="img-holder">
+                            <a href="{{ route('detailevenemt', ['slug'=>1]) }}"><img alt="News" src="{{asset('assets/images/blog/1.jpg')}}"></a>
+
+                            <div class="inner-box">
+                            </div>
+                        </figure>
+
+
+                        <div class="overlay">
+                            <div class="bottom-box">
+                                <div class="category">
+                                    Agriculture
+                                </div>
+
+
+                                <div class="content">
+                                    <div class="post-meta">
+                                        Janvier 05, 2017 | 10 Commentaires
+                                    </div>
+                                    <a href="{{route('detailevenemt', ['slug'=>1])}}">
+                                    <h4>Aspirer à la transformation et conservation artisanale<br>
+                                        semi-industrielle ou industrielle </h4></a>
+
+                                    <div class="text">
+                                        <p>Lutter contre la violation des Droits Humains et
+                                            des libertés fondamentales des citoyens, par la dénonciation et le plaidoyer </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="lower-content">
+                            <div class="category">
+                                Agriculture
+                            </div>
+
+
+                            <div class="content">
+                                <div class="post-meta">
+                                    Janvier 05, 2017 | 10 Commentaires
+                                </div>
+                                <a href="{{ route('detailevenemt', ['slug'=>1]) }}">
+                                    <h4>Aspirer à la transformation et conservation artisanale<br>
+                                        semi-industrielle ou industrielle </h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="default-blog-news">
+                        <figure class="img-holder">
+                            <a href="{{ route('detailevenemt', ['slug'=>1]) }}"><img alt="News" src="{{asset('assets/images/blog/1.jpg')}}"></a>
+
+                            <div class="inner-box">
+                            </div>
+                        </figure>
+
+
+                        <div class="overlay">
+                            <div class="bottom-box">
+                                <div class="category">
+                                    Agriculture
+                                </div>
+
+
+                                <div class="content">
+                                    <div class="post-meta">
+                                        Janvier 05, 2017 | 10 Commentaires
+                                    </div>
+                                    <a href="{{route('detailevenemt', ['slug'=>1])}}">
+                                    <h4>Aspirer à la transformation et conservation artisanale<br>
+                                        semi-industrielle ou industrielle </h4></a>
+
+                                    <div class="text">
+                                        <p>Lutter contre la violation des Droits Humains et
+                                            des libertés fondamentales des citoyens, par la dénonciation et le plaidoyer </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="lower-content">
+                            <div class="category">
+                                Agriculture
+                            </div>
+
+
+                            <div class="content">
+                                <div class="post-meta">
+                                    Janvier 05, 2017 | 10 Commentaires
+                                </div>
+                                <a href="{{ route('detailevenemt', ['slug'=>1]) }}">
+                                    <h4>Aspirer à la transformation et conservation artisanale<br>
+                                        semi-industrielle ou industrielle </h4></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
 
 
 

@@ -6,14 +6,14 @@
                     <div class="post-area sec-padd">
                         <article class="classic-blog-news">
                             <figure class="img-holder">
-                                <a href="#"><img alt="News" src="{{asset('assets/images/blog/l2.jp')}}g"></a>
+                                <a href="#"><img alt="News" src="{{asset('assets/images/blog/l2.jpg')}}"></a>
 
                                 <div class="inner-box">
                                 </div>
                             </figure>
                             <div class="lower-content">
                                 <div class="category">
-                                    Awarness
+                                    Agriculture
                                 </div>
 
 
@@ -22,42 +22,16 @@
                                         February 05, 2017 | 10 Comments | By Topher Elliot
                                     </div>
                                     <a href="#">
-                                    <h4>New Award To Support Children Affected by Crises</h4></a>
-
-                                    <p>Pleasures and praising pains was born and will give you a completed all account of the systems sed and sed expound the actual teaching of the great explorer the master-builder Nor again is there anyones who loves or pursues or desires to obtain pain of itself occasionally circumstance.</p>
-
-
+                                    <h4>ICPEP a cultivé un hectare en phase d’essai de la semence du blé</h4></a>
                                     <div class="text">
-                                        <p>We denounce with righteous indignation and dislike men who are beguiled and seds demoralized by the charm pleasure of the moment,blinded by desire, that they cannot foresee the pains ut and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, uts from toil and painare perfectly simple and easy to distinguish.</p>
-
-
-                                        <p>Pleasures and praising pain was born and will give you a completed account of the systems seds expound the actual teaching of the great explorer the master builder nor again there anyones who loves or pursues desires to obtain pain of itself, because it is pain, but because occasionally.</p>
-                                    </div>
-
-
-                                    <div class="author">
-                                        <!-- Image -->
-                                        <img alt="" src="{{asset('assets/images/blog/author.jpg')}}">
-
-                                        <div class="author-comment">
-                                            <div class="quote">
-                                                <i class="fa fa-quote-left"></i>
-                                            </div>
-
-
-                                            <p>They have got my project on time with competition seds with a highly skilled, well-organized and denouncing of pleasures experienced team of professional.</p>
-
-
-                                            <h5>Dohn Gaskel</h5>
-
-
-                                            <p class="a-title">Manager</p>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="text">
-                                        <p>Know how to pursue pleasure rationally encounter consequences that are extremely painful seds or again is there anyone who loves or pursues or desires to obtain pain of itself, because seds our it pain, but because occasionally circumstances occur which toil and pain can undertakes laborious physical exercise.</p>
+                                    <p style="text-align: justify;">ICPEP a cultivé un hectare en phase d’essai de la semence du blé et a obtenu plus de 450 variétés du blé à moins de 6 mois et dispose d’une dizaine des nouvelles variétés de la pomme de terre en phase d’adaptation à l’INERA, adaptations multi locales et petite multiplication dans diverses zones agroécologies de haute terre.
+                                        ICPEP a accompagné plus de 50 dossiers en justice et obtenu des décisions judiciaires, parmi lesquels des VSBG ;
+                                        ICPEP a élaboré plusieurs rapports sur la protection des civils, dénonciations des violations des droits humains-spoliation des biens publics de l’Etat-détournements des deniers publics-dysfonctionnement de l’appareil judiciaire et de l’administration publique… ICPEP a de la même manière mener plusieurs plaidoyers pour relever ces défis et plusieurs résultats se sont avérés satisfaisants ;
+                                        ICPEP a rendu public plusieurs rapports de monitoring des lieux de détention, adressés aux autorités judiciaires et exécutives compétentes pour l’amélioration de l’administration de la justice et l’assainissement du milieu carcéral (où loge une population oubliée) ;
+                                        ICPEP a organisé plusieurs formations à l’intention de la population civile et autres bénéficiaires sur les droits humains et leurs mécanismes de protection, les mécanismes extra-judiciaires ou modes alternatifs de résolution des conflits, l’art culinaire (avec remise des brevets contresignés par le Ministre Provincial compétent). De façon particulière, une formation sur les VSBG et la protection de l’enfant à l’intention des membres de ICPEP,
+                                        Grace aux orientations et plaidoyers de ICPEP, plusieurs conflits fonciers et de pouvoir coutumiers ont été clôturés par les instances administratives, coutumières ou judiciaires compétentes, notamment en territoire de Lubero, Nyiragongo, Beni, Walikale et Masisi, ville de Goma et de Butembo ;
+                                        ICPEP participe régulièrement aux réunions de Cluster Protection et partage ses actions avec d’autres partenaires pour l’efficacité de l’intervention ;
+                                        </p>
                                     </div>
 
 
@@ -127,7 +101,7 @@
 
                         <div class="popular_news">
                             <div class="section-title style-2">
-                                <h4>Popular Post</h4>
+                                <h4>Dernier Evenement</h4>
                             </div>
 
 
