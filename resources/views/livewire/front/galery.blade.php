@@ -2,7 +2,7 @@
     <section class="gallery sec-padd style-2">
         <div class="container">
 
-            <div class="center">
+            {{-- <div class="center">
                 <ul class="post-filter list-inline">
                     <li class="active" data-filter=".filter-item">
                         <span>View All</span>
@@ -20,7 +20,7 @@
                         <span>Volunteer</span>
                     </li>
                 </ul>
-            </div>
+            </div> --}}
 
             <div class="row filter-layout">
 
@@ -36,7 +36,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                            <div class="bottom"><a href="#"><h4>Photo galerie <br>de ICPEP.</h4></a></div>
                         </div>
                     </div>
                 </article>
@@ -47,11 +47,11 @@
                             <div class="top">
                                 <div class="box">
                                     <div class="content">
-                                        <a data-group="1" href="{{asset('assets/images/project/2.jpg')}}" class="img-popup thm-btn">view project</a>
+                                        <a data-group="1" href="{{asset('assets/images/project/2.jpg')}}" class="img-popup thm-btn">Voir la photo</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                            <div class="bottom"><a href="#"><h4>Photo galerie <br>de ICPEP.</h4></a></div>
                         </div>
                     </div>
                 </article>
@@ -62,11 +62,11 @@
                             <div class="top">
                                 <div class="box">
                                     <div class="content">
-                                        <a data-group="1" href="{{asset('assets/images/project/3.jpg')}}" class="img-popup thm-btn">view project</a>
+                                        <a data-group="1" href="{{asset('assets/images/project/3.jpg')}}" class="img-popup thm-btn">Voir la photo</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                            <div class="bottom"><a href="#"><h4>Photo galerie <br>de ICPEP.</h4></a></div>
                         </div>
                     </div>
                 </article>
@@ -77,11 +77,11 @@
                             <div class="top">
                                 <div class="box">
                                     <div class="content">
-                                        <a data-group="1" href="{{asset('assets/images/project/4.jpg')}}" class="img-popup thm-btn">view project</a>
+                                        <a data-group="1" href="{{asset('assets/images/project/4.jpg')}}" class="img-popup thm-btn">Voir la photo</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                            <div class="bottom"><a href="#"><h4>Photo galerie <br>de ICPEP.</h4></a></div>
                         </div>
                     </div>
                 </article>
@@ -92,11 +92,11 @@
                             <div class="top">
                                 <div class="box">
                                     <div class="content">
-                                        <a data-group="1" href="{{asset('assets/images/project/5.jpg')}}" class="img-popup thm-btn">view project</a>
+                                        <a data-group="1" href="{{asset('assets/images/project/5.jpg')}}" class="img-popup thm-btn">Voir la photo</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                            <div class="bottom"><a href="#"><h4>Photo galerie <br>de ICPEP.</h4></a></div>
                         </div>
                     </div>
                 </article>
@@ -107,11 +107,11 @@
                             <div class="top">
                                 <div class="box">
                                     <div class="content">
-                                        <a data-group="1" href="{{asset('assets/images/project/6.jpg')}}" class="img-popup thm-btn">view project</a>
+                                        <a data-group="1" href="{{asset('assets/images/project/6.jpg')}}" class="img-popup thm-btn">Voir la photo</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                            <div class="bottom"><a href="#"><h4>Photo galerie <br>de ICPEP.</h4></a></div>
                         </div>
                     </div>
                 </article>
@@ -122,11 +122,11 @@
                             <div class="top">
                                 <div class="box">
                                     <div class="content">
-                                        <a data-group="1" href="{{asset('assets/images/project/7.jpg')}}" class="img-popup thm-btn">view project</a>
+                                        <a data-group="1" href="{{asset('assets/images/project/7.jpg')}}" class="img-popup thm-btn">Voir la photo</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                            <div class="bottom"><a href="#"><h4>Photo galerie <br>de ICPEP.</h4></a></div>
                         </div>
                     </div>
                 </article>
@@ -137,11 +137,11 @@
                             <div class="top">
                                 <div class="box">
                                     <div class="content">
-                                        <a data-group="1" href="{{asset('assets/images/project/8.jpg')}}" class="img-popup thm-btn">view project</a>
+                                        <a data-group="1" href="{{asset('assets/images/project/8.jpg')}}" class="img-popup thm-btn">Voir la photo</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                            <div class="bottom"><a href="#"><h4>Photo galerie <br>de ICPEP.</h4></a></div>
                         </div>
                     </div>
                 </article>
@@ -152,11 +152,11 @@
                             <div class="top">
                                 <div class="box">
                                     <div class="content">
-                                        <a data-group="1" href="{{asset('assets/images/project/9.jpg')}}" class="img-popup thm-btn">view project</a>
+                                        <a data-group="1" href="{{asset('assets/images/project/9.jpg')}}" class="img-popup thm-btn">Voir la photo</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="bottom"><a href="single-gallery.html"><h4>Clean poor urban areas to protect <br>from pollution.</h4></a></div>
+                            <div class="bottom"><a href="#"><h4>Photo galerie <br>de ICPEP.</h4></a></div>
                         </div>
                     </div>
                 </article>

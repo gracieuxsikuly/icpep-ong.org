@@ -185,8 +185,8 @@
                             </div>
                         </div>
                         <div class="donate clearfix">
-                            <div class="donate float_left"><span>Goal: $54000 </span></div>
-                            <div class="donate float_right">Raised: $24000</div>
+                            {{-- <div class="donate float_left"><span>Goal: $54000 </span></div>
+                            <div class="donate float_right">Raised: $24000</div> --}}
                         </div>
 
                     </div>
@@ -219,8 +219,8 @@
                             </div>
                         </div>
                         <div class="donate clearfix">
-                            <div class="donate float_left"><span>Goal: $92000 </span></div>
-                            <div class="donate float_right">Raised: $69000</div>
+                            {{-- <div class="donate float_left"><span>Goal: $92000 </span></div>
+                            <div class="donate float_right">Raised: $69000</div> --}}
                         </div>
 
                     </div>
@@ -253,8 +253,8 @@
                             </div>
                         </div>
                         <div class="donate clearfix">
-                            <div class="donate float_left"><span>Goal: $78000 </span></div>
-                            <div class="donate float_right">Raised: $49000</div>
+                            {{-- <div class="donate float_left"><span>Goal: $78000 </span></div>
+                            <div class="donate float_right">Raised: $49000</div> --}}
                         </div>
 
                     </div>
@@ -287,8 +287,8 @@
                             </div>
                         </div>
                         <div class="donate clearfix">
-                            <div class="donate float_left"><span>Goal: $54000 </span></div>
-                            <div class="donate float_right">Raised: $24000</div>
+                            {{-- <div class="donate float_left"><span>Goal: $54000 </span></div>
+                            <div class="donate float_right">Raised: $24000</div> --}}
                         </div>
 
                     </div>
@@ -321,8 +321,8 @@
                             </div>
                         </div>
                         <div class="donate clearfix">
-                            <div class="donate float_left"><span>Goal: $78000 </span></div>
-                            <div class="donate float_right">Raised: $49000</div>
+                            {{-- <div class="donate float_left"><span>Goal: $78000 </span></div>
+                            <div class="donate float_right">Raised: $49000</div> --}}
                         </div>
 
                     </div>
@@ -355,8 +355,8 @@
                             </div>
                         </div>
                         <div class="donate clearfix">
-                            <div class="donate float_left"><span>Goal: $92000 </span></div>
-                            <div class="donate float_right">Raised: $69000</div>
+                            {{-- <div class="donate float_left"><span>Goal: $92000 </span></div>
+                            <div class="donate float_right">Raised: $69000</div> --}}
                         </div>
 
                     </div>
@@ -389,8 +389,8 @@
                             </div>
                         </div>
                         <div class="donate clearfix">
-                            <div class="donate float_left"><span>Goal: $78000 </span></div>
-                            <div class="donate float_right">Raised: $49000</div>
+                            {{-- <div class="donate float_left"><span>Goal: $78000 </span></div>
+                            <div class="donate float_right">Raised: $49000</div> --}}
                         </div>
 
                     </div>
@@ -423,8 +423,8 @@
                             </div>
                         </div>
                         <div class="donate clearfix">
-                            <div class="donate float_left"><span>Goal: $78000 </span></div>
-                            <div class="donate float_right">Raised: $49000</div>
+                            {{-- <div class="donate float_left"><span>Goal: $78000 </span></div>
+                            <div class="donate float_right">Raised: $49000</div> --}}
                         </div>
 
                     </div>
@@ -457,8 +457,8 @@
                             </div>
                         </div>
                         <div class="donate clearfix">
-                            <div class="donate float_left"><span>Goal: $92000 </span></div>
-                            <div class="donate float_right">Raised: $69000</div>
+                            {{-- <div class="donate float_left"><span>Goal: $92000 </span></div>
+                            <div class="donate float_right">Raised: $69000</div> --}}
                         </div>
 
                     </div>

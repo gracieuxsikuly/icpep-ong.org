@@ -21,5 +21,6 @@ Route::get('/', [FrontController::class, 'index'])->name('acceuil');
 Route::get('/projets', [FrontController::class, 'projets'])->name('projets');
 Route::get('/apropos', [FrontController::class, 'about'])->name('about');
 Route::get('/publications', [FrontController::class, 'publications'])->name('publication');
+Route::get('/detail-evenemt/{slug}', [FrontController::class, 'detailevenemt'])->name('detailevenemt');
 Route::get('/contact', [FrontController::class, 'contact'])->name('contact');
 Route::get('galery',[FrontController::class,'galery'])->name('galery');

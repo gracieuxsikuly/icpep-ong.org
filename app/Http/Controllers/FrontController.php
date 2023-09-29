@@ -24,4 +24,7 @@ class FrontController extends Controller
     public function galery(){
         return view('layouts.pages.galerie');
     }
+    public function detailevenemt($slug){
+        return view('layouts.pages.detailevenemt',compact('slug'));
+    }
 }
