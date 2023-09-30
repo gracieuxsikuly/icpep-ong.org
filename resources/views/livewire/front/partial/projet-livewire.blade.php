@@ -9,7 +9,7 @@
                     de contribuer à l’instauration, à la promotion et à la sauvegarde de la justice et de la paix entre les
                      peuples par la mise en œuvre des principes fondamentaux des droits et libertés des peuples, des mécanismes
                      nationaux, régionaux et internationaux de protection des droits de l’homme, et assurer ainsi le bien-être
-                     socio-économique des Communautés partenaires par une gestion et une exploitation rationnelles de
+                     socio-économique des Communautés paysannes par une gestion et une exploitation rationnelles de
                      l’environnement et de ses ressources. </p>
             </div>
 
