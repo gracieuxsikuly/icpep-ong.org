@@ -30,14 +30,10 @@
 
                         <p>Personne n’est jamais devenu pauvre en donnant !</p>
                     </div>
-
-
                     <div class="right-column float_right">
                         <ul class="list_inline contact-info">
-                            <li><span class="icon-phone"></span>Phone: +32 456 789012</li>
-
-
-                            <li><span class="icon-back"></span>Email: Mailus@Humanity.com</li>
+                            <li><span class="icon-phone"></span>Phone: (+243) 970 194 912</li>
+                            <li><span class="icon-back"></span>Email: contact@icpepdrc.org</li>
                         </ul>
 
 

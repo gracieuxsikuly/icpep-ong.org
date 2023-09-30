@@ -114,9 +114,17 @@
                     <div class="content">
                         <div class="text center">
                             <a href="#">
-                            <h4 class="title">Childrens to get their home</h4></a>
+                            <h4 class="title">La protection civile</h4></a>
 
-                            <p>Fusce et augue placerat, dictu velit sit amet, egestasuna. cras aliquam pretium ornar liquam metus. Aenean venenatis sodales...</p>
+                            <p style="text-align: justify;">
+
+                                {{ Str::of(' ICPEP a élaboré plusieurs rapports sur la protection des civils,
+                                dénonciations des violations des droits humains-spoliation des biens publics
+                                 de l’Etat-détournements des deniers publics-dysfonctionnement
+                                  de l’appareil judiciaire et de l’administration publique…
+                                  ICPEP a de la même manière mener plusieurs plaidoyers pour
+                                  relever ces défis et plusieurs résultats se sont avérés satisfaisants ;')->limit(200) }}
+                               </p>
                         </div>
 
 
@@ -162,8 +170,14 @@
                     <div class="content">
                         <div class="text center">
                             <a href="#">
-                            <h4 class="title">We encourage girls education</h4></a>
-                            <p>Phasellus cursus nunc arcu, eget sollicitudin milacinia tempurs. Donec ligula turpis, egestas at volutpat no liquam...</p>
+                            <h4 class="title">Innovation Agricole Express</h4></a>
+                            <p style="text-align: justify;">
+
+                                {{ Str::of(' ICPEP a cultivé un hectare en phase d’essai de la semence du blé et a obtenu plus de 450
+                                variétés du blé à moins de 6 mois et dispose d’une dizaine des nouvelles variétés de
+                                la pomme de terre en phase d’adaptation à l’INERA, adaptations multi locales et petite
+                                 multiplication dans diverses zones agroécologies de haute terre.')->limit(200) }}
+                               </p>
                         </div>
 
 
@@ -209,9 +223,18 @@
                     <div class="content">
                         <div class="text center">
                             <a href="#">
-                            <h4 class="title">The people to help themselves</h4></a>
+                            <h4 class="title">Innovation Agricole Express</h4></a>
 
-                            <p>Etiam vitae leo diam pellentesque portaed eleifend ultricies risu, vel rutrum era commodos Praesent finib congue euismod...</p>
+                            <p style="text-align: justify;">
+
+                                {{ Str::of(' ICPEP a cultivé un hectare en phase d’essai de la semence du blé et a obtenu plus de 450
+                                variétés du blé à moins de 6 mois et dispose d’une dizaine des nouvelles variétés de
+                                la pomme de terre en phase d’adaptation à l’INERA, adaptations multi locales et petite
+                                 multiplication dans diverses zones agroécologies de haute terre.')->limit(200) }}
+
+
+
+                               </p>
                         </div>
 
 
