@@ -28,8 +28,6 @@ Route::get('galery',[FrontController::class,'galery'])->name('galery');
 
 //Backend route
 Route::get('/home', [AdminController::class, 'home'])->name('home');
-
-
 Route::get('/admin/AjoutProjet', [AdminController::class, 'AjoutProjet'])->name('AjoutProjet');
 Route::get('/admin/AjoutMenu', [AdminController::class, 'AjoutMenu'])->name('AjoutMenu');
 Route::get('/admin/ListProjet', [AdminController::class, 'ListProjet'])->name('ListProjet');
