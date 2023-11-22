@@ -20,7 +20,7 @@ return new class extends Migration
             $table->date('date_debut');
             $table->date('date_fin');
             $table->integer('duree');
-            $table->enum('statut', ['En cours', 'Terminé', 'En attente']);
+            $table->enum('statut', ['En cours', 'Terminé', 'En attente'])->default('En attente');
             $table->decimal('budget', 10, 2);
             $table->string('responsable');
             $table->text('objectifs');
