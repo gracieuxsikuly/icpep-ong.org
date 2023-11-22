@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,13 @@ Route::get('/evenement', [FrontController::class, 'publications'])->name('public
 Route::get('/detail-evenemt/{slug}', [FrontController::class, 'detailevenemt'])->name('detailevenemt');
 Route::get('/contact', [FrontController::class, 'contact'])->name('contact');
 Route::get('galery',[FrontController::class,'galery'])->name('galery');
+
+//Backend route
+Route::get('/home', [AdminController::class, 'home'])->name('home');
+
+
+Route::get('/admin/AjoutProjet', [AdminController::class, 'AjoutProjet'])->name('AjoutProjet');
+Route::get('/admin/AjoutMenu', [AdminController::class, 'AjoutMenu'])->name('AjoutMenu');
+Route::get('/admin/ListProjet', [AdminController::class, 'ListProjet'])->name('ListProjet');
+Route::get('/admin/ListMenu', [AdminController::class, 'ListMenu'])->name('ListMenu');
+
