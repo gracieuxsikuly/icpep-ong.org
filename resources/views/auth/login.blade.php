@@ -97,15 +97,15 @@
                                 <div class="d-flex flex-column h-100">
                                     <div class="mb-4 mb-md-5">
                                         <a href="index.html" class="d-block auth-logo">
-                                            <img src="{{asset ('aassets/images/logo-dark.png')}}" alt="" height="18" class="auth-logo-dark">
-                                            <img src="{{asset ('aassets/images/logo-light.png')}}" alt="" height="18" class="auth-logo-light">
+                                            <img src="{{asset('assets/images/favicons/apple-touch-icon.png')}}" alt="" height="80" class="auth-logo-dark">
+                                            <img src="{{asset('assets/images/favicons/apple-touch-icon.png')}}" alt="" height="80" class="auth-logo-light">
                                         </a>
                                     </div>
                                     <div class="my-auto">
 
                                         <div>
-                                            <h5 class="text-primary">Welcome Back !</h5>
-                                            <p class="text-muted">Sign in to continue to Skote.</p>
+                                            <h5 class="text-primary">Bienvenu  !</h5>
+                                            <p class="text-muted">Authentification requise.</p>
                                         </div>
 
                                         <div class="mt-4">
@@ -113,16 +113,22 @@
                                                 @csrf
                                                 <div class="mb-3">
                                                     <label for="login" class="form-label">Email ou numero de telephone</label>
-                                                    <input name="login" type="text" class="form-control" id="login" placeholder="entrer email ou numero de telephone">
+                                                    <input name="login" type="text" class="form-control" id="login" placeholder="Email ou numero de telephone">
                                                 </div>
 
                                                 <div class="mb-3">
                                                     <div class="float-end">
-                                                        <a href="auth-recoverpw-2.html" class="text-muted">Mot de passe oublié?</a>
+                                                        <a href="#" class="text-muted">
+                                                            @if (Route::has('password.request'))
+                                                            <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
+                                                                {{ __('Mot de passe oublié?') }}
+                                                            </a>
+                                                        @endif
+                                                            </a>
                                                     </div>
                                                     <label class="form-label">Mot de passe</label>
                                                     <div class="input-group auth-pass-inputgroup">
-                                                        <input type="password" class="form-control" placeholder="Enter password" aria-label="Password" aria-describedby="password-addon">
+                                                        <input type="password" class="form-control" placeholder="Entrer le Mot de passe" aria-label="Password" aria-describedby="password-addon">
                                                         <button class="btn btn-light " type="button" id="password-addon"><i class="mdi mdi-eye-outline"></i></button>
                                                     </div>
                                                 </div>
@@ -130,46 +136,22 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" id="remember-check">
                                                     <label class="form-check-label" for="remember-check">
-                                                        Remember me
+                                                        se souvenir de moi
                                                     </label>
                                                 </div>
 
                                                 <div class="mt-3 d-grid">
-                                                    <button class="btn btn-primary waves-effect waves-light" type="submit">Log In</button>
+                                                    <button class="btn btn-primary waves-effect waves-light" type="submit">Connexion</button>
                                                 </div>
 
 
-                                                <div class="mt-4 text-center">
-                                                    <h5 class="font-size-14 mb-3">Sign in with</h5>
-
-                                                    <ul class="list-inline">
-                                                        <li class="list-inline-item">
-                                                            <a href="javascript::void()" class="social-list-item bg-primary text-white border-primary">
-                                                                <i class="mdi mdi-facebook"></i>
-                                                            </a>
-                                                        </li>
-                                                        <li class="list-inline-item">
-                                                            <a href="javascript::void()" class="social-list-item bg-info text-white border-info">
-                                                                <i class="mdi mdi-twitter"></i>
-                                                            </a>
-                                                        </li>
-                                                        <li class="list-inline-item">
-                                                            <a href="javascript::void()" class="social-list-item bg-danger text-white border-danger">
-                                                                <i class="mdi mdi-google"></i>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
 
                                             </form>
-                                            <div class="mt-5 text-center">
-                                                <p>Don't have an account ? <a href="auth-register-2.html" class="fw-medium text-primary"> Signup now </a> </p>
-                                            </div>
                                         </div>
                                     </div>
 
                                     <div class="mt-4 mt-md-5 text-center">
-                                        <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Skote. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                                        <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> ICPEP. <i class="mdi mdi-heart text-danger"></i> by Gsk</p>
                                     </div>
                                 </div>
 
