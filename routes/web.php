@@ -27,11 +27,11 @@ Route::get('/contact', [FrontController::class, 'contact'])->name('contact');
 Route::get('galery',[FrontController::class,'galery'])->name('galery');
 
 //Backend route
-Route::get('/home', [AdminController::class, 'home'])->name('home');
-Route::get('/admin/AjoutProjet', [AdminController::class, 'AjoutProjet'])->name('AjoutProjet');
-Route::get('/admin/AjoutMenu', [AdminController::class, 'AjoutMenu'])->name('AjoutMenu');
-Route::get('/admin/ListProjet', [AdminController::class, 'ListProjet'])->name('ListProjet');
-Route::get('/admin/ListMenu', [AdminController::class, 'ListMenu'])->name('ListMenu');
+
+Route::get('/admin/AjoutProjet', [AdminController::class, 'AjoutProjet'])->name('AjoutProjet')->middleware('auth');
+Route::get('/admin/AjoutMenu', [AdminController::class, 'AjoutMenu'])->name('AjoutMenu')->middleware('auth');
+Route::get('/admin/ListProjet', [AdminController::class, 'ListProjet'])->name('ListProjet')->middleware('auth');
+Route::get('/admin/ListMenu', [AdminController::class, 'ListMenu'])->name('ListMenu')->middleware('auth');
 
 
 Route::middleware([
@@ -39,7 +39,5 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified'
 ])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
+    Route::get('/home', [AdminController::class, 'home'])->name('home');
 });
