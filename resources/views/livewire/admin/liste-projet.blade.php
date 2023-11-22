@@ -56,7 +56,7 @@
                                     <tr data-id="{{ $projet->id }}">
                                         <td data-field="id">{{ $projet->id }}</td>
                                         <td data-field="designation">{{ $projet->designation }}</td>
-                                        <td data-field="description">{{ $projet->description }}</td>
+                                        <td data-field="description">{{ Str::of($projet->description)->limit(15) }}</td>
                                         <td data-field="date_debut">{{ $projet->date_debut }}</td>
                                         <td data-field="date_fin">{{ $projet->date_fin }}</td>
                                         <td data-field="duree">{{ $projet->duree }}</td>
@@ -76,7 +76,7 @@
 
                                         <td style="width: 100px">
                                             <a wire:click.prevent="delete({{$projet->id}})"  class="btn btn-outline-secondary btn-sm edit" title="Edit">
-                                                <i class="fas fa-pencil-alt"></i>
+                                                <i class="mdi-delete"></i>
                                             </a>
                                         </td>
                                     </tr>
@@ -87,6 +87,11 @@
                                 @endforelse
                             </tbody>
                         </table>
+                        {{-- <center>
+                            @if (count($projets))
+                                {{ $projets->links('vendor.livewire.bootstrap') }}
+                            @endif
+                        </center> --}}
                     </div>
 
                 </div>

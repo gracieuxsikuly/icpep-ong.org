@@ -4,9 +4,15 @@ namespace App\Http\Livewire\Admin;
 
 use App\Models\Projet;
 use Livewire\Component;
+use Livewire\WithFileUploads;
+use Intervention\Image\Facades\Image;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class AddProjet extends Component
 {
+    use WithFileUploads;
+    use LivewireAlert;
+
     public $designation;
     public $date_debut;
     public $duree;
@@ -17,7 +23,7 @@ class AddProjet extends Component
     public $beneficiaires_cibles;
     public $description;
     public $date_fin;
-    public $statut;
+    // public $statut;
     public $financement;
     public $objectifs;
     public $image;
@@ -32,7 +38,7 @@ class AddProjet extends Component
         'beneficiaires_cibles' => 'required|string',
         'description' => 'required|string',
         'date_fin' => 'required|date',
-        'statut' => 'required|string',
+        // 'statut' => 'required|string',
         'financement' => 'required|string',
         'objectifs' => 'required|string',
         'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
@@ -70,8 +76,8 @@ protected $messages = [
     'date_fin.required' => 'Le champ Date de fin est obligatoire.',
     'date_fin.date' => 'Le champ Date de fin doit être une date valide.',
 
-    'statut.required' => 'Le champ Statut est obligatoire.',
-    'statut.string' => 'Le champ Statut doit être une chaîne de caractères.',
+    // 'statut.required' => 'Le champ Statut est obligatoire.',
+    // 'statut.string' => 'Le champ Statut doit être une chaîne de caractères.',
 
     'financement.required' => 'Le champ Financement est obligatoire.',
     'financement.string' => 'Le champ Financement doit être une chaîne de caractères.',
@@ -92,9 +98,16 @@ protected $messages = [
     }
     public function saveprojet()
     {
+
         $this->validate();
-        $imageName = time().'.'.$this->image->extension();
-        $this->image->move(public_path('images'), $imageName);
+        // dd("ok");
+        if ($this->image) {
+            $imageName = $this->image->getClientOriginalName();
+                $imageName = time() . $imageName;
+                $imageResized = Image::make($this->image->getRealPath())
+                ->save(public_path('assets/images/projet/' . $imageName));
+        }
+
         $projet = new Projet();
         $projet->designation = $this->designation;
         $projet->date_debut = $this->date_debut;
@@ -108,11 +121,12 @@ protected $messages = [
         $projet->date_fin = $this->date_fin;
         $projet->financement = $this->financement;
         $projet->objectifs = $this->objectifs;
-        $projet->image = $imageName;
+        // condition ternaire sur l'image
+        $projet->image = $this->image ? $imageName : null;
         $projet->save();
         $this->alert('success', 'projet bien creer!');
         // session()->flash('message', 'Projet successfully added.');
-        // return redirect()->to('/admin/liste-projet');
+         return redirect()->to('/admin/ListProjet');
     }
     public function render()
     {

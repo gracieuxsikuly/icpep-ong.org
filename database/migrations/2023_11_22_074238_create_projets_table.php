@@ -22,6 +22,7 @@ return new class extends Migration
             $table->integer('duree');
             $table->enum('statut', ['En cours', 'Terminé', 'En attente'])->default('En attente');
             $table->decimal('budget', 10, 2);
+            $table->string('financement')->nullable();
             $table->string('responsable');
             $table->text('objectifs');
             $table->text('indicateurs')->nullable();
