@@ -33,3 +33,13 @@ Route::get('/admin/AjoutMenu', [AdminController::class, 'AjoutMenu'])->name('Ajo
 Route::get('/admin/ListProjet', [AdminController::class, 'ListProjet'])->name('ListProjet');
 Route::get('/admin/ListMenu', [AdminController::class, 'ListMenu'])->name('ListMenu');
 
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
