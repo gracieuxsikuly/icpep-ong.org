@@ -12,7 +12,7 @@ class Projet extends Model
         'designation', 'description', 'date_debut', 'date_fin', 'duree', 'statut',
         'budget', 'financement', 'responsable', 'objectifs', 'indicateurs',
         'partenaires', 'region_geographique', 'beneficiaires_cibles',
-        'activites', 'risques_mitigation', 'evaluations_rapports', 'documents_associes','image',
+        'activites', 'evaluations_rapports', 'documents_associes','image',
     ];
 
 
