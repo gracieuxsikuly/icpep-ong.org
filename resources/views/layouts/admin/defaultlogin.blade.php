@@ -179,20 +179,20 @@
         </div>
 
         <!-- JAVASCRIPT -->
-        <script src="assets/libs/jquery/jquery.min.js"></script>
-        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/libs/metismenu/metisMenu.min.js"></script>
-        <script src="assets/libs/simplebar/simplebar.min.js"></script>
-        <script src="assets/libs/node-waves/waves.min.js"></script>
+        <script src="{{asset ('aassets/libs/jquery/jquery.min') }}"></script>
+        <script src="{{asset ('aassets/libs/bootstrap/js/bootstrap.bundle.min') }}"></script>
+        <script src="{{asset ('aassets/libs/metismenu/metisMenu.min') }}"></script>
+        <script src="{{asset ('aassets/libs/simplebar/simplebar.min') }}"></script>
+        <script src="{{asset ('aassets/libs/node-waves/waves.min') }}"></script>
 
         <!-- owl.carousel js -->
-        <script src="assets/libs/owl.carousel/owl.carousel.min.js"></script>
+        <script src="{{asset ('aassets/libs/owl.carousel/owl.carousel.min') }}"></script>
 
         <!-- auth-2-carousel init -->
-        <script src="assets/js/pages/auth-2-carousel.init.js"></script>
+        <script src="{{asset ('aassets/js/pages/auth-2-carousel.init') }}"></script>
 
         <!-- App js -->
-        <script src="assets/js/app.js"></script>
+        <script src="{{asset ('aassets/js/app') }}"></script>
 
     </body>
 
