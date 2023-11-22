@@ -12,8 +12,19 @@
                 <div class="card-body">
 
                     <h4 class="card-title">Liste de projet</h4>
-                    <p class="card-title-desc"><a href="" class="btn btn-primary waves-effect waves-light btn-sm">Nouveau projet <i class="mdi mdi-arrow-right ms-1"></i></a></p>
-
+                    <div class="row mb-2">
+                        <div class="col-sm-6">
+                            <!-- Barre de recherche -->
+                            <div class="input-group mb-2">
+                                <input wire:model="searchTerm" type="text" class="form-control" placeholder="Rechercher une méthode de livraison">
+                                <button type="submit" class="btn btn-primary"><i class="mdi mdi-magnify"></i> </button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <!-- Bouton "Nouvelle méthode de livraison" -->
+                            <a href="{{ route('AjoutProjet') }}" class="btn btn-primary mb-2"><i class="mdi mdi-plus-circle me-2"></i> Nouveau projet</a>
+                        </div>
+                    </div>
                     <div class="table-responsive">
                         <table class="table table-editable table-nowrap align-middle table-edits">
                             <thead>
@@ -41,7 +52,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @forelse($this->projets as $projet)
+                                @forelse($projets as $projet)
                                     <tr data-id="{{ $projet->id }}">
                                         <td data-field="id">{{ $projet->id }}</td>
                                         <td data-field="designation">{{ $projet->designation }}</td>
@@ -64,7 +75,7 @@
                                         <td data-field="image">{{ $projet->image }}</td>
 
                                         <td style="width: 100px">
-                                            <a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+                                            <a wire:click.prevent="delete({{$projet->id}})"  class="btn btn-outline-secondary btn-sm edit" title="Edit">
                                                 <i class="fas fa-pencil-alt"></i>
                                             </a>
                                         </td>
