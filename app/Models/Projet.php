@@ -9,7 +9,7 @@ class Projet extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'designation', 'description', 'date_debut', 'date_fin', 'duree', 'statut',
+        'id','designation', 'description', 'date_debut', 'date_fin', 'duree', 'statut',
         'budget', 'financement', 'responsable', 'objectifs', 'indicateurs',
         'partenaires', 'region_geographique', 'beneficiaires_cibles',
         'activites', 'evaluations_rapports', 'documents_associes','image',

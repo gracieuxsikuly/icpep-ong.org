@@ -9,7 +9,7 @@ use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class ListeProjet extends Component
 {
-    public $page_active=4,$desplayedelete,$searchTerm;
+    public $page_active=20,$desplayedelete,$searchTerm;
     use WithPagination;
     use LivewireAlert;
     protected $listeners = [

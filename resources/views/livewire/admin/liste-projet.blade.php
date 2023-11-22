@@ -61,7 +61,7 @@
                                         <td data-field="date_fin">{{ $projet->date_fin }}</td>
                                         <td data-field="duree">{{ $projet->duree }}</td>
                                         <td data-field="statut">{{ $projet->statut }}</td>
-                                        <td data-field="budget">{{ $projet->budget }}</td>
+                                        <td data-field="budget">{{ $projet->budget }}USD</td>
                                         <td data-field="financement">{{ $projet->financement }}</td>
                                         <td data-field="responsable">{{ $projet->responsable }}</td>
                                         <td data-field="objectifs">{{ $projet->objectifs }}</td>
@@ -75,8 +75,8 @@
                                         <td data-field="image">{{ $projet->image }}</td>
 
                                         <td style="width: 100px">
-                                            <a wire:click.prevent="delete({{$projet->id}})"  class="btn btn-outline-secondary btn-sm edit" title="Edit">
-                                                <i class="mdi-delete"></i>
+                                            <a wire:click.prevent="delete({{$projet->id}})"  class="btn btn-outline-secondary btn-sm edit" title="Delete">
+                                                <i class="mdi mdi-delete"></i>
                                             </a>
                                         </td>
                                     </tr>
