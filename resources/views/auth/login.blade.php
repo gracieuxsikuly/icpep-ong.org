@@ -89,11 +89,7 @@
                     <div class="col-xl-3">
                         <div class="auth-full-page-content p-md-5 p-4">
                             <div class="w-100">
-                                @if (session('status'))
-                                <div class="mb-4 font-medium text-sm text-green-600">
-                                    {{ session('status') }}
-                                </div>
-                            @endif
+
                                 <div class="d-flex flex-column h-100">
                                     <div class="mb-4 mb-md-5">
                                         <a href="index.html" class="d-block auth-logo">
@@ -107,13 +103,18 @@
                                             <h5 class="text-primary">Bienvenu  !</h5>
                                             <p class="text-muted">Authentification requise.</p>
                                         </div>
-
+                                        <x-validation-errors class="mb-4" />
+                                        @if (session('status'))
+                                        <div class="mb-4 font-medium text-sm text-green-600">
+                                            {{ session('status') }}
+                                        </div>
+                                    @endif
                                         <div class="mt-4">
                                             <form method="POST" action="{{ route('login') }}">
                                                 @csrf
                                                 <div class="mb-3">
-                                                    <label for="login" class="form-label">Email ou numero de telephone</label>
-                                                    <input name="login" type="text" class="form-control" id="login" placeholder="Email ou numero de telephone">
+                                                    <label for="email" class="form-label">Email ou numero de telephone</label>
+                                                    <input name="email" type="text" class="form-control" id="email" placeholder="Email ou numero de telephone">
                                                 </div>
 
                                                 <div class="mb-3">
@@ -128,7 +129,7 @@
                                                     </div>
                                                     <label class="form-label">Mot de passe</label>
                                                     <div class="input-group auth-pass-inputgroup">
-                                                        <input type="password" class="form-control" placeholder="Entrer le Mot de passe" aria-label="Password" aria-describedby="password-addon">
+                                                        <input name="password" type="password" class="form-control" placeholder="Entrer le Mot de passe" aria-label="Password" aria-describedby="password-addon">
                                                         <button class="btn btn-light " type="button" id="password-addon"><i class="mdi mdi-eye-outline"></i></button>
                                                     </div>
                                                 </div>
