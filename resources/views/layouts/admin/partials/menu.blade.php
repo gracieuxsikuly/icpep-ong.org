@@ -24,11 +24,11 @@
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="bx bx-store"></i>
 
-                        <span key="t-ecommerce">MENU</span>
+                        <span key="t-ecommerce">Publications ou blog</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="{{route ('AjoutMenu') }}" key="t-products">Ajouter Menu</a></li>
-                        <li><a href="{{route ('ListMenu') }}" key="t-product-detail">Liste Menu</a></li>
+                        <li><a href="{{route ('AjoutMenu') }}" key="t-products">Ajouter blog</a></li>
+                        <li><a href="{{route ('ListMenu') }}" key="t-product-detail">Liste blog</a></li>
                     </ul>
                 </li>
 
