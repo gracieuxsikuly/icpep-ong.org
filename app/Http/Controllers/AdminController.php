@@ -11,17 +11,17 @@ class AdminController extends Controller
 
     return view('layouts.admin.pages.home');
 }
-public function AjoutProjet(){
-    return view('layouts.admin.pages.AjoutProjet');
+public function ajoutprojet(){
+    return view('layouts.admin.pages.ajoutprojet');
 }
-public function ListProjet(){
-    return view('layouts.admin.pages.ListProjet');
+public function listprojet(){
+    return view('layouts.admin.pages.listprojet');
 }
-public function AjoutMenu(){
-    return view('layouts.admin.pages.AjoutMenu');
+public function ajoutblog(){
+    return view('layouts.admin.pages.ajoutblog');
 }
-public function ListMenu(){
-    return view('layouts.admin.pages.ListMenu');
+public function listblog(){
+    return view('layouts.admin.pages.listblog');
 }
 
 }

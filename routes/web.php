@@ -33,8 +33,8 @@ Route::middleware([
     'verified'
 ])->group(function () {
     Route::get('/home', [AdminController::class, 'home'])->name('home');
-    Route::get('/admin/AjoutProjet', [AdminController::class, 'AjoutProjet'])->name('AjoutProjet');
-    Route::get('/admin/AjoutMenu', [AdminController::class, 'AjoutMenu'])->name('AjoutMenu');
-    Route::get('/admin/ListProjet', [AdminController::class, 'ListProjet'])->name('ListProjet');
-    Route::get('/admin/ListMenu', [AdminController::class, 'ListMenu'])->name('ListMenu');
+    Route::get('/admin/nouveauprojet', [AdminController::class, 'ajoutprojet'])->name('ajoutprojet');
+    Route::get('/admin/nouvellepublication', [AdminController::class, 'ajoutblog'])->name('ajoutblog');
+    Route::get('/admin/listprojet', [AdminController::class, 'listprojet'])->name('listprojet');
+    Route::get('/admin/listpublication', [AdminController::class, 'listblog'])->name('listblog');
 });
