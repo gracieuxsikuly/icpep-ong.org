@@ -30,6 +30,7 @@
                             <thead>
                                 <tr>
                                     <th>ID</th>
+                                    <th>Image</th>
                                     <th>Designation</th>
                                     <th>Description</th>
                                     <th>Date Debut</th>
@@ -47,7 +48,7 @@
                                     {{-- <th>Activites</th> --}}
                                     {{-- <th>Evaluations Rapports</th> --}}
                                     {{-- <th>Documents Associes</th> --}}
-                                    <th>Image</th>
+
                                     <th>Suprimer</th>
                                 </tr>
                             </thead>
@@ -55,12 +56,50 @@
                                 @forelse($projets as $projet)
                                     <tr data-id="{{ $projet->id }}">
                                         <td data-field="id">{{ $projet->id }}</td>
+                                        <td data-field="image">
+                                            <img src="{{ asset('assets/images/projet/' . $projet->image) }}" alt="{{ $projet->image }}" class="avatar-sm">
+                                            </td>
                                         <td data-field="designation">{{ $projet->designation }}</td>
                                         <td data-field="description">{{ Str::of($projet->description)->limit(15) }}</td>
                                         <td data-field="date_debut">{{ $projet->date_debut }}</td>
                                         <td data-field="date_fin">{{ $projet->date_fin }}</td>
                                         <td data-field="duree">{{ $projet->duree }}</td>
-                                        <td data-field="statut">{{ $projet->statut }}</td>
+                                        <td data-field="statut">
+                                            @if ($projet->statut == 'En cours')
+                                            <div class="btn-group">
+                                                <button class="btn btn-info btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    {{ $projet->statut }} <i class="mdi mdi-chevron-down"></i>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item" style="cursor: pointer;" wire:click="status({{$projet->id}},'1')">En attente</a>
+                                                    <a class="dropdown-item" style="cursor: pointer;" wire:click="status({{$projet->id}},'3')">Terminé</a>
+                                                </div>
+                                            </div>
+
+                                            @elseif($projet->statut == 'En attente')
+                                            <div class="btn-group">
+                                                <button class="btn btn-warning btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    {{ $projet->statut }} <i class="mdi mdi-chevron-down"></i>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" style="cursor: pointer;" wire:click="status({{$projet->id}},'2')">En cours</a>
+                                                    <a class="dropdown-item" style="cursor: pointer;" wire:click="status({{$projet->id}},'3')">Terminé</a>
+                                                </div>
+                                            </div>
+
+                                            @elseif($projet->statut == 'Terminé')
+                                            <div class="btn-group">
+                                                <button class="btn btn-success btn-sm" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    {{ $projet->statut }} <i class="mdi mdi-chevron-down"></i>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                   <a class="dropdown-item"  style="cursor: pointer;" wire:click="status({{$projet->id}},'1')">En attente</a>
+                                                    <a class="dropdown-item" style="cursor: pointer;" wire:click="status({{$projet->id}},'2')">En cours</a>
+                                                    <a class="dropdown-item"  style="cursor: pointer;" wire:click="status({{$projet->id}},'3')">Terminé</a>
+                                                </div>
+                                            </div>
+                                            @endif
+                                        </td>
                                         <td data-field="budget">{{ $projet->budget }}USD</td>
                                         <td data-field="financement">{{ $projet->financement }}</td>
                                         <td data-field="responsable">{{ $projet->responsable }}</td>
@@ -72,7 +111,7 @@
                                         {{-- <td data-field="activites">{{ $projet->activites }}</td> --}}
                                         {{-- <td data-field="evaluations_rapports">{{ $projet->evaluations_rapports }}</td> --}}
                                         {{-- <td data-field="documents_associes">{{ $projet->documents_associes }}</td> --}}
-                                        <td data-field="image">{{ $projet->image }}</td>
+
 
                                         <td style="width: 100px">
                                             <a wire:click.prevent="delete({{$projet->id}})"  class="btn btn-outline-secondary btn-sm edit" title="Delete">

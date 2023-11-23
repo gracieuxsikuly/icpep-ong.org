@@ -54,5 +54,20 @@ class ListeProjet extends Component
             $this->alert('info', 'projet bien Suprime!');
         }
     }
+    public function status($id, $statut)
+    {
+        $projet = Projet::whereId($id)->first();
+        if($statut == '1'){
+            $projet->statut = 'En attente';
+            $projet->save();
+        }else if($statut == '2'){
+            $projet->statut = 'En cours';
+            $projet->save();
+        }else if($statut == '3'){
+            $projet->statut = 'Terminé';
+            $projet->save();
+        }
+        $this->alert('info', 'Statut bien modifié!');
+    }
 
 }

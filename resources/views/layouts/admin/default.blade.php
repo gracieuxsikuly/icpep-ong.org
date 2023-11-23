@@ -20,6 +20,8 @@
         <link href="{{asset ('aassets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
         <!-- App Css-->
         <link href="{{asset ('aassets/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
+         <!-- dropzone css -->
+         <link href="{{asset ('aassets/libs/dropzone/min/dropzone.min.css') }}" rel="stylesheet" type="text/css" />
         @livewireStyles
     </head>
 
@@ -80,12 +82,14 @@
         <script src="{{asset ('aassets/js/pages/dashboard-blog.init.js') }}"></script>
 
         <script src="{{asset ('aassets/js/app.js') }}"></script>
+        <!-- dropzone plugin -->
+        <script src="{{asset ('aassets/libs/dropzone/min/dropzone.min.js') }}"></script>
         @livewireScripts
 
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <x-livewire-alert::scripts />
+  {{-- <x-livewire-alert::scripts /> --}}
   <script src="{{ asset('vendor/livewire-alert/livewire-alert.js') }}"></script>
-<x-livewire-alert::flash />
+{{-- <x-livewire-alert::flash /> --}}
     </body>
 
 

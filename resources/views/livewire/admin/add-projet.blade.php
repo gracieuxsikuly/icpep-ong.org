@@ -113,6 +113,7 @@
                             <span class="text-danger">{{ $message }}</span>
                         @enderror
                         </div>
+
                         <div class="mb-3">
                             <label for="image" class="form-label">Image</label>
                             <input type="file" class="form-control" id="image" wire:model="image" accept="image/*">
@@ -123,6 +124,7 @@
                     </div>
                 </div>
 
+
                 <div>
                     <button type="submit" class="btn btn-primary w-md">Enregistrer le projet</button>
                 </div>
@@ -130,4 +132,5 @@
         </div>
         <!-- end card body -->
     </div>
+
 </div>
