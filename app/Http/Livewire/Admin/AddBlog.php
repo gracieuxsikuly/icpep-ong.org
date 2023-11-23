@@ -42,14 +42,13 @@ class AddBlog extends Component
     {
         $this->validateOnly($propertyName);
     }
-    public function submit()
+    public function saveblog()
     {
         $this->validate();
         if ($this->image) {
             $imageName = $this->image->getClientOriginalName();
                 $imageName = time() . $imageName;
-                $imageResized = Image::make($this->image->getRealPath())
-                ->save(public_path('assets/images/publication/' . $imageName));
+                Image::make($this->image->getRealPath())->save(public_path('assets/images/publication/'. $imageName));
         }
         $blog = new Blog();
         $blog->titre = $this->titre;
