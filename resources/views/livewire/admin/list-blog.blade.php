@@ -2,11 +2,11 @@
     <div class="row">
         <div class="col-12">
             <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                <div class="row mb-2">
+                <div class="row mb-12">
                     <div class="col-sm-6">
                         <!-- Barre de recherche -->
-                        <div class="input-group mb-2">
-                            <input wire:model="searchTerm" type="text" class="form-control" placeholder="Rechercher une méthode de livraison">
+                        <div class="input-group mb-4">
+                            <input wire:model="searchTerm" type="text" class="form-control" placeholder="Rechercher une publication">
                             <button type="submit" class="btn btn-primary"><i class="mdi mdi-magnify"></i> </button>
                         </div>
                     </div>
