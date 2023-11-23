@@ -126,7 +126,7 @@ protected $messages = [
         $projet->save();
         $this->alert('success', 'projet bien creer!');
         // session()->flash('message', 'Projet successfully added.');
-         return redirect()->to('/admin/ListProjet');
+         return redirect()->to('/admin/listprojet');
     }
     public function render()
     {

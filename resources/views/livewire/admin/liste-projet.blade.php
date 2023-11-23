@@ -22,7 +22,7 @@
                         </div>
                         <div class="col-sm-6">
                             <!-- Bouton "Nouvelle méthode de livraison" -->
-                            <a href="{{ route('AjoutProjet') }}" class="btn btn-primary mb-2"><i class="mdi mdi-plus-circle me-2"></i> Nouveau projet</a>
+                            <a href="{{ route('ajoutprojet') }}" class="btn btn-primary mb-2"><i class="mdi mdi-plus-circle me-2"></i> Nouveau projet</a>
                         </div>
                     </div>
                     <div class="table-responsive">

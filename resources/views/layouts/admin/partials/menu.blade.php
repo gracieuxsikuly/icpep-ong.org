@@ -15,8 +15,8 @@
                         <span key="t-ecommerce">Les projets</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="{{route ('AjoutProjet') }}" key="t-products">Ajouter Projet</a></li>
-                        <li><a href="{{route ('ListProjet') }}" key="t-product-detail">Liste des Projets</a></li>
+                        <li><a href="{{route ('ajoutprojet') }}" key="t-products">Ajouter Projet</a></li>
+                        <li><a href="{{route ('listprojet') }}" key="t-product-detail">Liste des Projets</a></li>
                     </ul>
                 </li>
 
@@ -27,8 +27,8 @@
                         <span key="t-ecommerce">Publications ou blog</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="{{route ('AjoutMenu') }}" key="t-products">Ajouter blog</a></li>
-                        <li><a href="{{route ('ListMenu') }}" key="t-product-detail">Liste blog</a></li>
+                        <li><a href="{{route ('ajoutblog') }}" key="t-products">Ajouter blog</a></li>
+                        <li><a href="{{route ('listblog') }}" key="t-product-detail">Liste blog</a></li>
                     </ul>
                 </li>
 
