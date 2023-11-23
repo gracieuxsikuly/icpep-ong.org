@@ -49,8 +49,15 @@
                                             </td>
                                         <td data-field="titre">{{ $blog->titre }}</td>
                                         <td data-field="contenu">{{ Str::of($blog->contenu)->limit(15) }}</td>
-                                        <td data-field="auteur">{{ $blog->auteur->name }}</td>
-                                        <td data-field="publie">{{ $blog->publie }}</td>
+                                        <td data-field="auteur">{{ $blog->auteur->email }}</td>
+                                        <td data-field="publie">
+                                            @livewire('admin.toggle-switchprojet', [
+                                                'model' => $blog,
+                                                'field' => 'publie',
+                                                'idblog' => $blog->id,
+                                            ])
+                                            {{-- {{ $blog->publie }} --}}
+                                        </td>
                                         <td data-field="notation">{{ $blog->notation }}</td>
 
                                         <td data-field="vue">{{ $blog->vue }}</td>
