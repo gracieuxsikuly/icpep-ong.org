@@ -7,6 +7,7 @@ use Livewire\Component;
 use Livewire\WithFileUploads;
 use Intervention\Image\Facades\Image;
 use Jantinnerezo\LivewireAlert\LivewireAlert;
+use Illuminate\Support\Str;
 
 class AddBlog extends Component
 {
@@ -54,8 +55,7 @@ class AddBlog extends Component
         $blog->titre = $this->titre;
         $blog->contenu = $this->contenu;
         $blog->auteur_id = auth()->user()->id;
-        $blog->slug = $this->titre;
-        $blog->publie = $this->publie;
+        $blog->slug = substr(Str::slug($this->titre), 0, 49);
         $blog->notation = 0;
         $blog->image = $this->image ? $imageName : null;
         $blog->vue = 0;
