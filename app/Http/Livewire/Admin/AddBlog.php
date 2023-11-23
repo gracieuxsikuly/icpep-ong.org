@@ -48,7 +48,8 @@ class AddBlog extends Component
         if ($this->image) {
             $imageName = $this->image->getClientOriginalName();
                 $imageName = time() . $imageName;
-                Image::make($this->image->getRealPath())->save(public_path('assets/images/publication/'. $imageName));
+                $imageResized = Image::make($this->image->getRealPath())
+                ->save(public_path('assets/images/publication/' . $imageName));
         }
         $blog = new Blog();
         $blog->titre = $this->titre;
@@ -60,7 +61,8 @@ class AddBlog extends Component
         $blog->vue = 0;
         $blog->save();
         $this->alert('success', 'blog bien creer!');
-        // return redirect()->route('admin.blogs');
+        $this->reset();
+         return redirect()->route('/admin/listpublication');
     }
     public function render()
     {
