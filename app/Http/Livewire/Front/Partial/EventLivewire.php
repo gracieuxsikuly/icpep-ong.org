@@ -19,4 +19,5 @@ class EventLivewire extends Component
          return view('livewire.front.partial.event-livewire',
          ['blogs' => $blogs]);
     }
+
 }

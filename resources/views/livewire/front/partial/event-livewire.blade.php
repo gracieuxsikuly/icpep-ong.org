@@ -11,7 +11,7 @@
                 <article class="col-md-4 col-sm-6 col-xs-12">
                     <div class="default-blog-news">
                         <figure class="img-holder">
-                            <a href="blog-details.html">
+                            <a href="{{ route('detailevenemt',  ['slug'=>$blog->slug]) }}">
                                 <img src="{{ asset('assets/images/blog/' . $blog->image) }}" alt="{{ $blog->image }}">
                                 {{-- <img alt="News" src="{{asset('assets/images/blog/1.jpg')}}"></a> --}}
 
@@ -30,7 +30,7 @@
                                     <div class="post-meta">
                                         {{ $blog->created_at }} |  {{ $blog->vue }} Vues
                                     </div>
-                                    <a href="blog-details.html">
+                                    <a href="{{ route('detailevenemt', ['slug'=>$blog->slug]) }}">
                                     <h4> {{ $blog->titre }}</h4></a>
 
                                     <div class="text">
@@ -51,7 +51,7 @@
                                    <div class="post-meta">
                                     {{ $blog->created_at }} |  {{ $blog->notation }} Etoiles
                                 </div>
-                                <a href="blog-details.html">
+                                <a href="{{ route('detailevenemt',  ['slug'=>$blog->slug]) }}">
                                     <h4> {{ Str::of( $blog->titre)->limit(45) }}</h4></a>
                             </div>
                         </div>
