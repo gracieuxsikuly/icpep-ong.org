@@ -49,7 +49,7 @@ class AddBlog extends Component
             $imageName = $this->image->getClientOriginalName();
                 $imageName = time() . $imageName;
                 $imageResized = Image::make($this->image->getRealPath())
-                ->save(public_path('assets/images/publication/' . $imageName));
+                ->save(public_path('assets/images/blog/' . $imageName));
         }
         $blog = new Blog();
         $blog->titre = $this->titre;

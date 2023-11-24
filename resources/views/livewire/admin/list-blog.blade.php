@@ -45,7 +45,7 @@
                                     <tr data-id="{{ $blog->id }}">
                                         <td data-field="id" style="width: 80px">{{ $blog->id }}</td>
                                         <td data-field="image">
-                                            <img src="{{ asset('assets/images/publication/' . $blog->image) }}" alt="{{ $blog->image }}" class="avatar-sm">
+                                            <img src="{{ asset('assets/images/blog/' . $blog->image) }}" alt="{{ $blog->image }}" class="avatar-sm">
                                             </td>
                                         <td data-field="titre">{{ $blog->titre }}</td>
                                         <td data-field="contenu">{{ Str::of($blog->contenu)->limit(15) }}</td>
