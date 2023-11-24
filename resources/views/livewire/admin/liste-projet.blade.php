@@ -131,11 +131,11 @@
 
                             </tbody>
                         </table>
-                        {{-- <center>
+                        <center>
                             @if (count($projets))
-                                {{ $projets->links('vendor.livewire.bootstrap') }}
+                                {{ $projets->links('vendor.pagination.bootstrap-4-2') }}
                             @endif
-                        </center> --}}
+                        </center>
                     </div>
 
                 </div>

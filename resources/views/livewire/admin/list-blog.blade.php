@@ -71,6 +71,11 @@
                             </tbody>
                         </table>
                     </div>
+                    <center>
+                        @if (count($blogs))
+                            {{ $blogs->links('vendor.pagination.bootstrap-4-2') }}
+                        @endif
+                    </center>
 
 
                 </div>

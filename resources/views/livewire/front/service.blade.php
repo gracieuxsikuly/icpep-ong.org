@@ -166,7 +166,7 @@
                 <article class="item col-md-4 col-sm-6 col-xs-12">
                     <figure class="img-box">
                         <img src="{{ asset('assets/images/project/' . $projet->image) }}" alt="{{ $projet->image }}">
-                        <div class="overlay"><div class="inner-box"><div class="content-box"><button class="thm-btn style-2 donate-box-btn">Details</button></div></div></div>
+                        <div class="overlay"><div class="inner-box"><div class="content-box"><button class="thm-btn style-2 donate-box-btn">Faire un don</button></div></div></div>
                     </figure>
 
                     <div class="content">
@@ -196,12 +196,11 @@
                 @endforelse
 
             </div>
-            <br>
-            <center>
+
                 @if (count($projets))
                     {{ $projets->links('vendor.pagination.bootstrap-4-1') }}
                 @endif
-            </center>
+
             {{-- <ul class="page_pagination center">
                 <li><a href="#" class="tran3s"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
                 <li><a href="#" class="active tran3s">1</a></li>
