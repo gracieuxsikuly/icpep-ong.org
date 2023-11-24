@@ -20,8 +20,8 @@
         <link href="{{asset ('aassets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
         <!-- App Css-->
         <link href="{{asset ('aassets/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
-         <!-- dropzone css -->
-         <link href="{{asset ('aassets/libs/dropzone/min/dropzone.min.css') }}" rel="stylesheet" type="text/css" />
+          <!-- Plugins css -->
+        <link href="{{asset ('aassets/libs/bootstrap-editable/css/bootstrap-editable.css') }}" rel="stylesheet" type="text/css" />
         @livewireStyles
     </head>
 
@@ -82,8 +82,10 @@
         <script src="{{asset ('aassets/js/pages/dashboard-blog.init.js') }}"></script>
 
         <script src="{{asset ('aassets/js/app.js') }}"></script>
-        <!-- dropzone plugin -->
-        <script src="{{asset ('aassets/libs/dropzone/min/dropzone.min.js') }}"></script>
+           <!-- Plugins js -->
+           <script src="{{asset ('aassets/libs/bootstrap-editable/js/index.js') }}"></script>
+       <!-- Init js-->
+       <script src="{{asset ('aassets/js/pages/form-xeditable.init.js') }}"></script>
         @livewireScripts
 
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>

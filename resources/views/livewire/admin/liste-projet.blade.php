@@ -26,7 +26,7 @@
                         </div>
                     </div>
                     <div class="table-responsive">
-                        <table class="table table-editable table-nowrap align-middle table-edits">
+                        <table class="table table-striped table-nowrap mb-0">
                             <thead>
                                 <tr>
                                     <th>ID</th>
@@ -41,7 +41,7 @@
                                     <th>Financement</th>
                                     <th>Responsable</th>
                                     <th>Objectifs</th>
-                                    {{-- <th>Indicateurs</th> --}}
+                                    <th>Indicateurs</th>
                                     <th>Partenaires</th>
                                     <th>Region Geographique</th>
                                     <th>Beneficiaires Cibles</th>
@@ -104,7 +104,11 @@
                                         <td data-field="financement">{{ $projet->financement }}</td>
                                         <td data-field="responsable">{{ $projet->responsable }}</td>
                                         <td data-field="objectifs">{{ $projet->objectifs }}</td>
-                                        {{-- <td data-field="indicateurs">{{ $projet->indicateurs }}</td> --}}
+                                        <td data-field="indicateurs">
+                                            <input type="number"  class="form-control"  value="{{ $projet->indicateurs }}" wire:change="indicateurs({{$projet->id}},$event.target.value)"
+                                           >
+                                            {{-- {{ $projet->indicateurs }} --}}
+                                        </td>
                                         <td data-field="partenaires">{{ $projet->partenaires }}</td>
                                         <td data-field="region_geographique">{{ $projet->region_geographique }}</td>
                                         <td data-field="beneficiaires_cibles">{{ $projet->beneficiaires_cibles }}</td>
@@ -124,6 +128,7 @@
                                         <td colspan="16">Aucun projet trouvé</td>
                                     </tr>
                                 @endforelse
+
                             </tbody>
                         </table>
                         {{-- <center>

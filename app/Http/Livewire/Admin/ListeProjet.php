@@ -12,6 +12,7 @@ class ListeProjet extends Component
     public $page_active=20,$desplayedelete,$searchTerm;
     use WithPagination;
     use LivewireAlert;
+    public $indicateurs;
     protected $listeners = [
         'confirmed'
     ];
@@ -68,6 +69,14 @@ class ListeProjet extends Component
             $projet->save();
         }
         $this->alert('info', 'Statut bien modifié!');
+    }
+    public function indicateurs($id,$ind)
+    {
+        // recupere la valeur de cet input et update la table projet la linge indicateur
+        $projet = Projet::whereId($id)->first();
+        $projet->indicateurs = $ind;
+        $projet->save();
+
     }
 
 }

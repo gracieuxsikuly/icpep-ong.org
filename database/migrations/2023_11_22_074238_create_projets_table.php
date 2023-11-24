@@ -25,7 +25,7 @@ return new class extends Migration
             $table->string('financement')->nullable();
             $table->string('responsable');
             $table->text('objectifs');
-            $table->text('indicateurs')->nullable();
+            $table->integer('indicateurs')->default(0);
             $table->text('partenaires')->nullable();
             $table->string('region_geographique')->nullable();
             $table->text('beneficiaires_cibles')->nullable();
