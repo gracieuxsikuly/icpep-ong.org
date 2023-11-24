@@ -37,31 +37,17 @@
                         </ul>
 
 
-                        {{-- <div class="" id="polyglotLanguageSwitcher">
+                        <div class="" id="polyglotLanguageSwitcher">
                             <form action="#">
                                 <select id="polyglot-language-options">
                                     <option id="en" selected value="en">
-                                        English
+                                        <a href="{{ route('acceuil') }}">login</a>
                                     </option>
 
-                                    <option id="fr" value="fr">
-                                        French
-                                    </option>
 
-                                    <option id="de" value="de">
-                                        German
-                                    </option>
-
-                                    <option id="it" value="it">
-                                        Italian
-                                    </option>
-
-                                    <option id="es" value="es">
-                                        Spanish
-                                    </option>
                                 </select>
                             </form>
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
             </div>
