@@ -6,7 +6,7 @@
                     <div class="post-area sec-padd">
                         <article class="classic-blog-news">
                             <figure class="img-holder">
-                                <a href="#"><img alt="News" src="{{asset('assets/images/blog/l2.jpg')}}"></a>
+                                <a href="#"><img alt="News" src="{{ asset('assets/images/blog/' . $this->image) }}"></a>
 
                                 <div class="inner-box">
                                 </div>
@@ -40,11 +40,9 @@
 
                 <div class="col-md-4 col-sm-12">
                     <div class="blog-sidebar sec-padd">
-                        <div class="sidebar_search">
-
-                                <input placeholder="Search...." type="text" wire:model="seachItem"> <button class="tran3s color1_bg"><i aria-hidden="true" class="fa fa-search"></i></button>
-
-                        </div>
+                        {{-- <div class="sidebar_search">
+                                <input placeholder="Search...." type="text" wire:model="seachItem"> <button  class="tran3s color1_bg"><i aria-hidden="true" class="fa fa-search"></i></button>
+                        </div> --}}
 
                         <div class="popular_news">
                             <div class="section-title style-2">
@@ -60,7 +58,7 @@
                                             <img src="{{ asset('assets/images/blog/' . $blog->image) }}" alt="{{ $blog->image }}">
                                         </a>
                                     </div>
-                                    <a href="#">
+                                    <a href="{{ route('detailevenemt',  ['slug'=>$blog->slug]) }}">
                                     <h4> {{ Str::of( $blog->titre)->limit(45) }}</h4></a>
 
                                     <div class="post-info">

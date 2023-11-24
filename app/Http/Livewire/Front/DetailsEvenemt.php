@@ -18,10 +18,9 @@ class DetailsEvenemt extends Component
     public function render()
     {
         if($this->seachItem){
-            dd($this->seachItem);
             $this->lastblogs = Blog::where('titre', 'like', '%'.$this->seachItem.'%')->paginate($this->page_active);
         }else{
-        $this->lastblogs = Blog::orderBy('id', 'desc')->take(3)->get();
+        $this->lastblogs = Blog::orderBy('id', 'desc')->take(3)->inRandomOrder()->get();
         }
          return view('livewire.front.details-evenemt');
     }
@@ -34,11 +33,12 @@ class DetailsEvenemt extends Component
         $this->image = $blogs->image;
         $this->date = $blogs->created_at;
         // $this->autor = $blogs->autor;
-        $this->vue = $blogs->vue;
+        $this->vue= $blogs->vue;
         $this->notation = $blogs->notation;
-
-
-
-
+        if ($blogs) {
+            // Incrémente le nombre de vues
+            $blogs->increment('vue');
+        }
     }
+
 }
