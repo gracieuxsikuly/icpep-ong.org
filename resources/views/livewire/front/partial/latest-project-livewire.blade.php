@@ -21,7 +21,7 @@
 
 
                             <div class="bottom">
-                                <a href="single-gallery.html">
+                                <a href="#">
                                 <h4> {{ $projet->designation }}</h4></a>
                             </div>
                         </div>

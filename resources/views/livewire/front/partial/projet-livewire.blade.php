@@ -140,17 +140,11 @@
                             </div>
                         </div>
 
-
                         <div class="donate clearfix">
-                            <div class="donate float_left">
-                                {{-- <span>Goal: $54000</span> --}}
-                            </div>
-
-
-                            <div class="donate float_right">
-                                {{-- Raised: $24000 --}}
-                            </div>
+                            <div class="donate float_left"><span>Status du projet: </span></div>
+                            <div class="donate float_right"> {{ $projet->statut }}</div>
                         </div>
+
                     </div>
                 </article>
                 @empty

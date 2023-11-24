@@ -182,9 +182,10 @@
                                 <div class="bar-inner animated-bar" data-percent="{{$projet->indicateurs}}%"><div class="count-text">{{$projet->indicateurs}}%</div></div>
                             </div>
                         </div>
+
                         <div class="donate clearfix">
-                            {{-- <div class="donate float_left"><span>Goal: $54000 </span></div>
-                            <div class="donate float_right">Raised: $24000</div> --}}
+                            <div class="donate float_left"><span>Status du projet: </span></div>
+                            <div class="donate float_right"> {{ $projet->statut }}</div>
                         </div>
 
                     </div>
