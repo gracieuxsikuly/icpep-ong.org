@@ -38,15 +38,13 @@
 
 
                         <div class="" id="polyglotLanguageSwitcher">
-                            <a href="{{ route('login') }}">
+                            <form method="get" {{ route('login') }}>
                                 <select id="polyglot-language-options">
-                                    <option id="en" selected value="en">
+                                    <option>
                                         <a href="{{ route('login') }}">login</a>
                                     </option>
-
-
                                 </select>
-                            </a>
+                            </form>
                         </div>
                     </div>
                 </div>
