@@ -57,7 +57,7 @@
                                     <tr data-id="{{ $projet->id }}">
                                         <td data-field="id">{{ $projet->id }}</td>
                                         <td data-field="image">
-                                            <img src="{{ asset('assets/images/projet/' . $projet->image) }}" alt="{{ $projet->image }}" class="avatar-sm">
+                                            <img src="{{ asset('assets/images/project/' . $projet->image) }}" alt="{{ $projet->image }}" class="avatar-sm">
                                             </td>
                                         <td data-field="designation">{{ $projet->designation }}</td>
                                         <td data-field="description">{{ Str::of($projet->description)->limit(15) }}</td>

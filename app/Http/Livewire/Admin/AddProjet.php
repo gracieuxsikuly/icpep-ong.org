@@ -105,7 +105,7 @@ protected $messages = [
             $imageName = $this->image->getClientOriginalName();
                 $imageName = time() . $imageName;
                 $imageResized = Image::make($this->image->getRealPath())
-                ->save(public_path('assets/images/projet/' . $imageName));
+                ->save(public_path('assets/images/project/' . $imageName));
         }
 
         $projet = new Projet();
