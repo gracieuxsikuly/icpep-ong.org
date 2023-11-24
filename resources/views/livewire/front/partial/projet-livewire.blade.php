@@ -97,9 +97,11 @@
 
 
             <div class="row">
+                @forelse ($projets as $projet)
                 <article class="item col-md-4 col-sm-6 col-xs-12">
                     <figure class="img-box">
-                        <img alt="" src="{{asset('assets/images/cause/1.jpg')}}">
+                        <img src="{{ asset('assets/images/project/' . $projet->image) }}" alt="{{ $projet->image }}">
+                        {{-- <img alt="" src="{{asset('assets/images/cause/1.jpg')}}"> --}}
 
                         <div class="overlay">
                             <div class="inner-box">
@@ -114,25 +116,25 @@
                     <div class="content">
                         <div class="text center">
                             <a href="#">
-                            <h4 class="title">La protection civile</h4></a>
+                            <h4 class="title">
+                                {{ $projet->designation }}
+                                </h4></a>
 
                             <p style="text-align: justify;">
 
-                                {{ Str::of(' ICPEP a élaboré plusieurs rapports sur la protection des civils,
-                                dénonciations des violations des droits humains-spoliation des biens publics
-                                 de l’Etat-détournements des deniers publics-dysfonctionnement
-                                  de l’appareil judiciaire et de l’administration publique…
-                                  ICPEP a de la même manière mener plusieurs plaidoyers pour
-                                  relever ces défis et plusieurs résultats se sont avérés satisfaisants ;')->limit(200) }}
+                                {{ Str::of(
+                                    $projet->description
+                                )->limit(200) }}
                                </p>
                         </div>
 
 
                         <div class="progress-box">
                             <div class="bar">
-                                <div class="bar-inner animated-bar" data-percent="48%">
+                                <div class="bar-inner animated-bar" data-percent="{{$projet->indicateurs}}%">
                                     <div class="count-text">
-                                        48%
+                                        {{$projet->indicateurs}}
+                                        %
                                     </div>
                                 </div>
                             </div>
@@ -151,6 +153,11 @@
                         </div>
                     </div>
                 </article>
+                @empty
+                <p>Aucun projet disponible</p>
+
+                @endforelse
+
 
 
 
