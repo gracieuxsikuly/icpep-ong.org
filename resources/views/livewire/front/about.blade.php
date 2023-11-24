@@ -193,7 +193,7 @@
                 <article class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-team-member">
                         <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
+                            <a href="#"><img alt="" src="{{ asset('assets/images/team/alain.jpg') }}"></a>
 
                             <div class="overlay">
                                 <div class="inner-box">
@@ -219,9 +219,9 @@
 
                         <div class="author-info center">
                             <a href="#">
-                            <h4>Felicity BNovak</h4></a>
+                            <h4>KAKULE MANZEKELE ALAIN</h4></a>
 
-                            <p>CEO & Founder</p>
+                            <p>Président du Conseil d'Administration ICPEP</p>
                         </div>
                     </div>
                 </article>
@@ -230,7 +230,7 @@
                 <article class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-team-member">
                         <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
+                            <a href="#"><img alt="" src="{{asset('assets/images/team/rodrigue.jpg')}}"></a>
 
                             <div class="overlay">
                                 <div class="inner-box">
@@ -256,9 +256,9 @@
 
                         <div class="author-info center">
                             <a href="#">
-                            <h4>Topher Elliot</h4></a>
+                            <h4>RODRIGUE KINYANDALO</h4></a>
 
-                            <p>Organizer</p>
+                            <p>Coordonnateur ICPEP</p>
                         </div>
                     </div>
                 </article>
@@ -267,7 +267,7 @@
                 <article class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-team-member">
                         <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
+                            <a href="#"><img alt="" src="{{asset('assets/images/team/justin.jpg')}}"></a>
 
                             <div class="overlay">
                                 <div class="inner-box">
@@ -293,9 +293,9 @@
 
                         <div class="author-info center">
                             <a href="#">
-                            <h4>Eliphalet Noah</h4></a>
+                            <h4>KAMBALE VINYENYI Justin</h4></a>
 
-                            <p>President</p>
+                            <p>Officier chargé de l'Acces à la Justice</p>
                         </div>
                     </div>
                 </article>
@@ -304,7 +304,7 @@
                 <article class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-team-member">
                         <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
+                            <a href="#"><img alt="" src="{{asset('assets/images/team/tresor.jpg')}}"></a>
 
                             <div class="overlay">
                                 <div class="inner-box">
@@ -330,18 +330,16 @@
 
                         <div class="author-info center">
                             <a href="#">
-                            <h4>Ormonde Hirah</h4></a>
+                            <h4>TRESOR WAYITSOMAYA</h4></a>
 
-                            <p>Support Staff</p>
+                            <p>Directeur communication ICPEP</p>
                         </div>
                     </div>
                 </article>
-
-
                 <article class="col-md-3 col-sm-6 col-xs-12">
                     <div class="single-team-member">
                         <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
+                            <a href="#"><img alt="" src="{{asset('assets/images/team/gracieux.webp')}}"></a>
 
                             <div class="overlay">
                                 <div class="inner-box">
@@ -367,120 +365,9 @@
 
                         <div class="author-info center">
                             <a href="#">
-                            <h4>Abbot Melvin</h4></a>
+                            <h4>GRACIEUX SIKULY</h4></a>
 
-                            <p>Support Staff</p>
-                        </div>
-                    </div>
-                </article>
-
-
-                <article class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="single-team-member">
-                        <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
-
-                            <div class="overlay">
-                                <div class="inner-box">
-                                    <ul class="social">
-                                        <li>
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                        </li>
-
-
-                                        <li>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-
-
-                                        <li>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </figure>
-
-
-                        <div class="author-info center">
-                            <a href="#">
-                            <h4>Michah Nigel</h4></a>
-
-                            <p>Leader</p>
-                        </div>
-                    </div>
-                </article>
-
-
-                <article class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="single-team-member">
-                        <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
-
-                            <div class="overlay">
-                                <div class="inner-box">
-                                    <ul class="social">
-                                        <li>
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                        </li>
-
-
-                                        <li>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-
-
-                                        <li>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </figure>
-
-
-                        <div class="author-info center">
-                            <a href="#">
-                            <h4>Simon Terrell</h4></a>
-
-                            <p>Manager</p>
-                        </div>
-                    </div>
-                </article>
-
-
-                <article class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="single-team-member">
-                        <figure class="img-box">
-                            <a href="#"><img alt="" src="{{asset('assets/images/team/avatar-team.png')}}"></a>
-
-                            <div class="overlay">
-                                <div class="inner-box">
-                                    <ul class="social">
-                                        <li>
-                                            <a href="#"><i class="fa fa-facebook"></i></a>
-                                        </li>
-
-
-                                        <li>
-                                            <a href="#"><i class="fa fa-twitter"></i></a>
-                                        </li>
-
-
-                                        <li>
-                                            <a href="#"><i class="fa fa-google-plus"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </figure>
-
-
-                        <div class="author-info center">
-                            <a href="#">
-                            <h4>Wynnel York</h4></a>
-
-                            <p>Support Staff</p>
+                            <p>Web master ICPEP</p>
                         </div>
                     </div>
                 </article>
