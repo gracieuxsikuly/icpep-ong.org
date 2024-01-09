@@ -38,13 +38,17 @@
 
 
                         <div class="" id="polyglotLanguageSwitcher">
-                            <form method="get" {{ route('login') }}>
+                            <ul class="list_inline contact-info" style="cursor: pointer;">
+                                <a href="{{ route('login') }}">
+                                    <li>Connexion</li></a>
+                            </ul>
+                            {{-- <form>
                                 <select id="polyglot-language-options">
                                     <option>
                                         <a href="{{ route('login') }}">login</a>
                                     </option>
                                 </select>
-                            </form>
+                            </form> --}}
                         </div>
                     </div>
                 </div>
