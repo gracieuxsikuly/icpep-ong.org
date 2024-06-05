@@ -13,8 +13,9 @@
             </div>
 
 
-            <div class="item tool_tip" title="media partner"><img alt="Awesome Image" src="{{asset('assets/images/clients/4.jpg')}}">
+            <div class="item tool_tip" title="media partner"><img alt="Awesome Image" src="{{asset('assets/images/clients/virunga.webp')}}">
             </div>
+
         </div>
     </div>
 </section>
