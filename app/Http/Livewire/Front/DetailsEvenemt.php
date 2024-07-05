@@ -15,6 +15,7 @@ class DetailsEvenemt extends Component
     public $titre, $contenu, $image, $date,$autor,$vue,$notation;
     protected $lastblogs;
     public $seachItem;
+    public $videolink;
     public function render()
     {
         if($this->seachItem){
@@ -35,6 +36,7 @@ class DetailsEvenemt extends Component
         // $this->autor = $blogs->autor;
         $this->vue= $blogs->vue;
         $this->notation = $blogs->notation;
+        $this->videolink = $blogs->videolink;
         if ($blogs) {
             // Incrémente le nombre de vues
             $blogs->increment('vue');
