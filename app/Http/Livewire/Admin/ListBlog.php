@@ -36,6 +36,9 @@ class ListBlog extends Component
             $this->alert('info', 'projet bien Suprime!');
         }
     }
+    // supression de la photo si ca exist
+
+
     public function render()
     {
         if ($this->searchTerm) {

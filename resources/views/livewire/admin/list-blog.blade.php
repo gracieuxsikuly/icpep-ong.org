@@ -47,8 +47,8 @@
                                         <td data-field="image">
                                             <img src="{{ asset('assets/images/blog/' . $blog->image) }}" alt="{{ $blog->image }}" class="avatar-sm">
                                             </td>
-                                        <td data-field="titre">{{ $blog->titre }}</td>
-                                        <td data-field="contenu">{{ Str::of($blog->contenu)->limit(15) }}</td>
+                                        <td data-field="titre">{{ Str::of($blog->titre)->limit(10) }}</td>
+                                        <td data-field="contenu">{{ Str::of($blog->contenu)->limit(10) }}</td>
                                         <td data-field="auteur">{{ $blog->auteur->email }}</td>
                                         <td data-field="publie">
                                             @livewire('admin.toggle-switchprojet', [

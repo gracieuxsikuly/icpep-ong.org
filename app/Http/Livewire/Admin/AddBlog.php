@@ -62,11 +62,8 @@ class AddBlog extends Component
             $video = $this->videolink;
             $videoName = time() . '_' . $video->getClientOriginalName();
            // Stocker le fichier vidéo dans le dossier 'videos' du dossier public avec le nom généré
-             $path = $video->store('public');
+             $path = $video->store('videos', 'public');
         }
-         dd($path);
-
-
         $blog = new Blog();
         $blog->titre = $this->titre;
         $blog->contenu = $this->contenu;
@@ -79,7 +76,9 @@ class AddBlog extends Component
         $blog->save();
         $this->alert('success', 'blog bien creer!');
         $this->reset();
-         return redirect()->route('/admin/listpublication');
+        // alert d'enregistrement
+        $this->alert('success', 'Blog enregistré avec succès!');
+        return $this->redirect('/admin/listpublication');
     }
     public function render()
     {
