@@ -20,6 +20,7 @@ class AddBlog extends Component
     public $publie;
     // public $notation;
     public $image;
+    public $videolink;
     // public $vue;
     protected $rules = [
         'titre' => 'required|string',
@@ -55,6 +56,13 @@ class AddBlog extends Component
                 $imageResized = Image::make($this->image->getRealPath())
                 ->save(public_path('assets/images/blog/' . $imageName));
         }
+        if($this->videolink)
+        {
+            $videoName = $this->videolink->getClientOriginalName();
+            $videoName = time() . $videoName;
+            $videoResized = Image::make($this->videolink->getRealPath())
+            ->save(public_path('assets/images/blog/' . $videoName));
+        }
 
         $blog = new Blog();
         $blog->titre = $this->titre;
@@ -64,6 +72,7 @@ class AddBlog extends Component
         $blog->notation = 0;
         $blog->image = $this->image ? $imageName : null;
         $blog->vue = 0;
+        $blog->videolink = $this->videolink ? $videoName : null;
         $blog->save();
         $this->alert('success', 'blog bien creer!');
         $this->reset();
