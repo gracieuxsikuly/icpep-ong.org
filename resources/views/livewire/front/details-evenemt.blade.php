@@ -30,31 +30,23 @@
                                 </p>
                         </div><br><br>
                         <div class="row">
-                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                <div class="section-title2">
-                                    <h3>How Can You Help?</h3>
-                                </div>
-                                <div class="text">
-                                    <p>Pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer.</p>
-                                </div>
-                                <ul class="list">
-                                    <li><i class="fa fa-check-circle"></i>Sponsor meals for 50 children for 1 full year.</li>
-                                    <li><i class="fa fa-check-circle"></i>Sponsor mid-day meals for one month.</li>
-                                    <li><i class="fa fa-check-circle"></i>You can donate clothes, blankets and ect...</li>
-                                    <li><i class="fa fa-check-circle"></i>You can donate food material like rice, veggies.</li>
-                                    <li><i class="fa fa-check-circle"></i>Join as a volunteers to help poor people.</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="video-image-box">
                                     @if ($this->videolink)
-                                        <figure class="gallery_video"> <video controls>
-                                            <source src="{{ asset('assets/images/blog/' . $this->videolink) }}" type="video/mp4">
+                                    <figure class="gallery_video" style="width: 370px;">
+                                         <img width="100%" alt="News" src="{{ asset('assets/images/blog/' . $this->image) }}">
+                                        <a href="{{ $this->videolink }}" class="">
+                                            <span class="overlay-link icon-arrows4"></span></a></figure>
+                                    {{-- <figure class="gallery_video" style="width: 370px;">
+                                        <video controls width="100%" >
+                                            <source src="{{ asset('storage/videos/' . $this->videolink) }}" type="video/mp4">
                                             Your browser does not support the video tag.
-                                        </video></figure>
+                                        </video>
+                                    </figure> --}}
+
 
                                     @endif
-                                    {{-- <figure class="gallery_video"> <img alt="News" src="{{ asset('assets/images/blog/' . $this->image) }}"><a href="https://www.youtube.com/watch?v=8QDazwTY2kM" class=""><span class="overlay-link icon-arrows4"></span></a></figure> --}}
+
 
                                 </div>
 
@@ -85,25 +77,29 @@
 
                         <div class="popular_news">
                             <div class="section-title style-2">
-                                <h4>recent post</h4>
+                                <h4>Derniers Nouvels</h4>
                             </div>
 
                             <div class="popular-post">
+                                @forelse ($this->lastblogs as $blog)
                                 <div class="item">
-                                    <div class="post-thumb"><a href="blog-details.html"><img src="images/blog/thumb3.jpg" alt=""></a></div>
-                                    <a href="blog-details.html"><h4>Change the lives of 40 <br> disabled people </h4></a>
-                                    <div class="post-info"><i class="fa fa-calendar"></i>October 21, 2016 </div>
+                                    <div class="post-thumb">
+                                        <a href="{{ route('detailevenemt',  ['slug'=>$blog->slug]) }}">
+                                            <img src="{{ asset('assets/images/blog/' . $blog->image) }}" alt="{{ $blog->image }}">
+                                        </a>
+                                    </div>
+                                    <a href="{{ route('detailevenemt',  ['slug'=>$blog->slug]) }}">
+                                    <h4> {{ Str::of( $blog->titre)->limit(45) }}</h4></a>
+
+                                    <div class="post-info">
+                                        {{ $blog->created_at }}
+                                    </div>
                                 </div>
-                                <div class="item">
-                                    <div class="post-thumb"><a href="blog-details.html"><img src="images/blog/thumb4.jpg" alt=""></a></div>
-                                    <a href="blog-details.html"><h4>Gorantalo earthquake <br> Relief Project </h4></a>
-                                    <div class="post-info"><i class="fa fa-calendar"></i>January 14, 2016</div>
-                                </div>
-                                <div class="item">
-                                    <div class="post-thumb"><a href="blog-details.html"><img src="images/blog/thumb5.jpg" alt=""></a></div>
-                                    <a href="blog-details.html"><h4>Used equipments can <br> treat poor patients</h4></a>
-                                    <div class="post-info"><i class="fa fa-calendar"></i>December 17, 2015 </div>
-                                </div>
+                                @empty
+                                <p>Aucune publication disponible</p>
+
+                                @endforelse
+
                             </div>
                         </div>
 

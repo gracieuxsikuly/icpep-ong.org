@@ -26,7 +26,7 @@ class AddBlog extends Component
         'titre' => 'required|string',
         'contenu' => 'required|string',
         'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
-         'videolink' => 'file|mimes:mp4,avi|max:20000', // max:20000 = 20 MB
+        //  'videolink' => 'file|mimes:mp4,avi|max:20000', // max:20000 = 20 MB
     ];
     protected $messages = [
         'titre.required' => 'Le champ Titre est obligatoire.',
@@ -39,9 +39,9 @@ class AddBlog extends Component
         'image.image' => 'Le champ Image doit être une image.',
         'image.mimes' => 'Le champ Image doit être une image de type jpeg, png, jpg ou gif.',
         'image.max' => 'Le champ Image ne doit pas dépasser :max kilo-octets.',
-         'videolink.file' => 'Le champ Vidéo doit être un fichier.',
-         'videolink.mimes' => 'Le champ Vidéo doit être un fichier de type mp4, avi',
-         'videolink.max' => 'Le champ Vidéo ne doit pas dépasser :max kilo-octets.',
+        //  'videolink.file' => 'Le champ Vidéo doit être un fichier.',
+        //  'videolink.mimes' => 'Le champ Vidéo doit être un fichier de type mp4, avi',
+        //  'videolink.max' => 'Le champ Vidéo ne doit pas dépasser :max kilo-octets.',
     ];
     public function updated($propertyName)
     {
@@ -57,13 +57,13 @@ class AddBlog extends Component
                 ->save(public_path('assets/images/blog/' . $imageName));
         }
 
-        if($this->videolink)
-        {
-            $video = $this->videolink;
-            $videoName = time() . '_' . $video->getClientOriginalName();
-           // Stocker le fichier vidéo dans le dossier 'videos' du dossier public avec le nom généré
-             $path = $video->store('videos', 'public');
-        }
+        // if($this->videolink)
+        // {
+        //     $video = $this->videolink;
+        //     $videoName = time() . '_' . $video->getClientOriginalName();
+        //    // Stocker le fichier vidéo dans le dossier 'videos' du dossier public avec le nom généré
+        //      $path = $video->store('videos', 'public');
+        // }
         $blog = new Blog();
         $blog->titre = $this->titre;
         $blog->contenu = $this->contenu;
@@ -72,7 +72,7 @@ class AddBlog extends Component
         $blog->notation = 0;
         $blog->image = $this->image ? $imageName : null;
         $blog->vue = 0;
-        $blog->videolink = $path ? $videoName : null;
+        $blog->videolink =$this->videolink ? $this->videolink : null;
         $blog->save();
         $this->alert('success', 'blog bien creer!');
         $this->reset();

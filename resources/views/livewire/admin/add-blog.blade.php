@@ -24,17 +24,17 @@
                             <input wire:model="image" type="file" class="form-control" id="image">
                             @error('image') <span class="text-danger">{{ $message }}</span> @enderror
                         </div>
-                        <div class="mb-3">
+                        {{-- <div class="mb-3">
                             <label for="videolink" class="form-label">Video de la publication</label>
                             <input wire:model="videolink" type="file" class="form-control" id="videolink" accept="video/*">
                             @error('videolink') <span class="text-danger">{{ $message }}</span> @enderror
-                        </div>
-
-                        {{-- <div class="mb-3">
-                            <label for="vue" class="form-label">Vue</label>
-                            <input wire:model="vue" type="text" class="form-control" id="vue">
-                            @error('vue') <span class="text-danger">{{ $message }}</span> @enderror
                         </div> --}}
+
+                        <div class="mb-3">
+                            <label for="videolink" class="form-label">liens video de la publication</label>
+                            <input wire:model="videolink" type="text" class="form-control" id="videolink">
+                            @error('videolink') <span class="text-danger">{{ $message }}</span> @enderror
+                        </div>
 
                         <div>
                             <button type="submit" class="btn btn-primary w-md">Enregistrer la publication</button>
