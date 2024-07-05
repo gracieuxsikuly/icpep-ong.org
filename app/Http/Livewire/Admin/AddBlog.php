@@ -26,7 +26,7 @@ class AddBlog extends Component
         'titre' => 'required|string',
         'contenu' => 'required|string',
         'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
-        //  'videolink' => 'file|mimes:mp4,avi|max:20000', // max:20000 = 20 MB
+        'videolink' => 'url',
     ];
     protected $messages = [
         'titre.required' => 'Le champ Titre est obligatoire.',
@@ -39,6 +39,7 @@ class AddBlog extends Component
         'image.image' => 'Le champ Image doit être une image.',
         'image.mimes' => 'Le champ Image doit être une image de type jpeg, png, jpg ou gif.',
         'image.max' => 'Le champ Image ne doit pas dépasser :max kilo-octets.',
+        'videolink.url' => 'Le champ Vidéo doit être une URL valide.',
         //  'videolink.file' => 'Le champ Vidéo doit être un fichier.',
         //  'videolink.mimes' => 'Le champ Vidéo doit être un fichier de type mp4, avi',
         //  'videolink.max' => 'Le champ Vidéo ne doit pas dépasser :max kilo-octets.',
