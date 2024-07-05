@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('blogs', function (Blueprint $table) {
-            $table->string('videolink');
+            $table->string('videolink')->nullable();
         });
     }
 

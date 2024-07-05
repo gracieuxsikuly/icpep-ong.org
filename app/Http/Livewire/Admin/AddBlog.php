@@ -25,6 +25,7 @@ class AddBlog extends Component
         'titre' => 'required|string',
         'contenu' => 'required|string',
         'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+        'videolink' => 'file|mimes:mp4,avi,mov,wmv,flv,3gp|max:20000', // max:20000 = 20 MB
     ];
     protected $messages = [
         'titre.required' => 'Le champ Titre est obligatoire.',
@@ -37,6 +38,9 @@ class AddBlog extends Component
         'image.image' => 'Le champ Image doit être une image.',
         'image.mimes' => 'Le champ Image doit être une image de type jpeg, png, jpg ou gif.',
         'image.max' => 'Le champ Image ne doit pas dépasser :max kilo-octets.',
+        'videolink.file' => 'Le champ Vidéo doit être un fichier.',
+        'videolink.mimes' => 'Le champ Vidéo doit être un fichier de type mp4, avi, mov, wmv, flv ou 3gp.',
+        'videolink.max' => 'Le champ Vidéo ne doit pas dépasser :max kilo-octets.',
     ];
     public function updated($propertyName)
     {
@@ -51,6 +55,7 @@ class AddBlog extends Component
                 $imageResized = Image::make($this->image->getRealPath())
                 ->save(public_path('assets/images/blog/' . $imageName));
         }
+
         $blog = new Blog();
         $blog->titre = $this->titre;
         $blog->contenu = $this->contenu;
