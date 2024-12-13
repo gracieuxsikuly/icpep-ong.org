@@ -33,7 +33,7 @@
                         <div class="mb-3">
                             <label for="videolink" class="form-label">liens video de la publication</label>
                             <input wire:model="videolink" type="text" class="form-control" id="videolink">
-                            @error('videolink') <span class="text-danger">{{ $message }}</span> @enderror
+                            {{-- @error('videolink') <span class="text-danger">{{ $message }}</span> @enderror --}}
                         </div>
 
                         <div>

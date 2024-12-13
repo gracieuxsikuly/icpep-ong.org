@@ -11,7 +11,7 @@
                             </figure>
 
                             <div class="content">
-                                <div class="donate">
+                                <div class="donate" style="color: black;">
                                     {{$this->titre}}
                                     <span> {{$this->date}} |  {{$this->vue}} vues | By Admin</span>
                                 </div>
@@ -25,7 +25,7 @@
                             <h2> <span class="thm-color">{{$this->titre}}</span></h2>
                         </div>
                         <div class="text">
-                            <p style="text-align: justify;">
+                            <p style="text-align: justify; color: black;">
                                 {{$this->contenu}}
                                 </p>
                         </div><br><br>

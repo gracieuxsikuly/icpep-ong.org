@@ -33,8 +33,8 @@
                                     <a href="{{ route('detailevenemt', ['slug'=>$blog->slug]) }}">
                                     <h4> {{ $blog->titre }}</h4></a>
 
-                                    <div class="text">
-                                        <p>{{ Str::of( $blog->contenu)->limit(200) }}</p>
+                                    <div class="text" >
+                                        <p  style="color: black;">{{ Str::of( $blog->contenu)->limit(200) }}</p>
                                     </div>
                                 </div>
                             </div>

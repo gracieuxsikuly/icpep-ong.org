@@ -21,6 +21,7 @@ class ToggleSwitchprojet extends Component
     }
     public function updating($field, $value)
     {
+        // dd($field, $value);
         $this->model->setAttribute($this->field, $value)->save();
     }
 }

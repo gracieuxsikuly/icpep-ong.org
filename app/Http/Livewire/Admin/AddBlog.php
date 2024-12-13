@@ -25,8 +25,8 @@ class AddBlog extends Component
     protected $rules = [
         'titre' => 'required|string',
         'contenu' => 'required|string',
-        'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
-        'videolink' => 'url',
+        'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:4096',
+        // 'videolink' => 'url',
     ];
     protected $messages = [
         'titre.required' => 'Le champ Titre est obligatoire.',
@@ -39,7 +39,7 @@ class AddBlog extends Component
         'image.image' => 'Le champ Image doit être une image.',
         'image.mimes' => 'Le champ Image doit être une image de type jpeg, png, jpg ou gif.',
         'image.max' => 'Le champ Image ne doit pas dépasser :max kilo-octets.',
-        'videolink.url' => 'Le champ Vidéo doit être une URL valide.',
+        // 'videolink.url' => 'Le champ Vidéo doit être une URL valide.',
         //  'videolink.file' => 'Le champ Vidéo doit être un fichier.',
         //  'videolink.mimes' => 'Le champ Vidéo doit être un fichier de type mp4, avi',
         //  'videolink.max' => 'Le champ Vidéo ne doit pas dépasser :max kilo-octets.',
@@ -52,6 +52,7 @@ class AddBlog extends Component
     {
         $this->validate();
         if ($this->image) {
+            ini_set('memory_limit', '256M');
             $imageName = $this->image->getClientOriginalName();
                 $imageName = time() . $imageName;
                 $imageResized = Image::make($this->image->getRealPath())
@@ -73,12 +74,15 @@ class AddBlog extends Component
         $blog->notation = 0;
         $blog->image = $this->image ? $imageName : null;
         $blog->vue = 0;
+        $blog->publie = 1;
         $blog->videolink =$this->videolink ? $this->videolink : null;
         $blog->save();
-        $this->alert('success', 'blog bien creer!');
-        $this->reset();
+        // $this->alert('success', 'blog bien creer!');
+        // $this->reset();
         // alert d'enregistrement
-        $this->alert('success', 'Blog enregistré avec succès!');
+        $this->alert('success', 'Blog enregistré avec succès!',[
+            'position' => 'center',
+        ]);
         return $this->redirect('/admin/listpublication');
     }
     public function render()

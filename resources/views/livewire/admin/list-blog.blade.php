@@ -51,11 +51,21 @@
                                         <td data-field="contenu">{{ Str::of($blog->contenu)->limit(10) }}</td>
                                         <td data-field="auteur">{{ $blog->auteur->email }}</td>
                                         <td data-field="publie">
-                                            @livewire('admin.toggle-switchprojet', [
+                                            <div class="form-check form-switch form-switch-lg mb-3" dir="ltr">
+                                                <input
+                                                    class="form-check-input"
+                                                    type="checkbox"
+                                                    id="switchOne"
+                                                    wire:change="isActive({{ $blog->id }})"
+                                                    {{ $blog->publie == 1 ? 'checked' : '' }}>
+                                            </div>
+
+
+                                            {{-- @livewire('admin.toggle-switchprojet', [
                                                 'model' => $blog,
                                                 'field' => 'publie',
                                                 'idblog' => $blog->id,
-                                            ])
+                                            ]) --}}
                                             {{-- {{ $blog->publie }} --}}
                                         </td>
                                         <td data-field="notation">{{ $blog->notation }}</td>

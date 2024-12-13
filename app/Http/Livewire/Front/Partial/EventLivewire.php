@@ -15,7 +15,8 @@ class EventLivewire extends Component
     public function render()
     {
          // chargement de 3 derniers projet
-         $blogs = Blog::orderBy('id', 'desc')->take(3)->get();
+         $blogs = Blog::where('publie',1)->
+         orderBy('id', 'desc')->take(3)->get();
          return view('livewire.front.partial.event-livewire',
          ['blogs' => $blogs]);
     }

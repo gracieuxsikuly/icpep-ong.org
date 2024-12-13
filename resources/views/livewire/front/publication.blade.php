@@ -22,14 +22,14 @@
 
 
                                 <div class="content">
-                                    <div class="post-meta">
+                                    <div class="post-meta"  style="color: black;">
                                         {{ $blog->created_at }} |  {{ $blog->vue }} Vues
                                     </div>
                                     <a href="{{route('detailevenemt',  ['slug'=>$blog->slug])}}">
                                     <h4>   {{ Str::of( $blog->titre)->limit(45) }}</h4></a>
 
                                     <div class="text">
-                                        <p> {{ Str::of( $blog->contenu)->limit(200) }}</p>
+                                        <p style="color: black;"> {{ Str::of( $blog->contenu)->limit(200) }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@
 
 
                             <div class="content">
-                                <div class="post-meta">
+                                <div class="post-meta"  style="color: black;">
                                     {{ $blog->created_at }} |  {{ $blog->notation }} Etoiles
                                 </div>
                                 <a href="{{ route('detailevenemt',  ['slug'=>$blog->slug]) }}">

@@ -13,7 +13,8 @@ class Publication extends Component
     use LivewireAlert;
     public function render()
     {
-        $blogs = Blog::orderBy('id', 'desc')->paginate($this->page_active);
+        $blogs = Blog::where('publie',1)->
+        orderBy('id', 'desc')->paginate($this->page_active);
         return view('livewire.front.publication',
         ['blogs' => $blogs]);
 

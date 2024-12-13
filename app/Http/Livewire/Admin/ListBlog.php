@@ -6,6 +6,7 @@ use Livewire\Component;
 use App\Models\Blog;
 use Livewire\WithPagination;
 use Jantinnerezo\LivewireAlert\LivewireAlert;
+use Illuminate\Database\Eloquent\Model;
 
 class ListBlog extends Component
 {
@@ -28,12 +29,28 @@ class ListBlog extends Component
             'position' => 'center'
         ]);
     }
+    public $oldphoto;
+
     public function confirmed()
     {
-
-        $methodel = Blog::whereId($this->desplayedelete)->delete();
-        if ($methodel) {
-            $this->alert('info', 'projet bien Suprime!');
+        $methodel = Blog::find($this->desplayedelete);
+        $this->oldphoto = $methodel->image;
+         $methodel->delete();
+        $this->cleanupOldLogo();
+        $this->alert('success', 'projet bien Suprime', [
+            'position' => 'center',
+            'timer' => 3000,
+            'toast' => false,
+        ]);
+    }
+    //unlink or delete file
+    public function cleanupOldLogo()
+    {
+        if ($this->oldphoto != null) {
+            $path = public_path("assets/images/blog/".$this->oldphoto);
+            if (file_exists($path)) {
+                unlink($path);
+            }
         }
     }
     // supression de la photo si ca exist
@@ -50,11 +67,19 @@ class ListBlog extends Component
                 ->orWhere('notation', 'LIKE', $searchTerm)
                 ->orWhere('image', 'LIKE', $searchTerm)
                 ->orWhere('vue', 'LIKE', $searchTerm)
+                ->orderBy('id', 'DESC')
                 ->paginate($this->page_active);
         } else {
-            $blogs = Blog::paginate($this->page_active);
+            $blogs = Blog::orderby('id','DESC')->paginate($this->page_active);
         }
 
         return view('livewire.admin.list-blog', ['blogs' => $blogs]);
     }
+
+    public function isActive($id){
+        $blog = Blog::find($id);
+        $blog->publie = !$blog->publie;
+        $blog->save();
+    }
+
 }
