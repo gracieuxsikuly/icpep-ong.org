@@ -17,7 +17,7 @@ public function ajoutprojet(){
 public function listprojet(){
     return view('layouts.admin.pages.listprojet');
 }
-public function ajoutblog(){
+public function ajoutblog($blog){
     return view('layouts.admin.pages.ajoutblog',compact('blog'));
 }
 public function listblog(){

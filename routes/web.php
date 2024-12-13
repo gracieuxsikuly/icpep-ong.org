@@ -34,7 +34,7 @@ Route::middleware([
 ])->group(function () {
     Route::get('/home', [AdminController::class, 'home'])->name('home');
     Route::get('/admin/nouveauprojet', [AdminController::class, 'ajoutprojet'])->name('ajoutprojet');
-    Route::get('/admin/nouvellepublication', [AdminController::class, 'ajoutblog'])->name('ajoutblog');
+    Route::get('/admin/nouvellepublication/{blog}', [AdminController::class, 'ajoutblog'])->name('ajoutblog');
     Route::get('/admin/listprojet', [AdminController::class, 'listprojet'])->name('listprojet');
     Route::get('/admin/listpublication', [AdminController::class, 'listblog'])->name('listblog');
     // edit blog

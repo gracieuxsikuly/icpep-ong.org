@@ -51,6 +51,30 @@ class AddBlog extends Component
     }
     public function saveblog()
     {
+        if($this->blog!='0'){
+            $blog = Blog::find($this->blog);
+            if ($this->image) {
+                ini_set('memory_limit', '256M');
+                $imageName = $this->image->getClientOriginalName();
+                    $imageName = time() . $imageName;
+                    $imageResized = Image::make($this->image->getRealPath())
+                    ->save(public_path('assets/images/blog/' . $imageName));
+            }
+            $blog->titre = $this->titre;
+                $blog->contenu = $this->contenu;
+                $blog->auteur_id = auth()->user()->id;
+                $blog->slug = substr(Str::slug($this->titre), 0, 49);
+                $blog->notation = 0;
+                $blog->image = $this->image ? $imageName : $this->oldphoto;
+                $blog->vue = 0;
+                $blog->publie = 1;
+                $blog->videolink =$this->videolink ? $this->videolink : null;
+                $blog->save();
+                $this->alert('success', 'Blog modifié avec succès!',[
+                    'position' => 'center',
+                ]);
+                return $this->redirect('/admin/listpublication');
+        }else{
         $this->validate();
         if ($this->image) {
             ini_set('memory_limit', '256M');
@@ -58,15 +82,10 @@ class AddBlog extends Component
                 $imageName = time() . $imageName;
                 $imageResized = Image::make($this->image->getRealPath())
                 ->save(public_path('assets/images/blog/' . $imageName));
+                if($this->oldphoto){
+                $this->cleanupOldLogo();
+                }
         }
-
-        // if($this->videolink)
-        // {
-        //     $video = $this->videolink;
-        //     $videoName = time() . '_' . $video->getClientOriginalName();
-        //    // Stocker le fichier vidéo dans le dossier 'videos' du dossier public avec le nom généré
-        //      $path = $video->store('videos', 'public');
-        // }
         $blog = new Blog();
         $blog->titre = $this->titre;
         $blog->contenu = $this->contenu;
@@ -78,19 +97,33 @@ class AddBlog extends Component
         $blog->publie = 1;
         $blog->videolink =$this->videolink ? $this->videolink : null;
         $blog->save();
-        // $this->alert('success', 'blog bien creer!');
-        // $this->reset();
-        // alert d'enregistrement
         $this->alert('success', 'Blog enregistré avec succès!',[
             'position' => 'center',
         ]);
         return $this->redirect('/admin/listpublication');
     }
+    }
+    public function cleanupOldLogo()
+    {
+        if ($this->oldphoto != null) {
+            $path = public_path("assets/images/blog/".$this->oldphoto);
+            if (file_exists($path)) {
+                unlink($path);
+            }
+        }
+    }
     public function render()
     {
         return view('livewire.admin.add-blog');
     }
+    public $oldphoto;
     public function mount(){
-        dd($this->blog);
+        if($this->blog!='0'){
+            $blog = Blog::find($this->blog);
+            $this->titre = $blog->titre;
+            $this->contenu = $blog->contenu;
+            $this->oldphoto = $blog->image;
+            $this->videolink = $blog->videolink;
+        }
     }
 }

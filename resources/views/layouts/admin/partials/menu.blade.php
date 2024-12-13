@@ -27,7 +27,7 @@
                         <span key="t-ecommerce">Publications ou blog</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="{{route ('ajoutblog') }}" key="t-products">Ajouter blog</a></li>
+                        <li><a href="{{route ('ajoutblog', ['blog' => "0"]) }}" key="t-products">Ajouter blog</a></li>
                         <li><a href="{{route ('listblog') }}" key="t-product-detail">Liste blog</a></li>
                     </ul>
                 </li>
