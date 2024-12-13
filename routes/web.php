@@ -37,4 +37,6 @@ Route::middleware([
     Route::get('/admin/nouvellepublication', [AdminController::class, 'ajoutblog'])->name('ajoutblog');
     Route::get('/admin/listprojet', [AdminController::class, 'listprojet'])->name('listprojet');
     Route::get('/admin/listpublication', [AdminController::class, 'listblog'])->name('listblog');
+    // edit blog
+    Route::get('/admin/editblog/{blog}', [AdminController::class, 'editblog'])->name('editblog');
 });

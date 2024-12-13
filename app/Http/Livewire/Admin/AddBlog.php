@@ -14,6 +14,7 @@ class AddBlog extends Component
     use WithFileUploads;
     use LivewireAlert;
     public $titre;
+    public $blog;
     public $contenu;
     // public $auteur_id;
     // public $slug;
@@ -88,5 +89,8 @@ class AddBlog extends Component
     public function render()
     {
         return view('livewire.admin.add-blog');
+    }
+    public function mount(){
+        dd($this->blog);
     }
 }

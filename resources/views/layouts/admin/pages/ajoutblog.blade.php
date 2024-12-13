@@ -15,5 +15,6 @@
         </div>
     </div>
 </div>
-@livewire('admin.add-blog')
+@livewire('admin.add-blog', ['blog' => $blog])
+
 @endsection

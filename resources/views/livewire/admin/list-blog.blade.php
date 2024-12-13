@@ -75,6 +75,9 @@
                                             <a wire:click.prevent="delete({{$blog->id}})"  class="btn btn-outline-secondary btn-sm edit" title="Delete">
                                                 <i class="mdi mdi-delete"></i>
                                             </a>
+                                            {{-- edit --}}
+                                            <a href="{{ route('editblog', ['blog' => $blog->id]) }}" class="btn btn-outline-secondary btn-sm edit" title="Edit">
+                                                <i class="mdi mdi-pencil"></i>
                                         </td>
                                     </tr>
                                 @endforeach
